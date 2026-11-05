@@ -1,0 +1,13 @@
+{
+  "python": "3.11.15 (main, Jun 11 2026, 15:20:16) [GCC 14.3.0]",
+  "torch": "2.5.1+cu121",
+  "numpy": "1.26.4",
+  "device": "cpu",
+  "threads": 1,
+  "hashes": {
+    "run.py": "538c987e82cf18837addf66be3e6dbdb9003ef677401171e660dde490a17363f",
+    "pretrain.json.gz": "577f8c6a0515763cb99942afcd4bb822981ba375118c7fdd68f73856caeb3a39",
+    "dataset.jsonl": "d21963f97a2ac345ef56fc3c34060f848c94d975273116434bf466e7139b44dc",
+    "split.json": "0f5fe0ef69f84991d85ec6bab4683ce90329ada330535666d1cde9ea5ed26e70"
+  }
+}
