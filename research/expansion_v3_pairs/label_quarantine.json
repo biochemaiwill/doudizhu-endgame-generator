@@ -1,0 +1,28 @@
+[
+  {
+    "origin_id": "DZ094-swap-0-1-17-6",
+    "status": "excluded_from_labels",
+    "reason": "原理由错误地认为AAA可以压KKKJJ三带二，牌型不匹配；胜负认证不受影响，但缺乏可靠2分解释，撤销难度标签。",
+    "original_label": {
+      "origin_id": "DZ094-swap-0-1-17-6",
+      "parent_id": "DZ094",
+      "label": {
+        "overall": 2,
+        "reasoning_depth": 2,
+        "move_concealment": 2
+      },
+      "reason": "888带66后剩AAA，地主若用KKK带对子接，AAA能直接压住；不接则AAA收尾。识别三带二与最后三张的两段计划即可，不再限定原题反直觉的888带单6。",
+      "mechanism": "三带二后高三张收尾",
+      "grade_gap": 2,
+      "certainty_notes": {
+        "type": "single_assistant_estimate",
+        "rubric": "v0.1",
+        "human_calibrated": false,
+        "blind": false,
+        "reviewed": "complete root outcomes, stored PV/traps and selected follow-up legal outcomes",
+        "evidence": "88866后地主可以KKKJJ或KKKQQ接；队友可过，行动方AAA可压并出完。",
+        "limits": "Provisional ordinary-player estimate; not a human success-rate measurement. All-root wins alone was not used to assign a score."
+      }
+    }
+  }
+]

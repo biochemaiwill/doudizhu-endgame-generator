@@ -1,0 +1,271 @@
+[
+  {
+    "origin_id": "PUB3-0289",
+    "path": [
+      "7 7"
+    ],
+    "turn": 1,
+    "moves": [
+      {
+        "cards": [],
+        "move": "过",
+        "type": 0,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          14,
+          14
+        ],
+        "move": "A A",
+        "type": 2,
+        "mover_wins": false
+      }
+    ]
+  },
+  {
+    "origin_id": "PUB3-0289",
+    "path": [
+      "7 7",
+      "A A"
+    ],
+    "turn": 2,
+    "moves": [
+      {
+        "cards": [],
+        "move": "过",
+        "type": 0,
+        "mover_wins": false
+      }
+    ]
+  },
+  {
+    "origin_id": "PUB3-0289",
+    "path": [
+      "7 7",
+      "A A",
+      "过",
+      "过"
+    ],
+    "turn": 1,
+    "moves": [
+      {
+        "cards": [
+          3,
+          3
+        ],
+        "move": "3 3",
+        "type": 2,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          5,
+          5
+        ],
+        "move": "5 5",
+        "type": 2,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          3
+        ],
+        "move": "3",
+        "type": 1,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          4
+        ],
+        "move": "4",
+        "type": 1,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          5
+        ],
+        "move": "5",
+        "type": 1,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          9
+        ],
+        "move": "9",
+        "type": 1,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          11
+        ],
+        "move": "J",
+        "type": 1,
+        "mover_wins": false
+      }
+    ]
+  },
+  {
+    "origin_id": "PUB3-0289",
+    "path": [
+      "A A",
+      "过",
+      "过",
+      "7 7"
+    ],
+    "turn": 1,
+    "moves": [
+      {
+        "cards": [],
+        "move": "过",
+        "type": 0,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          14,
+          14
+        ],
+        "move": "A A",
+        "type": 2,
+        "mover_wins": true
+      }
+    ]
+  },
+  {
+    "origin_id": "PUB3-0988",
+    "path": [
+      "A"
+    ],
+    "turn": 1,
+    "moves": [
+      {
+        "cards": [],
+        "move": "过",
+        "type": 0,
+        "mover_wins": false
+      }
+    ]
+  },
+  {
+    "origin_id": "PUB3-0988",
+    "path": [
+      "2"
+    ],
+    "turn": 1,
+    "moves": [
+      {
+        "cards": [],
+        "move": "过",
+        "type": 0,
+        "mover_wins": false
+      }
+    ]
+  },
+  {
+    "origin_id": "PUB3-0988",
+    "path": [
+      "K"
+    ],
+    "turn": 1,
+    "moves": [
+      {
+        "cards": [],
+        "move": "过",
+        "type": 0,
+        "mover_wins": true
+      }
+    ]
+  },
+  {
+    "origin_id": "PUB3-0988",
+    "path": [
+      "K",
+      "过"
+    ],
+    "turn": 2,
+    "moves": [
+      {
+        "cards": [],
+        "move": "过",
+        "type": 0,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          14
+        ],
+        "move": "A",
+        "type": 1,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          15
+        ],
+        "move": "2",
+        "type": 1,
+        "mover_wins": false
+      }
+    ]
+  },
+  {
+    "origin_id": "PUB3-0907",
+    "path": [
+      "J"
+    ],
+    "turn": 1,
+    "moves": [
+      {
+        "cards": [],
+        "move": "过",
+        "type": 0,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          13
+        ],
+        "move": "K",
+        "type": 1,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          15
+        ],
+        "move": "2",
+        "type": 1,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          17
+        ],
+        "move": "大王",
+        "type": 1,
+        "mover_wins": false
+      }
+    ]
+  },
+  {
+    "origin_id": "PUB3-0907",
+    "path": [
+      "J",
+      "K"
+    ],
+    "turn": 2,
+    "moves": [
+      {
+        "cards": [],
+        "move": "过",
+        "type": 0,
+        "mover_wins": true
+      }
+    ]
+  }
+]

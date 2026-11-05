@@ -1,0 +1,30 @@
+{
+  "PUB3-0289": {
+    "overall": 2,
+    "reasoning_depth": 2,
+    "move_concealment": 2,
+    "reason": "面对66先77或99，AA留到后续控制；若先耗掉AA再出小对，农民仍保有AA可夺取牌权。对方用AA接77时，我方虽不能同点压回，仍能在其后续小对子和单张上重新取得控制。",
+    "mechanism": "保留控制对子"
+  },
+  "PUB3-0907": {
+    "overall": 3,
+    "reasoning_depth": 3,
+    "move_concealment": 3,
+    "reason": "面对7只有8能赢；J会被K接后转入连对，先2或小王也会失去低牌的处理窗口，需以刚好够大的8接牌保留控制。",
+    "mechanism": "精确接牌保留控制"
+  },
+  "PUB3-0988": {
+    "overall": 2,
+    "reasoning_depth": 2,
+    "move_concealment": 2,
+    "reason": "面对J可用A或拆2接，不能贪省用K，否则农民A能接走；A接可保留22，拆2则另行安排33与低单4的出场顺序。",
+    "mechanism": "阻断单张接力"
+  },
+  "PUB3-0907-swap-11": {
+    "overall": 2,
+    "reasoning_depth": 2,
+    "move_concealment": 1,
+    "reason": "交换J和大王后，地主有双王及2，多个首着都能赢；仍需处理66和低单，但控制资源明显充足。",
+    "mechanism": "双王控制的非终局对照"
+  }
+}

@@ -1,0 +1,170 @@
+[
+  {
+    "origin_id": "EX208-swap-0-2-16-17",
+    "parent_id": "EX208",
+    "label": {
+      "overall": 2,
+      "reasoning_depth": 2,
+      "move_concealment": 2
+    },
+    "reason": "先出77或KK，保留大王回收单张牌权；提前把大王出掉是唯一败着。相比原题必须先9再安排拆77，变体只需遵守常见的保留最高控制牌原则。",
+    "mechanism": "保留最高控制牌",
+    "grade_gap": 2,
+    "certainty_notes": {
+      "type": "single_assistant_estimate",
+      "rubric": "v0.1",
+      "human_calibrated": false,
+      "blind": false,
+      "reviewed": "complete root outcomes, stored PV/traps and selected follow-up legal outcomes",
+      "evidence": "77后农民可接1010或KK；大王先出已保存具体败线。",
+      "limits": "Provisional ordinary-player estimate; not a human success-rate measurement. All-root wins alone was not used to assign a score."
+    }
+  },
+  {
+    "origin_id": "EX220-swap-0-1-12-4",
+    "parent_id": "EX220",
+    "label": {
+      "overall": 2,
+      "reasoning_depth": 2,
+      "move_concealment": 2
+    },
+    "reason": "先出77、JJ后再处理单张；队友现在有QQ和2，可提供明显的接管资源，不再要求原题唯一先9与连续拆JJ。仍需在地主接单时使用队友控制，故保守给2分。",
+    "mechanism": "常规对子清理与队友接管",
+    "grade_gap": 2,
+    "certainty_notes": {
+      "type": "single_assistant_estimate",
+      "rubric": "v0.1",
+      "human_calibrated": false,
+      "blind": false,
+      "reviewed": "complete root outcomes, stored PV/traps and selected follow-up legal outcomes",
+      "evidence": "77/过/过/JJ/过/过/4后，地主所有合法应对均不能改变农民必胜；不是凭首着宽容度单独定级。",
+      "limits": "Provisional ordinary-player estimate; not a human success-rate measurement. All-root wins alone was not used to assign a score."
+    }
+  },
+  {
+    "origin_id": "EX203-swap-0-1-17-16",
+    "parent_id": "EX203",
+    "label": {
+      "overall": 2,
+      "reasoning_depth": 2,
+      "move_concealment": 2
+    },
+    "reason": "队友持大王且自己有22，先清22再出低单即可利用明显控制牌收尾；原题要求根据地主A选择拆22应对的隐蔽分支已消失。",
+    "mechanism": "大王接力",
+    "grade_gap": 1,
+    "certainty_notes": {
+      "type": "single_assistant_estimate",
+      "rubric": "v0.1",
+      "human_calibrated": false,
+      "blind": false,
+      "reviewed": "complete root outcomes, stored PV/traps and selected follow-up legal outcomes",
+      "evidence": "22/过/过/4后地主过或J/Q/A/小王均非胜着，需队友正常配合而非复杂拆牌。",
+      "limits": "Provisional ordinary-player estimate; not a human success-rate measurement. All-root wins alone was not used to assign a score."
+    }
+  },
+  {
+    "origin_id": "EX211-swap-0-1-17-11",
+    "parent_id": "EX211",
+    "label": {
+      "overall": 2,
+      "reasoning_depth": 2,
+      "move_concealment": 2
+    },
+    "reason": "可先清1010和JJ，再把3、7交给队友的大王接应；不再要求原题队友必须用JJ盖住1010的特定交接顺序。",
+    "mechanism": "常规对子后接力",
+    "grade_gap": 1,
+    "certainty_notes": {
+      "type": "single_assistant_estimate",
+      "rubric": "v0.1",
+      "human_calibrated": false,
+      "blind": false,
+      "reviewed": "complete root outcomes, stored PV/traps and selected follow-up legal outcomes",
+      "evidence": "1010/过/过/JJ/过/过/3后地主各单张应对均不能获胜；仍需执行普通队友配合。",
+      "limits": "Provisional ordinary-player estimate; not a human success-rate measurement. All-root wins alone was not used to assign a score."
+    }
+  },
+  {
+    "origin_id": "EX222-swap-0-2-7-12",
+    "parent_id": "EX222",
+    "label": {
+      "overall": 2,
+      "reasoning_depth": 2,
+      "move_concealment": 2
+    },
+    "reason": "先处理33、44，用小王控制单张，队友77、88也可接力；地主用22接33时当前行动方只能过，此后再回收。比原题必须先8/Q并拆两组小对子更直接。",
+    "mechanism": "保型与等待回收",
+    "grade_gap": 1,
+    "certainty_notes": {
+      "type": "single_assistant_estimate",
+      "rubric": "v0.1",
+      "human_calibrated": false,
+      "blind": false,
+      "reviewed": "complete root outcomes, stored PV/traps and selected follow-up legal outcomes",
+      "evidence": "33/过/22后行动方只有过牌合法；根首着皆胜只是辅助证据，不等于无需后续选择。",
+      "limits": "Provisional ordinary-player estimate; not a human success-rate measurement. All-root wins alone was not used to assign a score."
+    }
+  },
+  {
+    "origin_id": "EX225-swap-0-2-5-17",
+    "parent_id": "EX225",
+    "label": {
+      "overall": 2,
+      "reasoning_depth": 2,
+      "move_concealment": 2
+    },
+    "reason": "先22后必须处理4、5或7，不能立即出单王或王炸；保留双王对付444炸弹和尾单，是常见控制牌顺序问题。",
+    "mechanism": "保留王炸与低单处理",
+    "grade_gap": 1,
+    "certainty_notes": {
+      "type": "single_assistant_estimate",
+      "rubric": "v0.1",
+      "human_calibrated": false,
+      "blind": false,
+      "reviewed": "complete root outcomes, stored PV/traps and selected follow-up legal outcomes",
+      "evidence": "22/过/过后4、5、7胜，而小王、大王、王炸全败；变体虽然首着宽容，仍有实质后续选择。",
+      "limits": "Provisional ordinary-player estimate; not a human success-rate measurement. All-root wins alone was not used to assign a score."
+    }
+  },
+  {
+    "origin_id": "DZ098-swap-0-1-15-14",
+    "parent_id": "DZ098",
+    "label": {
+      "overall": 2,
+      "reasoning_depth": 2,
+      "move_concealment": 2
+    },
+    "reason": "地主已无222三张，101010带55或99可直接清理五张；之后保留另一对子与低单配合队友JJJ、2即可，不再需要原题裸三张101010的隐蔽起手。",
+    "mechanism": "三带二与常规接力",
+    "grade_gap": 2,
+    "certainty_notes": {
+      "type": "single_assistant_estimate",
+      "rubric": "v0.1",
+      "human_calibrated": false,
+      "blind": false,
+      "reviewed": "complete root outcomes, stored PV/traps and selected follow-up legal outcomes",
+      "evidence": "10101055/过/过/99后地主可过或22接，农民仍必胜；剩3、4需常规队友接管。",
+      "limits": "Provisional ordinary-player estimate; not a human success-rate measurement. All-root wins alone was not used to assign a score."
+    }
+  },
+  {
+    "origin_id": "DZ099-swap-0-1-4-13",
+    "parent_id": "DZ099",
+    "label": {
+      "overall": 2,
+      "reasoning_depth": 2,
+      "move_concealment": 2
+    },
+    "reason": "先AA留下4、Q，依靠队友2等大牌接管后让牌收尾；变体也容许其他首着，去除了原题仅AA开局与关键小3交接的严格次序。",
+    "mechanism": "高对子后低单接力",
+    "grade_gap": 2,
+    "certainty_notes": {
+      "type": "single_assistant_estimate",
+      "rubric": "v0.1",
+      "human_calibrated": false,
+      "blind": false,
+      "reviewed": "complete root outcomes, stored PV/traps and selected follow-up legal outcomes",
+      "evidence": "AA为可行路线，全部四个合法首着均胜；仍需后续队友配合，未按首着数量直接标1。",
+      "limits": "Provisional ordinary-player estimate; not a human success-rate measurement. All-root wins alone was not used to assign a score."
+    }
+  }
+]

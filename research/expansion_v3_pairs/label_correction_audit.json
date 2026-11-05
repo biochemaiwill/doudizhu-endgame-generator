@@ -1,0 +1,47 @@
+{
+  "removed": "DZ094-swap-0-1-17-6",
+  "illegal_claim": "AAA cannot beat KKKJJ (type 3 vs type 5)",
+  "direct_check_after_KKKJJ": "farmer_up holding AAA has only PASS; pass still winning does not validate old explanation",
+  "retained": [
+    {
+      "origin_id": "EX208-swap-0-2-16-17",
+      "stored_pv_legal": true,
+      "reason_review": "已重新核对手牌资源与所述先后出牌，无将三张压三带二或同点压牌等同类错误；仍为未真人校准的2分估计。"
+    },
+    {
+      "origin_id": "EX220-swap-0-1-12-4",
+      "stored_pv_legal": true,
+      "reason_review": "已重新核对手牌资源与所述先后出牌，无将三张压三带二或同点压牌等同类错误；仍为未真人校准的2分估计。"
+    },
+    {
+      "origin_id": "EX203-swap-0-1-17-16",
+      "stored_pv_legal": true,
+      "reason_review": "已重新核对手牌资源与所述先后出牌，无将三张压三带二或同点压牌等同类错误；仍为未真人校准的2分估计。"
+    },
+    {
+      "origin_id": "EX211-swap-0-1-17-11",
+      "stored_pv_legal": true,
+      "reason_review": "已重新核对手牌资源与所述先后出牌，无将三张压三带二或同点压牌等同类错误；仍为未真人校准的2分估计。"
+    },
+    {
+      "origin_id": "EX222-swap-0-2-7-12",
+      "stored_pv_legal": true,
+      "reason_review": "已重新核对手牌资源与所述先后出牌，无将三张压三带二或同点压牌等同类错误；仍为未真人校准的2分估计。"
+    },
+    {
+      "origin_id": "EX225-swap-0-2-5-17",
+      "stored_pv_legal": true,
+      "reason_review": "已重新核对手牌资源与所述先后出牌，无将三张压三带二或同点压牌等同类错误；仍为未真人校准的2分估计。"
+    },
+    {
+      "origin_id": "DZ098-swap-0-1-15-14",
+      "stored_pv_legal": true,
+      "reason_review": "已重新核对手牌资源与所述先后出牌，无将三张压三带二或同点压牌等同类错误；仍为未真人校准的2分估计。"
+    },
+    {
+      "origin_id": "DZ099-swap-0-1-4-13",
+      "stored_pv_legal": true,
+      "reason_review": "已重新核对手牌资源与所述先后出牌，无将三张压三带二或同点压牌等同类错误；仍为未真人校准的2分估计。"
+    }
+  ]
+}

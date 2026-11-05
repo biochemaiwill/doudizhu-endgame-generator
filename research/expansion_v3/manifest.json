@@ -1,0 +1,11 @@
+{
+  "rows": 29,
+  "grades": {
+    "3": 18,
+    "2": 11
+  },
+  "paired_groups": 9,
+  "sha256": "9667ca3e5eec40c95bde8b021db7012d6724c313baf9ed20b4bd7acf87e6e8dc",
+  "old_data_unchanged_sha256": "ea842a68c2fd65e13d060679c3e1f8468764f8566e0c2bfff15aeb66dfa91978",
+  "entered_old_training": false
+}

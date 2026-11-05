@@ -1,0 +1,182 @@
+{
+  "model": "mixture/old100_balanced/ridge_counts_1_finish_gate/prior0.25",
+  "model_spec_sha256": "8eaf74b2bdc63c6c653d3f09af959ca8e342d456c272b21ce640a4481d9d89d6",
+  "n_pairs": 9,
+  "correct": 4,
+  "pair_order_accuracy": 0.4444444444444444,
+  "mean_predicted_gap": 0.0039045943154229056,
+  "pairs": [
+    {
+      "pair_id": "CF001",
+      "hard_id": "DZ098",
+      "easy_id": "NX319",
+      "hard_label": 4,
+      "easy_label": 2,
+      "hard_prediction": [
+        2.8715374068325374,
+        2.7240682660120927,
+        2.879748806372614
+      ],
+      "easy_prediction": [
+        2.743619759470782,
+        2.7006392894762956,
+        2.7349611967954353
+      ],
+      "predicted_gap": 0.12791764736175537,
+      "correct_order": true
+    },
+    {
+      "pair_id": "CF002",
+      "hard_id": "DZ099",
+      "easy_id": "NX320",
+      "hard_label": 4,
+      "easy_label": 2,
+      "hard_prediction": [
+        3.5903560459967316,
+        3.423203185832196,
+        3.5839564249072673
+      ],
+      "easy_prediction": [
+        3.5747628748770417,
+        3.364685312544995,
+        3.55750763864857
+      ],
+      "predicted_gap": 0.015593171119689941,
+      "correct_order": true
+    },
+    {
+      "pair_id": "CF003",
+      "hard_id": "EX203",
+      "easy_id": "NX321",
+      "hard_label": 3,
+      "easy_label": 2,
+      "hard_prediction": [
+        3.157597901442616,
+        3.1222424390614885,
+        3.1427211808058746
+      ],
+      "easy_prediction": [
+        3.152745308497517,
+        3.0692084315122026,
+        3.1301777409407623
+      ],
+      "predicted_gap": 0.004852592945098877,
+      "correct_order": true
+    },
+    {
+      "pair_id": "CF004",
+      "hard_id": "EX208",
+      "easy_id": "NX322",
+      "hard_label": 4,
+      "easy_label": 2,
+      "hard_prediction": [
+        2.750356432592682,
+        2.687150952752483,
+        2.6775355487187715
+      ],
+      "easy_prediction": [
+        2.7559012142775576,
+        2.7218787645658375,
+        2.7041871695836397
+      ],
+      "predicted_gap": -0.005544781684875488,
+      "correct_order": false
+    },
+    {
+      "pair_id": "CF005",
+      "hard_id": "EX211",
+      "easy_id": "NX323",
+      "hard_label": 3,
+      "easy_label": 2,
+      "hard_prediction": [
+        2.364231184513964,
+        2.3817493403479437,
+        2.3102745305787162
+      ],
+      "easy_prediction": [
+        2.3342417631463186,
+        2.3189293826147894,
+        2.2486475002060966
+      ],
+      "predicted_gap": 0.029989421367645264,
+      "correct_order": true
+    },
+    {
+      "pair_id": "CF006",
+      "hard_id": "EX220",
+      "easy_id": "NX324",
+      "hard_label": 4,
+      "easy_label": 2,
+      "hard_prediction": [
+        2.3698323013577918,
+        2.369211144999935,
+        2.2446365627079325
+      ],
+      "easy_prediction": [
+        2.403498733261631,
+        2.391798742370083,
+        2.2841077717571574
+      ],
+      "predicted_gap": -0.03366643190383911,
+      "correct_order": false
+    },
+    {
+      "pair_id": "CF007",
+      "hard_id": "EX222",
+      "easy_id": "NX325",
+      "hard_label": 3,
+      "easy_label": 2,
+      "hard_prediction": [
+        2.73220466201877,
+        2.714710206219033,
+        2.683711822140181
+      ],
+      "easy_prediction": [
+        2.752352581673616,
+        2.724954277702645,
+        2.725507850754225
+      ],
+      "predicted_gap": -0.02014791965484619,
+      "correct_order": false
+    },
+    {
+      "pair_id": "CF008",
+      "hard_id": "EX225",
+      "easy_id": "NX326",
+      "hard_label": 3,
+      "easy_label": 2,
+      "hard_prediction": [
+        2.7948095076063746,
+        2.7125278589697546,
+        2.735867549179999
+      ],
+      "easy_prediction": [
+        2.842505203960287,
+        2.7713562128515905,
+        2.799190748928992
+      ],
+      "predicted_gap": -0.047695696353912354,
+      "correct_order": false
+    },
+    {
+      "pair_id": "CF009",
+      "hard_id": "NX301",
+      "easy_id": "NX328",
+      "hard_label": 3,
+      "easy_label": 2,
+      "hard_prediction": [
+        3.2985188323812116,
+        3.2452736946216807,
+        3.3093510239547825
+      ],
+      "easy_prediction": [
+        3.3346754867391217,
+        3.2804955693355784,
+        3.3792915313667393
+      ],
+      "predicted_gap": -0.036156654357910156,
+      "correct_order": false
+    }
+  ],
+  "status": "counterfactual diagnostic on related families, not independent final test; no fitting or model change"
+}

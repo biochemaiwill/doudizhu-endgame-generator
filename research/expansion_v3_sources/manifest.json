@@ -1,0 +1,31 @@
+{
+  "seed": 2026110521,
+  "attempted": 1000,
+  "candidates": 3,
+  "elapsed": 130.06531928107142,
+  "counts": {
+    "losing": 341,
+    "not_narrow": 602,
+    "unknown_budget": 54,
+    "verified": 3
+  },
+  "rules": "unchanged bdee2f6e",
+  "python": "3.10.12 (main, Mar  3 2026, 11:56:32) [GCC 11.4.0]",
+  "platform": "Linux-5.15.0-91-generic-x86_64-with-glibc2.35",
+  "human_calibrated": false,
+  "source_original_win_status": "unknown; generated prefixes individually certified",
+  "uncompressed_ledger_sha256": "a09d5e6d44ad7107287fed9efd46bb144fd37170ce37da574da826802d2094c6",
+  "selected": 4,
+  "selected_grades": {
+    "2": 3,
+    "3": 1
+  },
+  "pairs": 1,
+  "grade5_confirmed": 0,
+  "training_changed": false,
+  "sha256": {
+    "selection.json": "f5d093c2c141a60c97de319009d20e01b126f984b6bae51e3be75c82feb253c6",
+    "pairs.json": "c5bb8894df229cd83a69b2c74db8d15a2b0621ab7753f446d3cf50f429345433",
+    "validation.json": "4edd0b5ca8ded067d95ff82dcca3f2410644e12d5aa050455ecb76807ce0b011"
+  }
+}

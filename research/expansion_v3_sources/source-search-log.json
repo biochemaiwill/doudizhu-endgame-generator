@@ -1,0 +1,32 @@
+[
+  {
+    "url": "https://game.xiaomi.com/viewpoint/1359077112_1640861231475_13",
+    "decision": "quarantine",
+    "note": "手牌转录与旧悬赏及后续叙事不一致；不猜测修补。"
+  },
+  {
+    "url": "https://news.sina.cn/j_uc.d.html?docid=kftpnnz1454893",
+    "decision": "background_only",
+    "note": "只描述两炸、双王等，未给完整三手，不当作可求解输入。"
+  },
+  {
+    "url": "https://www.sohu.com/a/308730923_120099893",
+    "decision": "excluded_from_extraction",
+    "note": "牌面仅图片，文字多处禁三带或四带；未取得可用完整三人标准规则输入。"
+  },
+  {
+    "url": "https://game.xiaomi.com/viewpoint/1359077112_1671585870317_13",
+    "decision": "quarantine",
+    "note": "题面与后续对子/炸弹叙事不一致，初始QQ总数也冲突，不采用。"
+  },
+  {
+    "url": "https://jingyan.baidu.com/article/c146541342ddd50bfdfc4c70.html",
+    "decision": "use_last_complete_deal_only",
+    "note": "只用最后20/17/17牌例；旧悬赏53张记录不纳入本轮。"
+  },
+  {
+    "url": "https://game.xiaomi.com/viewpoint/1359077112_1661489587225_9",
+    "decision": "use_complete_initial_deal_only",
+    "note": "只用20/17/17起始牌；舍弃出不存在10的后续叙述，自行生成合法前缀。"
+  }
+]

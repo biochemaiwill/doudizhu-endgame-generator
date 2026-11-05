@@ -1,0 +1,19 @@
+[
+  {
+    "id": "SRC3-PAIR01",
+    "hard_origin": "PUB3-0907",
+    "easy_origin": "PUB3-0907-swap-11",
+    "hard_overall": 3,
+    "easy_overall": 2,
+    "per_seat_counts": [
+      7,
+      12,
+      4
+    ],
+    "same_card_multiset": true,
+    "same_turn": true,
+    "same_last": true,
+    "same_passes": true,
+    "family": "xiaomi-20220826"
+  }
+]

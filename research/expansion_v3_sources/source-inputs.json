@@ -1,0 +1,28 @@
+[
+  {
+    "source_id": "baidu-20131104-last-deal",
+    "source_url": "https://jingyan.baidu.com/article/c146541342ddd50bfdfc4c70.html",
+    "hands": [
+      "3345559999TJJKKA22XD",
+      "36666777TJQQQQAA2",
+      "3444578888TTJKKA2"
+    ],
+    "turn": 0,
+    "passes": 0,
+    "last_text": null,
+    "source_note": "文章最后一个三人牌例，正文明确地主先出4；牌面照录。"
+  },
+  {
+    "source_id": "xiaomi-20220826",
+    "source_url": "https://game.xiaomi.com/viewpoint/1359077112_1661489587225_9",
+    "hands": [
+      "46677899TTTTJKKKAA2X",
+      "33445578889JKAA2D",
+      "334556679JJQQQQ22"
+    ],
+    "turn": 0,
+    "passes": 0,
+    "last_text": null,
+    "source_note": "完整三家手牌，后文上家出10与手牌矛盾；仅使用初始手牌，不跟随该错误动作。"
+  }
+]

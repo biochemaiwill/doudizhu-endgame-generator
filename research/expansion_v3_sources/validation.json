@@ -1,0 +1,34 @@
+[
+  {
+    "origin_id": "PUB3-0289",
+    "status": "pass",
+    "three_way": true,
+    "prefix_or_swap_legal": true,
+    "prior_overlap": false,
+    "no_immediate_finish": true
+  },
+  {
+    "origin_id": "PUB3-0907",
+    "status": "pass",
+    "three_way": true,
+    "prefix_or_swap_legal": true,
+    "prior_overlap": false,
+    "no_immediate_finish": true
+  },
+  {
+    "origin_id": "PUB3-0988",
+    "status": "pass",
+    "three_way": true,
+    "prefix_or_swap_legal": true,
+    "prior_overlap": false,
+    "no_immediate_finish": true
+  },
+  {
+    "origin_id": "PUB3-0907-swap-11",
+    "status": "pass",
+    "three_way": true,
+    "prefix_or_swap_legal": true,
+    "prior_overlap": false,
+    "no_immediate_finish": true
+  }
+]

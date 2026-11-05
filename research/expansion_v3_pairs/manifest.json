@@ -1,0 +1,13 @@
+{
+  "seed": 2026110514,
+  "seconds": 17.96604487672448,
+  "counts": {
+    "losing": 60,
+    "verified_unlabeled": 27,
+    "not_simpler_filter": 51,
+    "unknown_budget": 1,
+    "reject_immediate_finish": 1
+  },
+  "verified_unlabeled": 27,
+  "filter_is_not_human_difficulty": true
+}
