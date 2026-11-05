@@ -1,0 +1,1872 @@
+{
+  "ridge_counts_1": {
+    "old100_balanced": {
+      "mae": {
+        "overall": 0.8337533894707175,
+        "reasoning_depth": 0.9027341814602122,
+        "move_concealment": 0.8314217679640826
+      },
+      "mean_mae": 0.8559697796316708,
+      "overall_spearman": 0.20220266824482963,
+      "overall_exact_accuracy": 0.47058823529411764,
+      "overall_within_one": 0.8235294117647058,
+      "pairwise_order_accuracy": 0.6020408163265306,
+      "per_grade_overall_mae": {
+        "1": 1.8372638821601868,
+        "2": 0.48638542493184406,
+        "3": 0.4587770402431488,
+        "4": 0.8476897478103638
+      },
+      "confusion": [
+        [
+          0,
+          2,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          1,
+          0
+        ],
+        [
+          0,
+          2,
+          5,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          1
+        ]
+      ],
+      "macro_grade_mae": 0.9075290237863859,
+      "without_engineered_controls": {
+        "mae": {
+          "overall": 0.52498093018165,
+          "reasoning_depth": 0.6109368250920222,
+          "move_concealment": 0.5454805630903977
+        },
+        "mean_mae": 0.5604661061213566,
+        "overall_spearman": 0.29276696683458275,
+        "overall_exact_accuracy": 0.6153846153846154,
+        "overall_within_one": 0.9230769230769231,
+        "pairwise_order_accuracy": 0.6630434782608695,
+        "per_grade_overall_mae": {
+          "2": 0.48638542493184406,
+          "3": 0.4587770402431488,
+          "4": 0.8476897478103638
+        },
+        "confusion": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            1,
+            0
+          ],
+          [
+            0,
+            2,
+            5,
+            1
+          ],
+          [
+            0,
+            1,
+            0,
+            1
+          ]
+        ],
+        "macro_grade_mae": 0.5976174043284522
+      },
+      "matched_pairs": [
+        {
+          "id": "PAIR01",
+          "hard": "EX237",
+          "easy": "EX239",
+          "predicted_gap": 0.0,
+          "true_gap": 3.0,
+          "correct_order": false
+        },
+        {
+          "id": "PAIR03",
+          "hard": "EX220",
+          "easy": "EX241",
+          "predicted_gap": 0.0,
+          "true_gap": 3.0,
+          "correct_order": false
+        },
+        {
+          "id": "PAIR04",
+          "hard": "EX201",
+          "easy": "EX242",
+          "predicted_gap": 0.0,
+          "true_gap": 2.0,
+          "correct_order": false
+        },
+        {
+          "id": "PAIR14",
+          "hard": "EX213",
+          "easy": "EX252",
+          "predicted_gap": 0.0,
+          "true_gap": 2.0,
+          "correct_order": false
+        }
+      ],
+      "matched_pair_order_accuracy": 0.0
+    },
+    "merged_balanced": {
+      "mae": {
+        "overall": 0.8425099428962258,
+        "reasoning_depth": 0.9201633930206299,
+        "move_concealment": 0.8438102006912231
+      },
+      "mean_mae": 0.8688278455360262,
+      "overall_spearman": 0.2468448157794024,
+      "overall_exact_accuracy": 0.47058823529411764,
+      "overall_within_one": 0.8823529411764706,
+      "pairwise_order_accuracy": 0.6122448979591837,
+      "per_grade_overall_mae": {
+        "1": 1.710850477218628,
+        "2": 0.368649959564209,
+        "3": 0.5589222609996796,
+        "4": 0.9509695768356323
+      },
+      "confusion": [
+        [
+          0,
+          3,
+          0,
+          1
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          4,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          1
+        ]
+      ],
+      "macro_grade_mae": 0.8973480686545372,
+      "without_engineered_controls": {
+        "mae": {
+          "overall": 0.5753282400277945,
+          "reasoning_depth": 0.6661368883573092,
+          "move_concealment": 0.5962792818362896
+        },
+        "mean_mae": 0.6125814700737978,
+        "overall_spearman": 0.39088346382779426,
+        "overall_exact_accuracy": 0.6153846153846154,
+        "overall_within_one": 0.9230769230769231,
+        "pairwise_order_accuracy": 0.7065217391304348,
+        "per_grade_overall_mae": {
+          "2": 0.368649959564209,
+          "3": 0.5589222609996796,
+          "4": 0.9509695768356323
+        },
+        "confusion": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            3,
+            0,
+            0
+          ],
+          [
+            0,
+            3,
+            4,
+            1
+          ],
+          [
+            0,
+            1,
+            0,
+            1
+          ]
+        ],
+        "macro_grade_mae": 0.6261805991331736
+      },
+      "matched_pairs": [
+        {
+          "id": "PAIR01",
+          "hard": "EX237",
+          "easy": "EX239",
+          "predicted_gap": 0.0,
+          "true_gap": 3.0,
+          "correct_order": false
+        },
+        {
+          "id": "PAIR03",
+          "hard": "EX220",
+          "easy": "EX241",
+          "predicted_gap": 0.0,
+          "true_gap": 3.0,
+          "correct_order": false
+        },
+        {
+          "id": "PAIR04",
+          "hard": "EX201",
+          "easy": "EX242",
+          "predicted_gap": 0.0,
+          "true_gap": 2.0,
+          "correct_order": false
+        },
+        {
+          "id": "PAIR14",
+          "hard": "EX213",
+          "easy": "EX252",
+          "predicted_gap": 0.0,
+          "true_gap": 2.0,
+          "correct_order": false
+        }
+      ],
+      "matched_pair_order_accuracy": 0.0
+    },
+    "merged_unweighted": {
+      "mae": {
+        "overall": 0.8628961408839506,
+        "reasoning_depth": 0.961370545275071,
+        "move_concealment": 0.8840707260019639
+      },
+      "mean_mae": 0.9027791373869952,
+      "overall_spearman": 0.13917845996072686,
+      "overall_exact_accuracy": 0.23529411764705882,
+      "overall_within_one": 0.8823529411764706,
+      "pairwise_order_accuracy": 0.5816326530612245,
+      "per_grade_overall_mae": {
+        "1": 1.2112977802753448,
+        "2": 0.07542177041371663,
+        "3": 0.8059965521097183,
+        "4": 1.5749027729034424
+      },
+      "confusion": [
+        [
+          0,
+          3,
+          1,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          7,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          1,
+          0
+        ]
+      ],
+      "macro_grade_mae": 0.9169047189255555,
+      "without_engineered_controls": {
+        "mae": {
+          "overall": 0.7556956364558294,
+          "reasoning_depth": 0.8682397053791926,
+          "move_concealment": 0.8070938128691453
+        },
+        "mean_mae": 0.8103430515680557,
+        "overall_spearman": 0.15350484207002446,
+        "overall_exact_accuracy": 0.3076923076923077,
+        "overall_within_one": 0.9230769230769231,
+        "pairwise_order_accuracy": 0.5978260869565217,
+        "per_grade_overall_mae": {
+          "2": 0.07542177041371663,
+          "3": 0.8059965521097183,
+          "4": 1.5749027729034424
+        },
+        "confusion": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            3,
+            0,
+            0
+          ],
+          [
+            0,
+            7,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1,
+            0
+          ]
+        ],
+        "macro_grade_mae": 0.8187736984756259
+      },
+      "matched_pairs": [
+        {
+          "id": "PAIR01",
+          "hard": "EX237",
+          "easy": "EX239",
+          "predicted_gap": 0.0,
+          "true_gap": 3.0,
+          "correct_order": false
+        },
+        {
+          "id": "PAIR03",
+          "hard": "EX220",
+          "easy": "EX241",
+          "predicted_gap": 0.0,
+          "true_gap": 3.0,
+          "correct_order": false
+        },
+        {
+          "id": "PAIR04",
+          "hard": "EX201",
+          "easy": "EX242",
+          "predicted_gap": 0.0,
+          "true_gap": 2.0,
+          "correct_order": false
+        },
+        {
+          "id": "PAIR14",
+          "hard": "EX213",
+          "easy": "EX252",
+          "predicted_gap": 0.0,
+          "true_gap": 2.0,
+          "correct_order": false
+        }
+      ],
+      "matched_pair_order_accuracy": 0.0
+    }
+  },
+  "ridge_counts_1_finish_gate": {
+    "old100_balanced": {
+      "mae": {
+        "overall": 0.4014560054330265,
+        "reasoning_depth": 0.46718698389389934,
+        "move_concealment": 0.4171321953044218
+      },
+      "mean_mae": 0.4285917282104492,
+      "overall_spearman": 0.7035422632466299,
+      "overall_exact_accuracy": 0.7058823529411765,
+      "overall_within_one": 0.9411764705882353,
+      "pairwise_order_accuracy": 0.8418367346938775,
+      "per_grade_overall_mae": {
+        "1": 0.0,
+        "2": 0.48638542493184406,
+        "3": 0.4587770402431488,
+        "4": 0.8476897478103638
+      },
+      "confusion": [
+        [
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          1,
+          0
+        ],
+        [
+          0,
+          2,
+          5,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          1
+        ]
+      ],
+      "macro_grade_mae": 0.44821305324633914,
+      "without_engineered_controls": {
+        "mae": {
+          "overall": 0.52498093018165,
+          "reasoning_depth": 0.6109368250920222,
+          "move_concealment": 0.5454805630903977
+        },
+        "mean_mae": 0.5604661061213566,
+        "overall_spearman": 0.29276696683458275,
+        "overall_exact_accuracy": 0.6153846153846154,
+        "overall_within_one": 0.9230769230769231,
+        "pairwise_order_accuracy": 0.6630434782608695,
+        "per_grade_overall_mae": {
+          "2": 0.48638542493184406,
+          "3": 0.4587770402431488,
+          "4": 0.8476897478103638
+        },
+        "confusion": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            1,
+            0
+          ],
+          [
+            0,
+            2,
+            5,
+            1
+          ],
+          [
+            0,
+            1,
+            0,
+            1
+          ]
+        ],
+        "macro_grade_mae": 0.5976174043284522
+      },
+      "matched_pairs": [
+        {
+          "id": "PAIR01",
+          "hard": "EX237",
+          "easy": "EX239",
+          "predicted_gap": 2.8587043285369873,
+          "true_gap": 3.0,
+          "correct_order": true
+        },
+        {
+          "id": "PAIR03",
+          "hard": "EX220",
+          "easy": "EX241",
+          "predicted_gap": 1.4459161758422852,
+          "true_gap": 3.0,
+          "correct_order": true
+        },
+        {
+          "id": "PAIR04",
+          "hard": "EX201",
+          "easy": "EX242",
+          "predicted_gap": 1.4540083408355713,
+          "true_gap": 2.0,
+          "correct_order": true
+        },
+        {
+          "id": "PAIR14",
+          "hard": "EX213",
+          "easy": "EX252",
+          "predicted_gap": 1.5904266834259033,
+          "true_gap": 2.0,
+          "correct_order": true
+        }
+      ],
+      "matched_pair_order_accuracy": 1.0
+    },
+    "merged_balanced": {
+      "mae": {
+        "overall": 0.4399568894330193,
+        "reasoning_depth": 0.5093987969791188,
+        "move_concealment": 0.45597827434539795
+      },
+      "mean_mae": 0.46844465358584536,
+      "overall_spearman": 0.7443463982525149,
+      "overall_exact_accuracy": 0.7058823529411765,
+      "overall_within_one": 0.9411764705882353,
+      "pairwise_order_accuracy": 0.8622448979591837,
+      "per_grade_overall_mae": {
+        "1": 0.0,
+        "2": 0.368649959564209,
+        "3": 0.5589222609996796,
+        "4": 0.9509695768356323
+      },
+      "confusion": [
+        [
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          4,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          1
+        ]
+      ],
+      "macro_grade_mae": 0.4696354493498802,
+      "without_engineered_controls": {
+        "mae": {
+          "overall": 0.5753282400277945,
+          "reasoning_depth": 0.6661368883573092,
+          "move_concealment": 0.5962792818362896
+        },
+        "mean_mae": 0.6125814700737978,
+        "overall_spearman": 0.39088346382779426,
+        "overall_exact_accuracy": 0.6153846153846154,
+        "overall_within_one": 0.9230769230769231,
+        "pairwise_order_accuracy": 0.7065217391304348,
+        "per_grade_overall_mae": {
+          "2": 0.368649959564209,
+          "3": 0.5589222609996796,
+          "4": 0.9509695768356323
+        },
+        "confusion": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            3,
+            0,
+            0
+          ],
+          [
+            0,
+            3,
+            4,
+            1
+          ],
+          [
+            0,
+            1,
+            0,
+            1
+          ]
+        ],
+        "macro_grade_mae": 0.6261805991331736
+      },
+      "matched_pairs": [
+        {
+          "id": "PAIR01",
+          "hard": "EX237",
+          "easy": "EX239",
+          "predicted_gap": 2.7513980865478516,
+          "true_gap": 3.0,
+          "correct_order": true
+        },
+        {
+          "id": "PAIR03",
+          "hard": "EX220",
+          "easy": "EX241",
+          "predicted_gap": 1.3466627597808838,
+          "true_gap": 3.0,
+          "correct_order": true
+        },
+        {
+          "id": "PAIR04",
+          "hard": "EX201",
+          "easy": "EX242",
+          "predicted_gap": 1.329556941986084,
+          "true_gap": 2.0,
+          "correct_order": true
+        },
+        {
+          "id": "PAIR14",
+          "hard": "EX213",
+          "easy": "EX252",
+          "predicted_gap": 1.4157841205596924,
+          "true_gap": 2.0,
+          "correct_order": true
+        }
+      ],
+      "matched_pair_order_accuracy": 1.0
+    },
+    "merged_unweighted": {
+      "mae": {
+        "overall": 0.5778848984662224,
+        "reasoning_depth": 0.6639480099958532,
+        "move_concealment": 0.6171893863116994
+      },
+      "mean_mae": 0.6196740982579251,
+      "overall_spearman": 0.6456267167866642,
+      "overall_exact_accuracy": 0.47058823529411764,
+      "overall_within_one": 0.9411764705882353,
+      "pairwise_order_accuracy": 0.8112244897959183,
+      "per_grade_overall_mae": {
+        "1": 0.0,
+        "2": 0.07542177041371663,
+        "3": 0.8059965521097183,
+        "4": 1.5749027729034424
+      },
+      "confusion": [
+        [
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          7,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          1,
+          0
+        ]
+      ],
+      "macro_grade_mae": 0.6140802738567194,
+      "without_engineered_controls": {
+        "mae": {
+          "overall": 0.7556956364558294,
+          "reasoning_depth": 0.8682397053791926,
+          "move_concealment": 0.8070938128691453
+        },
+        "mean_mae": 0.8103430515680557,
+        "overall_spearman": 0.15350484207002446,
+        "overall_exact_accuracy": 0.3076923076923077,
+        "overall_within_one": 0.9230769230769231,
+        "pairwise_order_accuracy": 0.5978260869565217,
+        "per_grade_overall_mae": {
+          "2": 0.07542177041371663,
+          "3": 0.8059965521097183,
+          "4": 1.5749027729034424
+        },
+        "confusion": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            3,
+            0,
+            0
+          ],
+          [
+            0,
+            7,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1,
+            0
+          ]
+        ],
+        "macro_grade_mae": 0.8187736984756259
+      },
+      "matched_pairs": [
+        {
+          "id": "PAIR01",
+          "hard": "EX237",
+          "easy": "EX239",
+          "predicted_gap": 1.928462028503418,
+          "true_gap": 3.0,
+          "correct_order": true
+        },
+        {
+          "id": "PAIR03",
+          "hard": "EX220",
+          "easy": "EX241",
+          "predicted_gap": 0.9217324256896973,
+          "true_gap": 3.0,
+          "correct_order": true
+        },
+        {
+          "id": "PAIR04",
+          "hard": "EX201",
+          "easy": "EX242",
+          "predicted_gap": 0.9496737718582153,
+          "true_gap": 2.0,
+          "correct_order": true
+        },
+        {
+          "id": "PAIR14",
+          "hard": "EX213",
+          "easy": "EX252",
+          "predicted_gap": 1.0453228950500488,
+          "true_gap": 2.0,
+          "correct_order": true
+        }
+      ],
+      "matched_pair_order_accuracy": 1.0
+    }
+  },
+  "structured_mlp": {
+    "old100_balanced": {
+      "mae": {
+        "overall": 0.6784079004736507,
+        "reasoning_depth": 0.6273597198374131,
+        "move_concealment": 0.679558143896215
+      },
+      "mean_mae": 0.6617752547357596,
+      "overall_spearman": 0.45496143675512224,
+      "overall_exact_accuracy": 0.47058823529411764,
+      "overall_within_one": 0.9411764705882353,
+      "pairwise_order_accuracy": 0.7142857142857143,
+      "per_grade_overall_mae": {
+        "1": 0.7989965379238129,
+        "2": 1.2609645525614421,
+        "3": 0.36653411388397217,
+        "4": 0.810890793800354
+      },
+      "confusion": [
+        [
+          2,
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          1,
+          5,
+          2
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      "macro_grade_mae": 0.8093464995423953,
+      "without_engineered_controls": {
+        "mae": {
+          "overall": 0.6413037043351394,
+          "reasoning_depth": 0.5626258483299842,
+          "move_concealment": 0.643893865438608
+        },
+        "mean_mae": 0.6159411393679105,
+        "overall_spearman": -0.03792837247446084,
+        "overall_exact_accuracy": 0.46153846153846156,
+        "overall_within_one": 1.0,
+        "pairwise_order_accuracy": 0.4782608695652174,
+        "per_grade_overall_mae": {
+          "2": 1.2609645525614421,
+          "3": 0.36653411388397217,
+          "4": 0.810890793800354
+        },
+        "confusion": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            3,
+            0
+          ],
+          [
+            0,
+            1,
+            5,
+            2
+          ],
+          [
+            0,
+            0,
+            1,
+            1
+          ]
+        ],
+        "macro_grade_mae": 0.8127964867485895
+      },
+      "matched_pairs": [
+        {
+          "id": "PAIR01",
+          "hard": "EX237",
+          "easy": "EX239",
+          "predicted_gap": 1.8637365102767944,
+          "true_gap": 3.0,
+          "correct_order": true
+        },
+        {
+          "id": "PAIR03",
+          "hard": "EX220",
+          "easy": "EX241",
+          "predicted_gap": -0.08213996887207031,
+          "true_gap": 3.0,
+          "correct_order": false
+        },
+        {
+          "id": "PAIR04",
+          "hard": "EX201",
+          "easy": "EX242",
+          "predicted_gap": 1.0977555513381958,
+          "true_gap": 2.0,
+          "correct_order": true
+        },
+        {
+          "id": "PAIR14",
+          "hard": "EX213",
+          "easy": "EX252",
+          "predicted_gap": 1.5345057249069214,
+          "true_gap": 2.0,
+          "correct_order": true
+        }
+      ],
+      "matched_pair_order_accuracy": 0.75
+    },
+    "merged_balanced": {
+      "mae": {
+        "overall": 0.4814729480182423,
+        "reasoning_depth": 0.5000385747236364,
+        "move_concealment": 0.4781791602863985
+      },
+      "mean_mae": 0.4865635610094257,
+      "overall_spearman": 0.5922342840519264,
+      "overall_exact_accuracy": 0.6470588235294118,
+      "overall_within_one": 1.0,
+      "pairwise_order_accuracy": 0.7653061224489796,
+      "per_grade_overall_mae": {
+        "1": 0.1443580687046051,
+        "2": 0.8211445013682047,
+        "3": 0.3705861270427704,
+        "4": 1.089742660522461
+      },
+      "confusion": [
+        [
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          2,
+          0
+        ],
+        [
+          0,
+          1,
+          6,
+          1
+        ],
+        [
+          0,
+          0,
+          2,
+          0
+        ]
+      ],
+      "macro_grade_mae": 0.6064578394095103,
+      "without_engineered_controls": {
+        "mae": {
+          "overall": 0.5852006031916692,
+          "reasoning_depth": 0.5880420574775109,
+          "move_concealment": 0.5706126873309796
+        },
+        "mean_mae": 0.5812851160000533,
+        "overall_spearman": 0.03476767476825577,
+        "overall_exact_accuracy": 0.5384615384615384,
+        "overall_within_one": 1.0,
+        "pairwise_order_accuracy": 0.5,
+        "per_grade_overall_mae": {
+          "2": 0.8211445013682047,
+          "3": 0.3705861270427704,
+          "4": 1.089742660522461
+        },
+        "confusion": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            6,
+            1
+          ],
+          [
+            0,
+            0,
+            2,
+            0
+          ]
+        ],
+        "macro_grade_mae": 0.7604910963111453
+      },
+      "matched_pairs": [
+        {
+          "id": "PAIR01",
+          "hard": "EX237",
+          "easy": "EX239",
+          "predicted_gap": 2.131511688232422,
+          "true_gap": 3.0,
+          "correct_order": true
+        },
+        {
+          "id": "PAIR03",
+          "hard": "EX220",
+          "easy": "EX241",
+          "predicted_gap": 1.4625160694122314,
+          "true_gap": 3.0,
+          "correct_order": true
+        },
+        {
+          "id": "PAIR04",
+          "hard": "EX201",
+          "easy": "EX242",
+          "predicted_gap": 1.0565955638885498,
+          "true_gap": 2.0,
+          "correct_order": true
+        },
+        {
+          "id": "PAIR14",
+          "hard": "EX213",
+          "easy": "EX252",
+          "predicted_gap": 1.571883201599121,
+          "true_gap": 2.0,
+          "correct_order": true
+        }
+      ],
+      "matched_pair_order_accuracy": 1.0
+    },
+    "merged_unweighted": {
+      "mae": {
+        "overall": 0.3839687319362865,
+        "reasoning_depth": 0.39942310838138356,
+        "move_concealment": 0.40046677168677836
+      },
+      "mean_mae": 0.3946195373348161,
+      "overall_spearman": 0.6719832715291173,
+      "overall_exact_accuracy": 0.7058823529411765,
+      "overall_within_one": 1.0,
+      "pairwise_order_accuracy": 0.826530612244898,
+      "per_grade_overall_mae": {
+        "1": 0.07831078767776489,
+        "2": 0.7495783964792887,
+        "3": 0.27225667238235474,
+        "4": 0.8937183618545532
+      },
+      "confusion": [
+        [
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          2,
+          0
+        ],
+        [
+          0,
+          1,
+          7,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          0
+        ]
+      ],
+      "macro_grade_mae": 0.49846605459849036,
+      "without_engineered_controls": {
+        "mae": {
+          "overall": 0.47801733016967773,
+          "reasoning_depth": 0.4944902199965257,
+          "move_concealment": 0.5066371881044828
+        },
+        "mean_mae": 0.49304824609022874,
+        "overall_spearman": 0.22757023484676506,
+        "overall_exact_accuracy": 0.6153846153846154,
+        "overall_within_one": 1.0,
+        "pairwise_order_accuracy": 0.6304347826086957,
+        "per_grade_overall_mae": {
+          "2": 0.7495783964792887,
+          "3": 0.27225667238235474,
+          "4": 0.8937183618545532
+        },
+        "confusion": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            7,
+            0
+          ],
+          [
+            0,
+            0,
+            2,
+            0
+          ]
+        ],
+        "macro_grade_mae": 0.6385178102387322
+      },
+      "matched_pairs": [
+        {
+          "id": "PAIR01",
+          "hard": "EX237",
+          "easy": "EX239",
+          "predicted_gap": 2.1622233390808105,
+          "true_gap": 3.0,
+          "correct_order": true
+        },
+        {
+          "id": "PAIR03",
+          "hard": "EX220",
+          "easy": "EX241",
+          "predicted_gap": 1.9894213676452637,
+          "true_gap": 3.0,
+          "correct_order": true
+        },
+        {
+          "id": "PAIR04",
+          "hard": "EX201",
+          "easy": "EX242",
+          "predicted_gap": 1.0692636966705322,
+          "true_gap": 2.0,
+          "correct_order": true
+        },
+        {
+          "id": "PAIR14",
+          "hard": "EX213",
+          "easy": "EX252",
+          "predicted_gap": 1.817888855934143,
+          "true_gap": 2.0,
+          "correct_order": true
+        }
+      ],
+      "matched_pair_order_accuracy": 1.0
+    }
+  },
+  "role_ordinal_rank": {
+    "old100_balanced": {
+      "mae": {
+        "overall": 0.5708742211846745,
+        "reasoning_depth": 0.6002718420589671,
+        "move_concealment": 0.583994704134324
+      },
+      "mean_mae": 0.5850469224593219,
+      "overall_spearman": 0.5961563654032636,
+      "overall_exact_accuracy": 0.4117647058823529,
+      "overall_within_one": 1.0,
+      "pairwise_order_accuracy": 0.7755102040816326,
+      "per_grade_overall_mae": {
+        "1": 0.5980720818042755,
+        "2": 0.7531771659851074,
+        "3": 0.34443897008895874,
+        "4": 1.1487650871276855
+      },
+      "confusion": [
+        [
+          2,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          2,
+          5,
+          1
+        ],
+        [
+          0,
+          0,
+          2,
+          0
+        ]
+      ],
+      "macro_grade_mae": 0.7111133262515068,
+      "without_engineered_controls": {
+        "mae": {
+          "overall": 0.5625056486863357,
+          "reasoning_depth": 0.5737524399390588,
+          "move_concealment": 0.5733176194704496
+        },
+        "mean_mae": 0.5698585693652812,
+        "overall_spearman": 0.10114232659856225,
+        "overall_exact_accuracy": 0.38461538461538464,
+        "overall_within_one": 1.0,
+        "pairwise_order_accuracy": 0.5434782608695652,
+        "per_grade_overall_mae": {
+          "2": 0.7531771659851074,
+          "3": 0.34443897008895874,
+          "4": 1.1487650871276855
+        },
+        "confusion": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            3,
+            0
+          ],
+          [
+            0,
+            2,
+            5,
+            1
+          ],
+          [
+            0,
+            0,
+            2,
+            0
+          ]
+        ],
+        "macro_grade_mae": 0.7487937410672506
+      },
+      "matched_pairs": [
+        {
+          "id": "PAIR01",
+          "hard": "EX237",
+          "easy": "EX239",
+          "predicted_gap": 1.0733226537704468,
+          "true_gap": 3.0,
+          "correct_order": true
+        },
+        {
+          "id": "PAIR03",
+          "hard": "EX220",
+          "easy": "EX241",
+          "predicted_gap": 0.5132408142089844,
+          "true_gap": 3.0,
+          "correct_order": true
+        },
+        {
+          "id": "PAIR04",
+          "hard": "EX201",
+          "easy": "EX242",
+          "predicted_gap": 1.1514028310775757,
+          "true_gap": 2.0,
+          "correct_order": true
+        },
+        {
+          "id": "PAIR14",
+          "hard": "EX213",
+          "easy": "EX252",
+          "predicted_gap": 1.288784146308899,
+          "true_gap": 2.0,
+          "correct_order": true
+        }
+      ],
+      "matched_pair_order_accuracy": 1.0
+    },
+    "merged_balanced": {
+      "mae": {
+        "overall": 0.48974771359387564,
+        "reasoning_depth": 0.5247843335656559,
+        "move_concealment": 0.49395546492408304
+      },
+      "mean_mae": 0.5028291706945383,
+      "overall_spearman": 0.5412472264845419,
+      "overall_exact_accuracy": 0.6470588235294118,
+      "overall_within_one": 0.9411764705882353,
+      "pairwise_order_accuracy": 0.7448979591836735,
+      "per_grade_overall_mae": {
+        "1": 0.10755869746208191,
+        "2": 0.5038041273752848,
+        "3": 0.4157659411430359,
+        "4": 1.5289682149887085
+      },
+      "confusion": [
+        [
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          2,
+          0
+        ],
+        [
+          0,
+          2,
+          6,
+          0
+        ],
+        [
+          0,
+          1,
+          1,
+          0
+        ]
+      ],
+      "macro_grade_mae": 0.6390242452422777,
+      "without_engineered_controls": {
+        "mae": {
+          "overall": 0.6073443339421198,
+          "reasoning_depth": 0.6321686047774094,
+          "move_concealment": 0.6057558059692383
+        },
+        "mean_mae": 0.6150895815629225,
+        "overall_spearman": -0.08849953577374195,
+        "overall_exact_accuracy": 0.5384615384615384,
+        "overall_within_one": 0.9230769230769231,
+        "pairwise_order_accuracy": 0.45652173913043476,
+        "per_grade_overall_mae": {
+          "2": 0.5038041273752848,
+          "3": 0.4157659411430359,
+          "4": 1.5289682149887085
+        },
+        "confusion": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            2,
+            0
+          ],
+          [
+            0,
+            2,
+            6,
+            0
+          ],
+          [
+            0,
+            1,
+            1,
+            0
+          ]
+        ],
+        "macro_grade_mae": 0.8161794278356763
+      },
+      "matched_pairs": [
+        {
+          "id": "PAIR01",
+          "hard": "EX237",
+          "easy": "EX239",
+          "predicted_gap": 1.2999573945999146,
+          "true_gap": 3.0,
+          "correct_order": true
+        },
+        {
+          "id": "PAIR03",
+          "hard": "EX220",
+          "easy": "EX241",
+          "predicted_gap": 1.3920676708221436,
+          "true_gap": 3.0,
+          "correct_order": true
+        },
+        {
+          "id": "PAIR04",
+          "hard": "EX201",
+          "easy": "EX242",
+          "predicted_gap": 0.9578429460525513,
+          "true_gap": 2.0,
+          "correct_order": true
+        },
+        {
+          "id": "PAIR14",
+          "hard": "EX213",
+          "easy": "EX252",
+          "predicted_gap": 1.4923001527786255,
+          "true_gap": 2.0,
+          "correct_order": true
+        }
+      ],
+      "matched_pair_order_accuracy": 1.0
+    },
+    "merged_unweighted": {
+      "mae": {
+        "overall": 0.4458529037587783,
+        "reasoning_depth": 0.5060145644580617,
+        "move_concealment": 0.4525914612938376
+      },
+      "mean_mae": 0.4681529765035592,
+      "overall_spearman": 0.678520073781346,
+      "overall_exact_accuracy": 0.5294117647058824,
+      "overall_within_one": 1.0,
+      "pairwise_order_accuracy": 0.826530612244898,
+      "per_grade_overall_mae": {
+        "1": 0.06565633416175842,
+        "2": 0.6687688032786051,
+        "3": 0.3883077800273895,
+        "4": 1.1020526885986328
+      },
+      "confusion": [
+        [
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          1,
+          5,
+          2
+        ],
+        [
+          0,
+          0,
+          2,
+          0
+        ]
+      ],
+      "macro_grade_mae": 0.5561964015165964,
+      "without_engineered_controls": {
+        "mae": {
+          "overall": 0.5628364636347845,
+          "reasoning_depth": 0.6333330961374136,
+          "move_concealment": 0.5660874293400691
+        },
+        "mean_mae": 0.5874189963707558,
+        "overall_spearman": 0.2433737233777904,
+        "overall_exact_accuracy": 0.38461538461538464,
+        "overall_within_one": 1.0,
+        "pairwise_order_accuracy": 0.6304347826086957,
+        "per_grade_overall_mae": {
+          "2": 0.6687688032786051,
+          "3": 0.3883077800273895,
+          "4": 1.1020526885986328
+        },
+        "confusion": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            3,
+            0
+          ],
+          [
+            0,
+            1,
+            5,
+            2
+          ],
+          [
+            0,
+            0,
+            2,
+            0
+          ]
+        ],
+        "macro_grade_mae": 0.7197097573015424
+      },
+      "matched_pairs": [
+        {
+          "id": "PAIR01",
+          "hard": "EX237",
+          "easy": "EX239",
+          "predicted_gap": 1.6988757848739624,
+          "true_gap": 3.0,
+          "correct_order": true
+        },
+        {
+          "id": "PAIR03",
+          "hard": "EX220",
+          "easy": "EX241",
+          "predicted_gap": 1.951513648033142,
+          "true_gap": 3.0,
+          "correct_order": true
+        },
+        {
+          "id": "PAIR04",
+          "hard": "EX201",
+          "easy": "EX242",
+          "predicted_gap": 1.2551696300506592,
+          "true_gap": 2.0,
+          "correct_order": true
+        },
+        {
+          "id": "PAIR14",
+          "hard": "EX213",
+          "easy": "EX252",
+          "predicted_gap": 1.7662280797958374,
+          "true_gap": 2.0,
+          "correct_order": true
+        }
+      ],
+      "matched_pair_order_accuracy": 1.0
+    }
+  },
+  "extra_depthNone_leaf2": {
+    "old100_balanced": {
+      "mae": {
+        "overall": 0.7025103004869776,
+        "reasoning_depth": 0.7960598755964848,
+        "move_concealment": 0.7369568103715312
+      },
+      "mean_mae": 0.7451756621516644,
+      "overall_spearman": 0.5334030637818674,
+      "overall_exact_accuracy": 0.4117647058823529,
+      "overall_within_one": 1.0,
+      "pairwise_order_accuracy": 0.7551020408163265,
+      "per_grade_overall_mae": {
+        "1": 0.5657588954740064,
+        "2": 0.3138660908733016,
+        "3": 0.7541334536342954,
+        "4": 1.3524868123441631
+      },
+      "confusion": [
+        [
+          2,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          1,
+          0
+        ],
+        [
+          0,
+          5,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          0
+        ]
+      ],
+      "macro_grade_mae": 0.7465613130814417,
+      "without_engineered_controls": {
+        "mae": {
+          "overall": 0.7445876558755842,
+          "reasoning_depth": 0.8637862641042326,
+          "move_concealment": 0.8051732486887714
+        },
+        "mean_mae": 0.8045157228895294,
+        "overall_spearman": 0.12010651283579267,
+        "overall_exact_accuracy": 0.38461538461538464,
+        "overall_within_one": 1.0,
+        "pairwise_order_accuracy": 0.5652173913043478,
+        "per_grade_overall_mae": {
+          "2": 0.3138660908733016,
+          "3": 0.7541334536342954,
+          "4": 1.3524868123441631
+        },
+        "confusion": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            1,
+            0
+          ],
+          [
+            0,
+            5,
+            3,
+            0
+          ],
+          [
+            0,
+            0,
+            2,
+            0
+          ]
+        ],
+        "macro_grade_mae": 0.8068287856172534
+      },
+      "matched_pairs": [
+        {
+          "id": "PAIR01",
+          "hard": "EX237",
+          "easy": "EX239",
+          "predicted_gap": 0.5940792344760688,
+          "true_gap": 3.0,
+          "correct_order": true
+        },
+        {
+          "id": "PAIR03",
+          "hard": "EX220",
+          "easy": "EX241",
+          "predicted_gap": 1.2754313161168789,
+          "true_gap": 3.0,
+          "correct_order": true
+        },
+        {
+          "id": "PAIR04",
+          "hard": "EX201",
+          "easy": "EX242",
+          "predicted_gap": 0.4892458502891295,
+          "true_gap": 2.0,
+          "correct_order": true
+        },
+        {
+          "id": "PAIR14",
+          "hard": "EX213",
+          "easy": "EX252",
+          "predicted_gap": 0.4534431303761217,
+          "true_gap": 2.0,
+          "correct_order": true
+        }
+      ],
+      "matched_pair_order_accuracy": 1.0
+    },
+    "merged_balanced": {
+      "mae": {
+        "overall": 0.5637266446747188,
+        "reasoning_depth": 0.5982509292585152,
+        "move_concealment": 0.5816999934445726
+      },
+      "mean_mae": 0.5812258557926022,
+      "overall_spearman": 0.556935551889891,
+      "overall_exact_accuracy": 0.5882352941176471,
+      "overall_within_one": 1.0,
+      "pairwise_order_accuracy": 0.7551020408163265,
+      "per_grade_overall_mae": {
+        "1": 0.08226923813580939,
+        "2": 0.8836098813073104,
+        "3": 0.5174331088061057,
+        "4": 1.2319907462781017
+      },
+      "confusion": [
+        [
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          2,
+          6,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          0
+        ]
+      ],
+      "macro_grade_mae": 0.6788257436318318,
+      "without_engineered_controls": {
+        "mae": {
+          "overall": 0.7118673851482294,
+          "reasoning_depth": 0.7568142060142196,
+          "move_concealment": 0.736927410128689
+        },
+        "mean_mae": 0.7352030004303792,
+        "overall_spearman": -0.05057116329928112,
+        "overall_exact_accuracy": 0.46153846153846156,
+        "overall_within_one": 1.0,
+        "pairwise_order_accuracy": 0.4782608695652174,
+        "per_grade_overall_mae": {
+          "2": 0.8836098813073104,
+          "3": 0.5174331088061057,
+          "4": 1.2319907462781017
+        },
+        "confusion": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            3,
+            0
+          ],
+          [
+            0,
+            2,
+            6,
+            0
+          ],
+          [
+            0,
+            0,
+            2,
+            0
+          ]
+        ],
+        "macro_grade_mae": 0.8776779121305059
+      },
+      "matched_pairs": [
+        {
+          "id": "PAIR01",
+          "hard": "EX237",
+          "easy": "EX239",
+          "predicted_gap": 1.3771897924436145,
+          "true_gap": 3.0,
+          "correct_order": true
+        },
+        {
+          "id": "PAIR03",
+          "hard": "EX220",
+          "easy": "EX241",
+          "predicted_gap": 1.8657366109006879,
+          "true_gap": 3.0,
+          "correct_order": true
+        },
+        {
+          "id": "PAIR04",
+          "hard": "EX201",
+          "easy": "EX242",
+          "predicted_gap": 0.9318222259016329,
+          "true_gap": 2.0,
+          "correct_order": true
+        },
+        {
+          "id": "PAIR14",
+          "hard": "EX213",
+          "easy": "EX252",
+          "predicted_gap": 1.0575833124927412,
+          "true_gap": 2.0,
+          "correct_order": true
+        }
+      ],
+      "matched_pair_order_accuracy": 1.0
+    },
+    "merged_unweighted": {
+      "mae": {
+        "overall": 0.4904258578431371,
+        "reasoning_depth": 0.5233609068627448,
+        "move_concealment": 0.5163909313725491
+      },
+      "mean_mae": 0.5100592320261437,
+      "overall_spearman": 0.618760751908553,
+      "overall_exact_accuracy": 0.5294117647058824,
+      "overall_within_one": 0.9411764705882353,
+      "pairwise_order_accuracy": 0.7857142857142857,
+      "per_grade_overall_mae": {
+        "1": 0.017252604166666685,
+        "2": 0.562065972222222,
+        "3": 0.4707031249999998,
+        "4": 1.4082031249999996
+      },
+      "confusion": [
+        [
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          2,
+          0
+        ],
+        [
+          0,
+          4,
+          4,
+          0
+        ],
+        [
+          0,
+          1,
+          1,
+          0
+        ]
+      ],
+      "macro_grade_mae": 0.614556206597222,
+      "without_engineered_controls": {
+        "mae": {
+          "overall": 0.636017628205128,
+          "reasoning_depth": 0.6790865384615382,
+          "move_concealment": 0.6701722756410257
+        },
+        "mean_mae": 0.6617588141025639,
+        "overall_spearman": 0.09798162889235718,
+        "overall_exact_accuracy": 0.38461538461538464,
+        "overall_within_one": 0.9230769230769231,
+        "pairwise_order_accuracy": 0.5434782608695652,
+        "per_grade_overall_mae": {
+          "2": 0.562065972222222,
+          "3": 0.4707031249999998,
+          "4": 1.4082031249999996
+        },
+        "confusion": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            2,
+            0
+          ],
+          [
+            0,
+            4,
+            4,
+            0
+          ],
+          [
+            0,
+            1,
+            1,
+            0
+          ]
+        ],
+        "macro_grade_mae": 0.8136574074074071
+      },
+      "matched_pairs": [
+        {
+          "id": "PAIR01",
+          "hard": "EX237",
+          "easy": "EX239",
+          "predicted_gap": 1.4257812500000004,
+          "true_gap": 3.0,
+          "correct_order": true
+        },
+        {
+          "id": "PAIR03",
+          "hard": "EX220",
+          "easy": "EX241",
+          "predicted_gap": 1.7187500000000004,
+          "true_gap": 3.0,
+          "correct_order": true
+        },
+        {
+          "id": "PAIR04",
+          "hard": "EX201",
+          "easy": "EX242",
+          "predicted_gap": 0.8815104166666674,
+          "true_gap": 2.0,
+          "correct_order": true
+        },
+        {
+          "id": "PAIR14",
+          "hard": "EX213",
+          "easy": "EX252",
+          "predicted_gap": 1.4283854166666667,
+          "true_gap": 2.0,
+          "correct_order": true
+        }
+      ],
+      "matched_pair_order_accuracy": 1.0
+    }
+  }
+}

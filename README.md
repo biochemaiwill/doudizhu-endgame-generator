@@ -20,3 +20,5 @@
 - [均衡few-shot实验与方法调研](research/fewshot_balanced_v1/README.md)（每级2题，5次抽样；仍无5分样本）
 
 - [第二批扩充：53道与15组等牌数对照](research/expansion_v2/README.md)（新增31道3—4分，仍无5分；未加入旧训练）
+
+- [合并153题训练与模型比较](research/scorer_v2/README.md)（题族/配对隔离；含离线分享构建脚本）

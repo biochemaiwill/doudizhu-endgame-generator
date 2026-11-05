@@ -1,0 +1,37 @@
+[
+  {
+    "url": "https://jingyan.baidu.com/article/c146541342ddd50bfdfc4c70.html",
+    "status": "two_extracted_initial_positions_unknown; three-way candidate prefixes only",
+    "note": "旧悬赏20/17/16不补缺牌；最后牌例20/17/17。"
+  },
+  {
+    "url": "https://game.xiaomi.com/viewpoint/1359077112_1661489587225_9",
+    "status": "initial_unknown; legal-prefix candidate",
+    "note": "初始20/17/17；后文上家出不存在的10，弃用后续叙述。"
+  },
+  {
+    "url": "https://game.xiaomi.com/viewpoint/1359077112_1640861231475_13",
+    "status": "quarantine_inconsistent_transcription",
+    "note": "与旧悬赏相近，但地主JJ及顶家KK等使文本转录和总张数不一致，未补全。"
+  },
+  {
+    "url": "https://game.xiaomi.com/viewpoint/1359077112_1674875558284_100",
+    "status": "quarantine_inconsistent_later_moves",
+    "note": "给定上家牌没有A，正文立即出A；未用作来源。"
+  },
+  {
+    "url": "https://game.xiaomi.com/viewpoint/1359077112_1656406828196_13",
+    "status": "quarantine_ambiguous_text",
+    "note": "地主牌面出现40等转录异常，未从后文臆测补牌。"
+  },
+  {
+    "url": "https://game.xiaomi.com/viewpoint/1359077112_1658457296899_9",
+    "status": "excluded_missing_third_hand",
+    "note": "原文明说下家暂不算，不是完整三人牌。"
+  },
+  {
+    "url": "https://patents.google.com/patent/CN111569429B/zh",
+    "status": "not_extracted",
+    "note": "搜索结果命中完整手牌串，但打开正文未能定位对应原文，未根据搜索片段录入。"
+  }
+]

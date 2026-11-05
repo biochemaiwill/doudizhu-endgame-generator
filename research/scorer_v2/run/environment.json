@@ -1,0 +1,30 @@
+{
+  "python": "3.11.15 (main, Jun 11 2026, 15:20:16) [GCC 14.3.0]",
+  "numpy": "1.26.4",
+  "torch": "2.5.1+cu121",
+  "sklearn": "1.9.0",
+  "device": "cpu",
+  "threads": 1,
+  "seeds": [
+    17,
+    41,
+    73
+  ],
+  "support_seeds": [
+    101,
+    202,
+    303,
+    404,
+    505
+  ],
+  "epochs": 400,
+  "patience": 50,
+  "rank_coefficient": 0.15,
+  "elapsed_seconds": 29.687721681781113,
+  "hashes": {
+    "dataset.jsonl": "ea842a68c2fd65e13d060679c3e1f8468764f8566e0c2bfff15aeb66dfa91978",
+    "split.json": "a4234042ba6ceabc8290d0a6b17e6ed00158a2c9f96ff52383621e6b2d469836",
+    "models.py": "4ebb59ffa21a264ae23a3c9ce72c6797456e440db6a00d4be700b2136e48f95a",
+    "data.py": "a09b0aac2db1b1f70758487cfeb557df623b312112d10f4bbe4cfcfb4adaab0b"
+  }
+}

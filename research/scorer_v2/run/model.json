@@ -1,0 +1,74 @@
+{
+  "selected_name": "mixture/old100_balanced/ridge_counts_1_finish_gate/prior0.25",
+  "spec": {
+    "kind": "weighted_ensemble",
+    "members": [
+      {
+        "weight": 0.75,
+        "model": {
+          "kind": "builtin",
+          "artifact": {
+            "kind": "finish_gate",
+            "base": {
+              "kind": "ridge",
+              "features": "counts",
+              "mean": [
+                4.87,
+                4.16,
+                4.26
+              ],
+              "scale": [
+                2.6482258211867045,
+                2.257077756746541,
+                2.696738771182704
+              ],
+              "coef": [
+                [
+                  0.5245713591575623,
+                  0.28964245319366455,
+                  0.32423996925354004
+                ],
+                [
+                  0.5276781916618347,
+                  0.28231707215309143,
+                  0.32370907068252563
+                ],
+                [
+                  0.5359519124031067,
+                  0.3270270824432373,
+                  0.3294130563735962
+                ]
+              ],
+              "intercept": [
+                2.1112558841705322,
+                2.124847412109375,
+                2.016350746154785
+              ],
+              "alpha": 1.0
+            }
+          }
+        }
+      },
+      {
+        "weight": 0.25,
+        "model": {
+          "kind": "tabpfn_external",
+          "features": "structured",
+          "finish_gate": true,
+          "checkpoint_sha256": "2ab5a07d5c41dfe6db9aa7ae106fc6de898326c2765be66505a07e2868c10736"
+        }
+      }
+    ]
+  },
+  "supported_grades": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "unsupported_grades": [
+    5
+  ],
+  "human_calibrated": false,
+  "ready_for_generation_reward": false
+}

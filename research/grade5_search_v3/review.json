@@ -1,0 +1,24 @@
+[
+  {
+    "origin_id": "baidu-20131104-bounty-prefix-2",
+    "estimated_overall": 3,
+    "estimated_reasoning_depth": 3,
+    "estimated_move_concealment": 3,
+    "reason": "面临6必须拆88出8，保留另一张8组成8至K顺子；直接9或更大单牌破坏后续结构。关键是接牌保型，未见明显超出3分的多层依赖。",
+    "caveat": "来源原始三家合计53张，不假补缺牌。只把给定剩余牌和合法前缀定义为合成数学局面，不能称完整真实原局。"
+  },
+  {
+    "origin_id": "baidu-20131104-last-deal-prefix-93",
+    "estimated_overall": 3,
+    "estimated_reasoning_depth": 3,
+    "estimated_move_concealment": 3,
+    "reason": "只有先4能赢，先JJ会让KK接管，先10或J使后续单牌失控；需先处理最小单张并保留对子，未达到5分。"
+  },
+  {
+    "origin_id": "xiaomi-20220826-prefix-118",
+    "estimated_overall": 2,
+    "estimated_reasoning_depth": 2,
+    "estimated_move_concealment": 2,
+    "reason": "先4或9并保留66及2；先对子会被AA接走。常见留对子与控制牌次序，不能因三人应对变多而标5。"
+  }
+]

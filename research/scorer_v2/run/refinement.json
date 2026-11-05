@@ -1,0 +1,19 @@
+{
+  "kind": "validation_driven_second_stage",
+  "test_not_read": true,
+  "rule": "legal immediate finish implies all three rubric scores=1; no solver",
+  "fixed_ensemble_weights": [
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      1,
+      2
+    ]
+  ]
+}

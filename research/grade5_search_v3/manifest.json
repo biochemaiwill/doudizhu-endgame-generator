@@ -1,0 +1,25 @@
+{
+  "seed": 2026110513,
+  "elapsed": 33.76008095871657,
+  "python": "3.10.12 (main, Mar  3 2026, 11:56:32) [GCC 11.4.0]",
+  "platform": "Linux-5.15.0-91-generic-x86_64-with-glibc2.35",
+  "status_counts": {
+    "unknown_budget": 4,
+    "not_narrow": 67,
+    "losing": 48,
+    "verified_unlabeled": 3
+  },
+  "grade5_confirmed": 0,
+  "labels_status": "None inferred; requires human-style rubric review",
+  "command": "python3 research/grade5_search_v3/search.py",
+  "retrieved_on": "2026-11-05",
+  "sha256": {
+    "source-inputs.json": "e4a4455d692ad7beb04c0ac4858eb1c760f561f5ae5231b18fc199ed9f10693b",
+    "verified-candidates.json": "4361187b0b687b4b1e00a1363c2b01154be4c2143e75b15ce23d4e42d9ea2ff2",
+    "review.json": "4b41867fb6d33a93c510f6e05a7b8e1858544799eacb6f0f5e8bb89cd7964bbd",
+    "validation.json": "c2ae7eee7c0c8c51a24ee471e96558195c8b12022f201997e22cab12d37a26ff"
+  },
+  "three_way_candidates": 3,
+  "human_calibrated": false,
+  "training_changed": false
+}
