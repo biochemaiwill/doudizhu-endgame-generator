@@ -1,0 +1,18 @@
+{
+  "seed": 2026110520,
+  "counts": {
+    "losing": 277,
+    "not_narrow": 478,
+    "immediate_win": 6,
+    "verified": 30,
+    "unknown_budget": 13,
+    "simple_filters": 5
+  },
+  "accepted": 30,
+  "seconds": 58.44900381844491,
+  "python": "3.10.12 (main, Mar  3 2026, 11:56:32) [GCC 11.4.0]",
+  "platform": "Linux-5.15.0-91-generic-x86_64-with-glibc2.35",
+  "max_attempts": 6000,
+  "wall_budget_seconds": 480,
+  "filters": "narrow nontrivial; NOT difficulty labels"
+}

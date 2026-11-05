@@ -24,3 +24,5 @@
 - [合并153题训练与模型比较](research/scorer_v2/README.md)（题族/配对隔离；含离线分享构建脚本）
 
 - [第三批29题、严格反事实配对与注意力架构调研](research/expansion_v3/README.md)（总计182题，旧模型冻结）
+
+- [CE四分类与90%目标验收状态](research/scorer_v6/FINAL_REPORT.md)（当前未达标，不以开发CV冒充新测试）

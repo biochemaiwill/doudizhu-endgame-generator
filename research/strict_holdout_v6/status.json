@@ -1,0 +1,12 @@
+{
+  "status": "incomplete_not_acceptance_test",
+  "candidate_count": 30,
+  "label_status": "blind_provisional_completed",
+  "grade4_families_certified": 0,
+  "reason": "Only grades2/3 represented; not a four-class acceptance test. No filtering by model predictions.",
+  "prior_keys_excluded": 3216,
+  "distribution": {
+    "2": 14,
+    "3": 16
+  }
+}

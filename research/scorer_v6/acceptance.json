@@ -1,0 +1,10 @@
+{
+  "requested_accuracy": 0.9,
+  "criterion": "unseen family/pair isolated four-class test accuracy",
+  "achieved": false,
+  "best_development_cv_accuracy": 0.5864168979340117,
+  "best_development_candidate": "TabPFN v2 classifier base143",
+  "strict_test_evaluated": false,
+  "strict_test_status": "missing grade1 and grade4 coverage",
+  "new_desktop_files": false
+}

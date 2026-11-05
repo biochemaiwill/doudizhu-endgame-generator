@@ -1,0 +1,16 @@
+{
+  "all30_root_choices_reviewed": true,
+  "additional_response_queries": [
+    "0206",
+    "0280",
+    "0349",
+    "0536",
+    "0670",
+    "0835",
+    "0898",
+    "0922"
+  ],
+  "model_predictions_accessed": false,
+  "labels_blind": true,
+  "full_four_class_coverage": false
+}
