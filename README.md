@@ -2,7 +2,9 @@
 
 三人明牌必胜残局与人类推理难度评估研究。
 
-当前阶段：完成100题试标、评分器基线及1—4分均衡few-shot开发实验；尚未训练生成器。
+当前阶段：研究暂停，334题及全部对照结果已整理，90%目标未达。
+
+接手请先读 [HANDOFF.md](HANDOFF.md)，完整产物见 [最终Release](https://github.com/biochemaiwill/doudizhu-endgame-generator/releases/tag/final-handoff-20261105)。
 
 - [数据调研报告](docs/data-research-2026-11-05.md)
 - [来源版本元数据](docs/source-versions.json)
