@@ -1,0 +1,38 @@
+{
+  "rows": 7,
+  "grades": {
+    "4": 6,
+    "3": 1
+  },
+  "checks": [
+    {
+      "id": "G4V5-01",
+      "three_way_root_outcomes": "pass"
+    },
+    {
+      "id": "G4V5-02",
+      "three_way_root_outcomes": "pass"
+    },
+    {
+      "id": "G4V5-03",
+      "three_way_root_outcomes": "pass"
+    },
+    {
+      "id": "G4V5-04",
+      "three_way_root_outcomes": "pass"
+    },
+    {
+      "id": "G4V5-05",
+      "three_way_root_outcomes": "pass"
+    },
+    {
+      "id": "G4V5-06",
+      "three_way_root_outcomes": "pass"
+    },
+    {
+      "id": "G4V5-07",
+      "three_way_root_outcomes": "pass"
+    }
+  ],
+  "sha256": "2db02b80765b2a08d3ef1c2c2cd8a50033a5764e2d8b7b2e7262a586c52ea87b"
+}

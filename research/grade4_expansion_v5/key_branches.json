@@ -1,0 +1,483 @@
+[
+  {
+    "origin_id": "EX208-s1-4to3",
+    "first": "9",
+    "branches": [
+      {
+        "response": "过",
+        "next_player": 2,
+        "next_moves": [
+          {
+            "cards": [],
+            "move": "过",
+            "type": 0,
+            "mover_wins": false
+          },
+          {
+            "cards": [
+              17
+            ],
+            "move": "大王",
+            "type": 1,
+            "mover_wins": false
+          }
+        ]
+      },
+      {
+        "response": "10",
+        "next_player": 2,
+        "next_moves": [
+          {
+            "cards": [],
+            "move": "过",
+            "type": 0,
+            "mover_wins": false
+          },
+          {
+            "cards": [
+              17
+            ],
+            "move": "大王",
+            "type": 1,
+            "mover_wins": false
+          }
+        ]
+      },
+      {
+        "response": "K",
+        "next_player": 2,
+        "next_moves": [
+          {
+            "cards": [],
+            "move": "过",
+            "type": 0,
+            "mover_wins": false
+          },
+          {
+            "cards": [
+              17
+            ],
+            "move": "大王",
+            "type": 1,
+            "mover_wins": false
+          }
+        ]
+      },
+      {
+        "response": "A",
+        "next_player": 2,
+        "next_moves": [
+          {
+            "cards": [],
+            "move": "过",
+            "type": 0,
+            "mover_wins": false
+          },
+          {
+            "cards": [
+              17
+            ],
+            "move": "大王",
+            "type": 1,
+            "mover_wins": false
+          }
+        ]
+      }
+    ],
+    "label_status": "awaiting human-difficulty review"
+  },
+  {
+    "origin_id": "EX208-s1-5to6",
+    "first": "9",
+    "branches": [
+      {
+        "response": "过",
+        "next_player": 2,
+        "next_moves": [
+          {
+            "cards": [],
+            "move": "过",
+            "type": 0,
+            "mover_wins": false
+          },
+          {
+            "cards": [
+              17
+            ],
+            "move": "大王",
+            "type": 1,
+            "mover_wins": false
+          }
+        ]
+      },
+      {
+        "response": "10",
+        "next_player": 2,
+        "next_moves": [
+          {
+            "cards": [],
+            "move": "过",
+            "type": 0,
+            "mover_wins": false
+          },
+          {
+            "cards": [
+              17
+            ],
+            "move": "大王",
+            "type": 1,
+            "mover_wins": false
+          }
+        ]
+      },
+      {
+        "response": "K",
+        "next_player": 2,
+        "next_moves": [
+          {
+            "cards": [],
+            "move": "过",
+            "type": 0,
+            "mover_wins": false
+          },
+          {
+            "cards": [
+              17
+            ],
+            "move": "大王",
+            "type": 1,
+            "mover_wins": false
+          }
+        ]
+      },
+      {
+        "response": "A",
+        "next_player": 2,
+        "next_moves": [
+          {
+            "cards": [],
+            "move": "过",
+            "type": 0,
+            "mover_wins": false
+          },
+          {
+            "cards": [
+              17
+            ],
+            "move": "大王",
+            "type": 1,
+            "mover_wins": false
+          }
+        ]
+      }
+    ],
+    "label_status": "awaiting human-difficulty review"
+  },
+  {
+    "origin_id": "EX220-s0-8to6",
+    "first": "9",
+    "branches": [
+      {
+        "response": "过",
+        "next_player": 1,
+        "next_moves": [
+          {
+            "cards": [],
+            "move": "过",
+            "type": 0,
+            "mover_wins": false
+          },
+          {
+            "cards": [
+              11
+            ],
+            "move": "J",
+            "type": 1,
+            "mover_wins": true
+          },
+          {
+            "cards": [
+              12
+            ],
+            "move": "Q",
+            "type": 1,
+            "mover_wins": true
+          },
+          {
+            "cards": [
+              15
+            ],
+            "move": "2",
+            "type": 1,
+            "mover_wins": false
+          }
+        ]
+      },
+      {
+        "response": "Q",
+        "next_player": 1,
+        "next_moves": [
+          {
+            "cards": [],
+            "move": "过",
+            "type": 0,
+            "mover_wins": true
+          },
+          {
+            "cards": [
+              15
+            ],
+            "move": "2",
+            "type": 1,
+            "mover_wins": true
+          }
+        ]
+      },
+      {
+        "response": "大王",
+        "next_player": 1,
+        "next_moves": [
+          {
+            "cards": [],
+            "move": "过",
+            "type": 0,
+            "mover_wins": true
+          }
+        ]
+      }
+    ],
+    "label_status": "awaiting human-difficulty review"
+  },
+  {
+    "origin_id": "EX220-s1-4to3",
+    "first": "9",
+    "branches": [
+      {
+        "response": "过",
+        "next_player": 1,
+        "next_moves": [
+          {
+            "cards": [],
+            "move": "过",
+            "type": 0,
+            "mover_wins": false
+          },
+          {
+            "cards": [
+              11
+            ],
+            "move": "J",
+            "type": 1,
+            "mover_wins": true
+          },
+          {
+            "cards": [
+              12
+            ],
+            "move": "Q",
+            "type": 1,
+            "mover_wins": true
+          },
+          {
+            "cards": [
+              15
+            ],
+            "move": "2",
+            "type": 1,
+            "mover_wins": false
+          }
+        ]
+      },
+      {
+        "response": "Q",
+        "next_player": 1,
+        "next_moves": [
+          {
+            "cards": [],
+            "move": "过",
+            "type": 0,
+            "mover_wins": true
+          },
+          {
+            "cards": [
+              15
+            ],
+            "move": "2",
+            "type": 1,
+            "mover_wins": true
+          }
+        ]
+      },
+      {
+        "response": "大王",
+        "next_player": 1,
+        "next_moves": [
+          {
+            "cards": [],
+            "move": "过",
+            "type": 0,
+            "mover_wins": true
+          }
+        ]
+      }
+    ],
+    "label_status": "awaiting human-difficulty review"
+  },
+  {
+    "origin_id": "EX220-s2-4to3",
+    "first": "9",
+    "branches": [
+      {
+        "response": "过",
+        "next_player": 1,
+        "next_moves": [
+          {
+            "cards": [],
+            "move": "过",
+            "type": 0,
+            "mover_wins": false
+          },
+          {
+            "cards": [
+              11
+            ],
+            "move": "J",
+            "type": 1,
+            "mover_wins": true
+          },
+          {
+            "cards": [
+              12
+            ],
+            "move": "Q",
+            "type": 1,
+            "mover_wins": true
+          },
+          {
+            "cards": [
+              15
+            ],
+            "move": "2",
+            "type": 1,
+            "mover_wins": false
+          }
+        ]
+      },
+      {
+        "response": "Q",
+        "next_player": 1,
+        "next_moves": [
+          {
+            "cards": [],
+            "move": "过",
+            "type": 0,
+            "mover_wins": true
+          },
+          {
+            "cards": [
+              15
+            ],
+            "move": "2",
+            "type": 1,
+            "mover_wins": true
+          }
+        ]
+      },
+      {
+        "response": "大王",
+        "next_player": 1,
+        "next_moves": [
+          {
+            "cards": [],
+            "move": "过",
+            "type": 0,
+            "mover_wins": true
+          }
+        ]
+      }
+    ],
+    "label_status": "awaiting human-difficulty review"
+  },
+  {
+    "origin_id": "DZ098-s2-3to6",
+    "first": "10 10 10",
+    "branches": [
+      {
+        "response": "过",
+        "next_player": 1,
+        "next_moves": [
+          {
+            "cards": [],
+            "move": "过",
+            "type": 0,
+            "mover_wins": false
+          },
+          {
+            "cards": [
+              11,
+              11,
+              11
+            ],
+            "move": "J J J",
+            "type": 3,
+            "mover_wins": true
+          }
+        ]
+      },
+      {
+        "response": "2 2 2",
+        "next_player": 1,
+        "next_moves": [
+          {
+            "cards": [],
+            "move": "过",
+            "type": 0,
+            "mover_wins": true
+          }
+        ]
+      }
+    ],
+    "label_status": "awaiting human-difficulty review"
+  },
+  {
+    "origin_id": "DZ098-s2-4to7",
+    "first": "10 10 10",
+    "branches": [
+      {
+        "response": "过",
+        "next_player": 1,
+        "next_moves": [
+          {
+            "cards": [],
+            "move": "过",
+            "type": 0,
+            "mover_wins": false
+          },
+          {
+            "cards": [
+              11,
+              11,
+              11
+            ],
+            "move": "J J J",
+            "type": 3,
+            "mover_wins": true
+          }
+        ]
+      },
+      {
+        "response": "2 2 2",
+        "next_player": 1,
+        "next_moves": [
+          {
+            "cards": [],
+            "move": "过",
+            "type": 0,
+            "mover_wins": true
+          }
+        ]
+      }
+    ],
+    "label_status": "awaiting human-difficulty review"
+  }
+]
