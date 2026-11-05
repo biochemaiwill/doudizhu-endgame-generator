@@ -1,0 +1,5 @@
+{
+  "name": "mlp_balanced",
+  "criterion": "expanded development CV accuracy then macro recall; fixed three-config comparison",
+  "strict_test_evaluated": false
+}

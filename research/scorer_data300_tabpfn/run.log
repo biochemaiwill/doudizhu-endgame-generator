@@ -1,0 +1,25 @@
+/home/wutianxiang/doudizhu-endgame-generator/research/scorer_v2_prior_trial/runtime/tabpfn/classifier.py:432: UserWarning: Running on CPU with more than 200 samples may be slow.
+Consider using a GPU or the tabpfn-client API: https://github.com/PriorLabs/tabpfn-client
+  check_cpu_warning(
+17 0 0.3829787234042553
+/home/wutianxiang/doudizhu-endgame-generator/research/scorer_v2_prior_trial/runtime/tabpfn/classifier.py:432: UserWarning: Running on CPU with more than 200 samples may be slow.
+Consider using a GPU or the tabpfn-client API: https://github.com/PriorLabs/tabpfn-client
+  check_cpu_warning(
+17 1 0.391304347826087
+/home/wutianxiang/doudizhu-endgame-generator/research/scorer_v2_prior_trial/runtime/tabpfn/classifier.py:432: UserWarning: Running on CPU with more than 200 samples may be slow.
+Consider using a GPU or the tabpfn-client API: https://github.com/PriorLabs/tabpfn-client
+  check_cpu_warning(
+17 2 0.391304347826087
+/home/wutianxiang/doudizhu-endgame-generator/research/scorer_v2_prior_trial/runtime/tabpfn/classifier.py:432: UserWarning: Running on CPU with more than 200 samples may be slow.
+Consider using a GPU or the tabpfn-client API: https://github.com/PriorLabs/tabpfn-client
+  check_cpu_warning(
+73 0 0.3617021276595745
+/home/wutianxiang/doudizhu-endgame-generator/research/scorer_v2_prior_trial/runtime/tabpfn/classifier.py:432: UserWarning: Running on CPU with more than 200 samples may be slow.
+Consider using a GPU or the tabpfn-client API: https://github.com/PriorLabs/tabpfn-client
+  check_cpu_warning(
+73 1 0.41304347826086957
+/home/wutianxiang/doudizhu-endgame-generator/research/scorer_v2_prior_trial/runtime/tabpfn/classifier.py:432: UserWarning: Running on CPU with more than 200 samples may be slow.
+Consider using a GPU or the tabpfn-client API: https://github.com/PriorLabs/tabpfn-client
+  check_cpu_warning(
+73 2 0.41304347826086957
+DONE 0.3922294172062905 -0.19418748072772124 [0.7407407407407406, 0.8568376068376068, 0.008771929824561403, 0.0]

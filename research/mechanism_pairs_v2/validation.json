@@ -1,0 +1,8 @@
+{
+  "rows": 6,
+  "pairs": 3,
+  "three_way_root_checked": true,
+  "legal_positive_and_negative_terminal_replay": true,
+  "human_calibrated": false,
+  "sha256": "4a5f5dc4d511b3c464ccd95621ace7d860a339dbb7e3bb23109e1a7e63385031"
+}

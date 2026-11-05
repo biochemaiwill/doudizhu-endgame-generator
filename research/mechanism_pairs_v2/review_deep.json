@@ -1,0 +1,76 @@
+{
+  "status": "independent_assistant_provisional_review",
+  "not_human_calibrated": true,
+  "checked": "read full root outcomes/PV/traps and recomputed first 10 selected continuation decisions; review_branch_checks.json",
+  "reject_initial_six_as_hard_easy_dataset": {
+    "0204": "Same winning root choices, ordinary keep-a-joker mechanism; no demonstrated difficulty gap.",
+    "0442": "QQQ+10 or QQQ+J leaves one single, opponents lack larger triple; only a short obvious two-move plan. Do not call it 3 merely for narrow roots. Both sides about 2 or lower.",
+    "1063": "555+3 or 555+4 leaves one single with no higher triple available; not convincing 3 versus2.",
+    "1393": "A then2 thenTT is conventional low-to-high control; both sides about2.",
+    "1775": "Both sides need split66/retain small joker; change did not clearly remove the mechanism.",
+    "2319_initial": "K/A remain identical winning root choices; initial swap did not demonstrate simplification."
+  },
+  "deep_candidates": [
+    {
+      "origin_id": "S2026110513-1603",
+      "recommend": "retain",
+      "hard": [
+        3,
+        3,
+        3
+      ],
+      "easy": [
+        2,
+        2,
+        2
+      ],
+      "reason": "唯一先8；两家过后AA仍败，33或小王可赢，需要保留高对与控制、应对农民JJ/444结构。大王置换后的对照可从33/AA等常见组合开始，降低次序约束。",
+      "uncertainty": "3/2 is provisional; do not infer grade from number of losing alternatives alone."
+    },
+    {
+      "origin_id": "S2026110513-1975",
+      "recommend": "reject_gap",
+      "hard": [
+        2,
+        2,
+        2
+      ],
+      "easy": [
+        2,
+        2,
+        2
+      ],
+      "reason": "先4/5保留AA与小王是常规先清低单；多个critical节点并未增加新的推理机制，不应按数量抬3。"
+    },
+    {
+      "origin_id": "S2026110513-2319",
+      "recommend": "retain",
+      "hard": [
+        3,
+        3,
+        3
+      ],
+      "easy": [
+        2,
+        2,
+        2
+      ],
+      "reason": "面对8必须K或A，J/Q/过败；之后QQQ带55败而带8/J可赢，后续需保留55整体。新对照将大王交给队友，放宽接牌约束。"
+    },
+    {
+      "origin_id": "S2026110513-3580",
+      "recommend": "retain",
+      "hard": [
+        3,
+        3,
+        3
+      ],
+      "easy": [
+        2,
+        2,
+        2
+      ],
+      "reason": "先拆AA出A，两家过后仍只能A，再两家过只能小王；其后队友面对小王必须过而非大王，最后88收尾。先88/AA均让地主对子/四带结构接管。对照移除地主6666结构后约束明显放宽。"
+    }
+  ]
+}

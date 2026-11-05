@@ -1,0 +1,375 @@
+[
+  {
+    "hard_origin": "53shop-20230822-landlord",
+    "easy_origin": "53shop-20230822-landlord-count-control",
+    "counts": [
+      11,
+      2,
+      11
+    ],
+    "turn": 0,
+    "kind": "engineered_exact_per_seat_counts",
+    "same_card_multiset": false,
+    "split_group": "source-53shop-20230822",
+    "id": "PAIR01",
+    "hard_id": "EX237",
+    "easy_id": "EX239",
+    "grade_gap": 3
+  },
+  {
+    "hard_origin": "S2026110507-0988",
+    "easy_origin": "S2026110507-0988-count-control",
+    "counts": [
+      6,
+      8,
+      4
+    ],
+    "turn": 0,
+    "kind": "engineered_exact_per_seat_counts",
+    "same_card_multiset": false,
+    "split_group": "synthetic-deal-2026110507-0988",
+    "id": "PAIR02",
+    "hard_id": "EX208",
+    "easy_id": "EX240",
+    "grade_gap": 3
+  },
+  {
+    "hard_origin": "S2026110507-2326",
+    "easy_origin": "S2026110507-2326-count-control",
+    "counts": [
+      5,
+      4,
+      7
+    ],
+    "turn": 2,
+    "kind": "engineered_exact_per_seat_counts",
+    "same_card_multiset": false,
+    "split_group": "synthetic-deal-2026110507-2326",
+    "id": "PAIR03",
+    "hard_id": "EX220",
+    "easy_id": "EX241",
+    "grade_gap": 3
+  },
+  {
+    "hard_origin": "S2026110507-0068",
+    "easy_origin": "S2026110507-0068-count-control",
+    "counts": [
+      5,
+      5,
+      6
+    ],
+    "turn": 0,
+    "kind": "engineered_exact_per_seat_counts",
+    "same_card_multiset": false,
+    "split_group": "synthetic-deal-2026110507-0068",
+    "id": "PAIR04",
+    "hard_id": "EX201",
+    "easy_id": "EX242",
+    "grade_gap": 2
+  },
+  {
+    "hard_origin": "S2026110507-0200",
+    "easy_origin": "S2026110507-0200-count-control",
+    "counts": [
+      8,
+      7,
+      5
+    ],
+    "turn": 0,
+    "kind": "engineered_exact_per_seat_counts",
+    "same_card_multiset": false,
+    "split_group": "synthetic-deal-2026110507-0200",
+    "id": "PAIR05",
+    "hard_id": "EX202",
+    "easy_id": "EX243",
+    "grade_gap": 2
+  },
+  {
+    "hard_origin": "S2026110507-0220",
+    "easy_origin": "S2026110507-0220-count-control",
+    "counts": [
+      8,
+      8,
+      5
+    ],
+    "turn": 2,
+    "kind": "engineered_exact_per_seat_counts",
+    "same_card_multiset": false,
+    "split_group": "synthetic-deal-2026110507-0220",
+    "id": "PAIR06",
+    "hard_id": "EX203",
+    "easy_id": "EX244",
+    "grade_gap": 2
+  },
+  {
+    "hard_origin": "S2026110507-0462",
+    "easy_origin": "S2026110507-0462-count-control",
+    "counts": [
+      8,
+      4,
+      5
+    ],
+    "turn": 2,
+    "kind": "engineered_exact_per_seat_counts",
+    "same_card_multiset": false,
+    "split_group": "synthetic-deal-2026110507-0462",
+    "id": "PAIR07",
+    "hard_id": "EX204",
+    "easy_id": "EX245",
+    "grade_gap": 2
+  },
+  {
+    "hard_origin": "S2026110507-0565",
+    "easy_origin": "S2026110507-0565-count-control",
+    "counts": [
+      7,
+      6,
+      5
+    ],
+    "turn": 2,
+    "kind": "engineered_exact_per_seat_counts",
+    "same_card_multiset": false,
+    "split_group": "synthetic-deal-2026110507-0565",
+    "id": "PAIR08",
+    "hard_id": "EX205",
+    "easy_id": "EX246",
+    "grade_gap": 2
+  },
+  {
+    "hard_origin": "S2026110507-0766",
+    "easy_origin": "S2026110507-0766-count-control",
+    "counts": [
+      6,
+      8,
+      5
+    ],
+    "turn": 0,
+    "kind": "engineered_exact_per_seat_counts",
+    "same_card_multiset": false,
+    "split_group": "synthetic-deal-2026110507-0766",
+    "id": "PAIR09",
+    "hard_id": "EX206",
+    "easy_id": "EX247",
+    "grade_gap": 2
+  },
+  {
+    "hard_origin": "S2026110507-0983",
+    "easy_origin": "S2026110507-0983-count-control",
+    "counts": [
+      6,
+      6,
+      4
+    ],
+    "turn": 0,
+    "kind": "engineered_exact_per_seat_counts",
+    "same_card_multiset": false,
+    "split_group": "synthetic-deal-2026110507-0983",
+    "id": "PAIR10",
+    "hard_id": "EX207",
+    "easy_id": "EX248",
+    "grade_gap": 2
+  },
+  {
+    "hard_origin": "S2026110507-1244",
+    "easy_origin": "S2026110507-1244-count-control",
+    "counts": [
+      8,
+      4,
+      6
+    ],
+    "turn": 1,
+    "kind": "engineered_exact_per_seat_counts",
+    "same_card_multiset": false,
+    "split_group": "synthetic-deal-2026110507-1244",
+    "id": "PAIR11",
+    "hard_id": "EX210",
+    "easy_id": "EX249",
+    "grade_gap": 2
+  },
+  {
+    "hard_origin": "S2026110507-1268",
+    "easy_origin": "S2026110507-1268-count-control",
+    "counts": [
+      5,
+      4,
+      6
+    ],
+    "turn": 2,
+    "kind": "engineered_exact_per_seat_counts",
+    "same_card_multiset": false,
+    "split_group": "synthetic-deal-2026110507-1268",
+    "id": "PAIR12",
+    "hard_id": "EX211",
+    "easy_id": "EX250",
+    "grade_gap": 2
+  },
+  {
+    "hard_origin": "S2026110507-1411",
+    "easy_origin": "S2026110507-1411-count-control",
+    "counts": [
+      6,
+      7,
+      8
+    ],
+    "turn": 0,
+    "kind": "engineered_exact_per_seat_counts",
+    "same_card_multiset": false,
+    "split_group": "synthetic-deal-2026110507-1411",
+    "id": "PAIR13",
+    "hard_id": "EX212",
+    "easy_id": "EX251",
+    "grade_gap": 2
+  },
+  {
+    "hard_origin": "S2026110507-1621",
+    "easy_origin": "S2026110507-1621-count-control",
+    "counts": [
+      5,
+      7,
+      5
+    ],
+    "turn": 1,
+    "kind": "engineered_exact_per_seat_counts",
+    "same_card_multiset": false,
+    "split_group": "synthetic-deal-2026110507-1621",
+    "id": "PAIR14",
+    "hard_id": "EX213",
+    "easy_id": "EX252",
+    "grade_gap": 2
+  },
+  {
+    "hard_origin": "S2026110507-1652",
+    "easy_origin": "S2026110507-1652-count-control",
+    "counts": [
+      6,
+      8,
+      5
+    ],
+    "turn": 2,
+    "kind": "engineered_exact_per_seat_counts",
+    "same_card_multiset": false,
+    "split_group": "synthetic-deal-2026110507-1652",
+    "id": "PAIR15",
+    "hard_id": "EX214",
+    "easy_id": "EX253",
+    "grade_gap": 2
+  },
+  {
+    "id": "CF001",
+    "hard_id": "DZ098",
+    "easy_id": "NX319",
+    "same_per_seat_counts": true,
+    "same_rank_multiset": true,
+    "no_immediate_finish": true,
+    "grade_gap": 2,
+    "family": "gamersky-201411-487845",
+    "prior_parent_split": "train"
+  },
+  {
+    "id": "CF002",
+    "hard_id": "DZ099",
+    "easy_id": "NX320",
+    "same_per_seat_counts": true,
+    "same_rank_multiset": true,
+    "no_immediate_finish": true,
+    "grade_gap": 2,
+    "family": "gamersky-201411-487845",
+    "prior_parent_split": "train"
+  },
+  {
+    "id": "CF003",
+    "hard_id": "EX203",
+    "easy_id": "NX321",
+    "same_per_seat_counts": true,
+    "same_rank_multiset": true,
+    "no_immediate_finish": true,
+    "grade_gap": 1,
+    "family": "synthetic-deal-2026110507-0220",
+    "prior_parent_split": "train"
+  },
+  {
+    "id": "CF004",
+    "hard_id": "EX208",
+    "easy_id": "NX322",
+    "same_per_seat_counts": true,
+    "same_rank_multiset": true,
+    "no_immediate_finish": true,
+    "grade_gap": 2,
+    "family": "synthetic-deal-2026110507-0988",
+    "prior_parent_split": "val"
+  },
+  {
+    "id": "CF005",
+    "hard_id": "EX211",
+    "easy_id": "NX323",
+    "same_per_seat_counts": true,
+    "same_rank_multiset": true,
+    "no_immediate_finish": true,
+    "grade_gap": 1,
+    "family": "synthetic-deal-2026110507-1268",
+    "prior_parent_split": "train"
+  },
+  {
+    "id": "CF006",
+    "hard_id": "EX220",
+    "easy_id": "NX324",
+    "same_per_seat_counts": true,
+    "same_rank_multiset": true,
+    "no_immediate_finish": true,
+    "grade_gap": 2,
+    "family": "synthetic-deal-2026110507-2326",
+    "prior_parent_split": "test"
+  },
+  {
+    "id": "CF007",
+    "hard_id": "EX222",
+    "easy_id": "NX325",
+    "same_per_seat_counts": true,
+    "same_rank_multiset": true,
+    "no_immediate_finish": true,
+    "grade_gap": 1,
+    "family": "synthetic-deal-2026110507-2441",
+    "prior_parent_split": "test"
+  },
+  {
+    "id": "CF008",
+    "hard_id": "EX225",
+    "easy_id": "NX326",
+    "same_per_seat_counts": true,
+    "same_rank_multiset": true,
+    "no_immediate_finish": true,
+    "grade_gap": 1,
+    "family": "synthetic-deal-2026110507-2699",
+    "prior_parent_split": "test"
+  },
+  {
+    "id": "CF009",
+    "hard_id": "NX301",
+    "easy_id": "NX328",
+    "same_per_seat_counts": true,
+    "same_rank_multiset": true,
+    "no_immediate_finish": true,
+    "grade_gap": 1,
+    "family": "xiaomi-20220826",
+    "prior_parent_split": null
+  },
+  {
+    "id": "CARRY",
+    "mechanism": "带牌选择",
+    "hard_id": "NX313",
+    "easy_id": "MPNEW001",
+    "hard_grade": 3,
+    "easy_grade": 2,
+    "same_counts": true,
+    "same_global_rank_multiset": true,
+    "both_require_multiple_moves": true,
+    "family": "synthetic-deal-2026110513-0946",
+    "difficulty_status": "assistant_estimate_not_human_validated"
+  },
+  {
+    "id": "MP2P04",
+    "hard_id": "MP2-04-hard",
+    "easy_id": "MP2-04-easy",
+    "mechanism": "拆高对与连续控制"
+  }
+]

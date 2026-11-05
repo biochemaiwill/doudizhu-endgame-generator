@@ -1,0 +1,22 @@
+{
+  "candidate_pool.json": {
+    "sha256_uncompressed": "a03163eb1187ddd54640cbb2403278c1160d1c060b2d44dc2649e214f0060ce0",
+    "original_bytes": 1744629,
+    "compressed_bytes": 53124
+  },
+  "slice0.json": {
+    "sha256_uncompressed": "7e7e0c4659ddd447e62173055fb8435f2493b26f534477ddceeccac5ec311ee8",
+    "original_bytes": 558819,
+    "compressed_bytes": 17917
+  },
+  "slice1.json": {
+    "sha256_uncompressed": "b6cf2863b773abe88a9733613fd9870223e884b6ea781b8543d978c4220af2db",
+    "original_bytes": 596437,
+    "compressed_bytes": 18074
+  },
+  "slice2.json": {
+    "sha256_uncompressed": "130a4e2ffedd62d9fe4f5c0f7516ced5ea8c235e572e85c539672664373e89fe",
+    "original_bytes": 589377,
+    "compressed_bytes": 18763
+  }
+}

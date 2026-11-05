@@ -1,0 +1,68 @@
+[
+  {
+    "origin_id": "S2026110513-2344",
+    "overall": null,
+    "reasoning_depth": null,
+    "move_concealment": null,
+    "reason": "先8或10保留22与小王而非先66；Solver显示队友接10、J或过均可胜、接2却失败，存在接力和控制依赖。当前仅展开首个回应层，尚未归纳后续各防守分支的最小推理链，拒绝猜测2/3边界。",
+    "mechanism": "复杂控制时序待复核",
+    "evidence_note": "已核读手牌、当前桌面与过牌状态、全部根着胜负、PV和反例；理由注明Solver的条目另核对胜着后全部立即回应。此为独立合成题弱标，机器胜负不等于难度验证。",
+    "review_status": "rejected",
+    "human_calibrated": false
+  },
+  {
+    "origin_id": "S2026110513-2393",
+    "overall": null,
+    "reasoning_depth": null,
+    "move_concealment": null,
+    "reason": "先4或拆8可胜而先88、1010或火箭均败，涉及双王与多组对子控制。Solver证实先4后的6、8、2及过均失败，但尚未比较这些应对后的关键回手差异，难度暂不落分。",
+    "mechanism": "复杂控制时序待复核",
+    "evidence_note": "已核读手牌、当前桌面与过牌状态、全部根着胜负、PV和反例；理由注明Solver的条目另核对胜着后全部立即回应。此为独立合成题弱标，机器胜负不等于难度验证。",
+    "review_status": "rejected",
+    "human_calibrated": false
+  },
+  {
+    "origin_id": "S2026110513-2671",
+    "overall": null,
+    "reasoning_depth": null,
+    "move_concealment": null,
+    "reason": "先7或J可胜而先44、拆4或火箭均败；Solver已验证先7后J、2及过牌均失败。双王控制与44出手时机存在依赖，单层胜负尚不足以判断需要几个有意义决策，拒绝给高分或草率降分。",
+    "mechanism": "复杂控制时序待复核",
+    "evidence_note": "已核读手牌、当前桌面与过牌状态、全部根着胜负、PV和反例；理由注明Solver的条目另核对胜着后全部立即回应。此为独立合成题弱标，机器胜负不等于难度验证。",
+    "review_status": "rejected",
+    "human_calibrated": false
+  },
+  {
+    "origin_id": "S2026110513-2900",
+    "overall": null,
+    "reasoning_depth": null,
+    "move_concealment": null,
+    "reason": "KKK带7或先33可胜，三带二的两种附件选择均败；核心涉及保留小对子与移除单7。Solver只展开带7后的强制过牌，火箭是否使用及后续33回应未展开成完整证据链，拒绝难度评分。",
+    "mechanism": "复杂控制时序待复核",
+    "evidence_note": "已核读手牌、当前桌面与过牌状态、全部根着胜负、PV和反例；理由注明Solver的条目另核对胜着后全部立即回应。此为独立合成题弱标，机器胜负不等于难度验证。",
+    "review_status": "rejected",
+    "human_calibrated": false
+  },
+  {
+    "origin_id": "S2026110513-3580",
+    "overall": null,
+    "reasoning_depth": null,
+    "move_concealment": null,
+    "reason": "必须拆A且保留88及小王，先对子均败；Solver确认A后2、炸弹或过牌均无法翻盘。涉及炸弹四带二与后续连续出A的控制关系，当前未充分归纳各回应分支，拒绝难度评分。",
+    "mechanism": "复杂控制时序待复核",
+    "evidence_note": "已核读手牌、当前桌面与过牌状态、全部根着胜负、PV和反例；理由注明Solver的条目另核对胜着后全部立即回应。此为独立合成题弱标，机器胜负不等于难度验证。",
+    "review_status": "rejected",
+    "human_calibrated": false
+  },
+  {
+    "origin_id": "S2026110513-3670",
+    "overall": null,
+    "reasoning_depth": null,
+    "move_concealment": null,
+    "reason": "先44或K可胜，直接四带二与先炸弹均败；Solver确认44后1010、KK、AA或过牌均失败。保留7777应对火箭及单K的时序尚未形成完整人工解释，拒绝难度评分。",
+    "mechanism": "复杂控制时序待复核",
+    "evidence_note": "已核读手牌、当前桌面与过牌状态、全部根着胜负、PV和反例；理由注明Solver的条目另核对胜着后全部立即回应。此为独立合成题弱标，机器胜负不等于难度验证。",
+    "review_status": "rejected",
+    "human_calibrated": false
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "old_rows": 190,
+  "new_rows": 144,
+  "merged_rows": 334,
+  "distribution": {
+    "1": 76,
+    "2": 175,
+    "3": 69,
+    "4": 14
+  },
+  "conflicts_quarantined": 2,
+  "rejected_reviews": 6,
+  "rescued_reviews": 1,
+  "pairs": 26,
+  "human_calibrated": false,
+  "newly_reviewed_three_way": 140,
+  "sha256": "c8d107007c9ea6ca3a05416a31b4f56b92996820aa22ef7699377fd75ac133e0"
+}

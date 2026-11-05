@@ -1,0 +1,8 @@
+{
+  "same_frozen_val_ids": true,
+  "same_shared_expanded_train_ids": true,
+  "probabilities_finite_normalized": true,
+  "argmax_matches": true,
+  "dataset_hash_matches": true,
+  "strict_holdout_read": false
+}

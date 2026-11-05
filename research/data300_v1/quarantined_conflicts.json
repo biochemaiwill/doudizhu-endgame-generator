@@ -1,0 +1,165 @@
+[
+  {
+    "origin_id": "S2026110513-1603",
+    "key": "7776f5f2a9a77fbac9d4104b39b1318bb17f001b4728867a67dfdf0be62c8b50",
+    "review_a": {
+      "overall": 2,
+      "reasoning_depth": 2,
+      "move_concealment": 2,
+      "reason": "先8清掉弱单并保留AA与小王；若大王抢先，可过牌后用AA接JJ，再用小王保住33的出牌机会。",
+      "mechanism": "先弱单保留对子",
+      "evidence_note": "Solver枚举8后J/A/过及下家回应，检验大王分支AA接JJ的后续。",
+      "review_status": "weak_label_reviewed",
+      "human_calibrated": false,
+      "origin_id": "S2026110513-1603"
+    },
+    "review_b": {
+      "id": "MP2-01-hard",
+      "input": {
+        "hands": [
+          [
+            3,
+            3,
+            8,
+            14,
+            14,
+            16
+          ],
+          [
+            4,
+            7,
+            7,
+            8,
+            8,
+            11,
+            14
+          ],
+          [
+            3,
+            3,
+            4,
+            4,
+            4,
+            8,
+            11,
+            11,
+            14,
+            17
+          ]
+        ],
+        "turn": 0,
+        "last": null,
+        "passes": 0
+      },
+      "target": {
+        "overall": 3,
+        "reasoning_depth": 3,
+        "move_concealment": 3
+      },
+      "reason": "必须先8而不是先33、AA或小王，之后还要保留高对处理农民的配合。",
+      "mechanism": "控制牌使用顺序",
+      "annotation": {
+        "type": "assistant_provisional_estimate",
+        "rubric": "v0.1",
+        "human_calibrated": false
+      },
+      "provenance": {
+        "source": "previously_unlabelled_synthetic_pool",
+        "origin_id": "S2026110513-1603",
+        "family": "synthetic-deal-2026110513-1603",
+        "swap": null
+      },
+      "verification": {
+        "status": "verified",
+        "key": "7776f5f2a9a77fbac9d4104b39b1318bb17f001b4728867a67dfdf0be62c8b50",
+        "evidence": "mechanism_evidence.json"
+      }
+    },
+    "decision": "quarantine_no_hard_label"
+  },
+  {
+    "origin_id": "S2026110513-2319",
+    "key": "18237609b31baf41f6bc8f6a7432197955027af9ead23d1bf487d60083e2f989",
+    "review_a": {
+      "origin_id": "S2026110513-2319",
+      "overall": 2,
+      "reasoning_depth": 2,
+      "move_concealment": 2,
+      "reason": "用K或A压住8；用较小的J或Q会让地主的K接走牌权。不出也会把领出权还给地主；用高单接牌则保留了QQQ牌型。",
+      "mechanism": "保留牌型与控制牌",
+      "evidence_note": "Read hands, turn, last, passes, all root outcomes, full PV and all supplied trap continuations. Conservative weak label; source is independent synthetic remaining hands. Solver expansion: after K or A, landlord small joker, big joker or rocket all leave partner pass winning; K-pass-A retains pass for mover.",
+      "review_status": "weak_label_needs_human_calibration",
+      "human_calibrated": false,
+      "reason_en": "Overtake 8 with K or A; a cheaper J or Q permits the landlord K to take control. Passing also returns the lead to the landlord, while a high overtake retains the triple-queen structure.",
+      "mechanism_en": "preserve_structure_and_control"
+    },
+    "review_b": {
+      "id": "MP2-03-hard",
+      "input": {
+        "hands": [
+          [
+            5,
+            11,
+            13,
+            16,
+            17
+          ],
+          [
+            5,
+            8,
+            8,
+            11,
+            11,
+            14
+          ],
+          [
+            5,
+            5,
+            8,
+            11,
+            12,
+            12,
+            12,
+            13,
+            13,
+            14
+          ]
+        ],
+        "turn": 2,
+        "last": {
+          "cards": [
+            8
+          ],
+          "type": 1,
+          "main": 8,
+          "length": 1
+        },
+        "passes": 1
+      },
+      "target": {
+        "overall": 3,
+        "reasoning_depth": 3,
+        "move_concealment": 3
+      },
+      "reason": "面对8只能K或A，拆J、Q或过牌均败；需保留QQQ与对子用于后续清牌。",
+      "mechanism": "跟牌保型与接力",
+      "annotation": {
+        "type": "assistant_provisional_estimate",
+        "rubric": "v0.1",
+        "human_calibrated": false
+      },
+      "provenance": {
+        "source": "previously_unlabelled_synthetic_pool",
+        "origin_id": "S2026110513-2319",
+        "family": "synthetic-deal-2026110513-2319",
+        "swap": null
+      },
+      "verification": {
+        "status": "verified",
+        "key": "18237609b31baf41f6bc8f6a7432197955027af9ead23d1bf487d60083e2f989",
+        "evidence": "mechanism_evidence.json"
+      }
+    },
+    "decision": "quarantine_no_hard_label"
+  }
+]

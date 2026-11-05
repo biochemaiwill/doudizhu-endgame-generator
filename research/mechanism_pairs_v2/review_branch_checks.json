@@ -1,0 +1,396 @@
+{
+  "S2026110513-1603": [
+    {
+      "turn": 0,
+      "winning": [
+        "8"
+      ],
+      "losing": [
+        "3 3",
+        "A A",
+        "3",
+        "A",
+        "小王"
+      ]
+    },
+    {
+      "turn": 1,
+      "winning": [],
+      "losing": [
+        "过",
+        "J",
+        "A"
+      ]
+    },
+    {
+      "turn": 2,
+      "winning": [],
+      "losing": [
+        "过",
+        "J",
+        "A",
+        "大王"
+      ]
+    },
+    {
+      "turn": 0,
+      "winning": [
+        "3 3",
+        "小王"
+      ],
+      "losing": [
+        "A A",
+        "3",
+        "A"
+      ]
+    },
+    {
+      "turn": 1,
+      "winning": [],
+      "losing": [
+        "过",
+        "7 7",
+        "8 8"
+      ]
+    },
+    {
+      "turn": 2,
+      "winning": [],
+      "losing": [
+        "过",
+        "4 4",
+        "J J"
+      ]
+    },
+    {
+      "turn": 0,
+      "winning": [
+        "A A",
+        "小王"
+      ],
+      "losing": [
+        "A"
+      ]
+    },
+    {
+      "turn": 1,
+      "winning": [],
+      "losing": [
+        "过"
+      ]
+    },
+    {
+      "turn": 2,
+      "winning": [],
+      "losing": [
+        "过"
+      ]
+    },
+    {
+      "turn": 0,
+      "winning": [
+        "小王"
+      ],
+      "losing": []
+    }
+  ],
+  "S2026110513-1975": [
+    {
+      "turn": 0,
+      "winning": [
+        "4",
+        "5"
+      ],
+      "losing": [
+        "A A",
+        "A",
+        "小王"
+      ]
+    },
+    {
+      "turn": 1,
+      "winning": [],
+      "losing": [
+        "过",
+        "8",
+        "K"
+      ]
+    },
+    {
+      "turn": 2,
+      "winning": [],
+      "losing": [
+        "过",
+        "5",
+        "K",
+        "A",
+        "大王"
+      ]
+    },
+    {
+      "turn": 0,
+      "winning": [
+        "5",
+        "小王"
+      ],
+      "losing": [
+        "A A",
+        "A"
+      ]
+    },
+    {
+      "turn": 1,
+      "winning": [],
+      "losing": [
+        "过",
+        "8",
+        "K"
+      ]
+    },
+    {
+      "turn": 2,
+      "winning": [],
+      "losing": [
+        "过",
+        "K",
+        "A",
+        "大王"
+      ]
+    },
+    {
+      "turn": 0,
+      "winning": [
+        "A A",
+        "小王"
+      ],
+      "losing": [
+        "A"
+      ]
+    },
+    {
+      "turn": 1,
+      "winning": [],
+      "losing": [
+        "过"
+      ]
+    },
+    {
+      "turn": 2,
+      "winning": [],
+      "losing": [
+        "过"
+      ]
+    },
+    {
+      "turn": 0,
+      "winning": [
+        "小王"
+      ],
+      "losing": []
+    }
+  ],
+  "S2026110513-2319": [
+    {
+      "turn": 2,
+      "winning": [
+        "K",
+        "A"
+      ],
+      "losing": [
+        "过",
+        "J",
+        "Q"
+      ]
+    },
+    {
+      "turn": 0,
+      "winning": [],
+      "losing": [
+        "过",
+        "小王",
+        "大王",
+        "小王 大王"
+      ]
+    },
+    {
+      "turn": 1,
+      "winning": [
+        "过",
+        "A"
+      ],
+      "losing": []
+    },
+    {
+      "turn": 2,
+      "winning": [
+        "8 Q Q Q",
+        "J Q Q Q",
+        "Q Q Q K",
+        "Q Q Q A",
+        "Q Q Q",
+        "5 5",
+        "Q Q",
+        "K",
+        "A"
+      ],
+      "losing": [
+        "5 5 Q Q Q",
+        "5 Q Q Q",
+        "5",
+        "8",
+        "J",
+        "Q"
+      ]
+    },
+    {
+      "turn": 0,
+      "winning": [],
+      "losing": [
+        "过",
+        "小王 大王"
+      ]
+    },
+    {
+      "turn": 1,
+      "winning": [
+        "过"
+      ],
+      "losing": []
+    },
+    {
+      "turn": 2,
+      "winning": [
+        "5 5",
+        "K",
+        "A"
+      ],
+      "losing": [
+        "5",
+        "J"
+      ]
+    },
+    {
+      "turn": 0,
+      "winning": [],
+      "losing": [
+        "过",
+        "小王 大王"
+      ]
+    },
+    {
+      "turn": 1,
+      "winning": [
+        "过",
+        "8 8",
+        "J J"
+      ],
+      "losing": []
+    },
+    {
+      "turn": 2,
+      "winning": [
+        "J",
+        "K",
+        "A"
+      ],
+      "losing": []
+    }
+  ],
+  "S2026110513-3580": [
+    {
+      "turn": 2,
+      "winning": [
+        "A"
+      ],
+      "losing": [
+        "8 8",
+        "A A",
+        "8",
+        "小王"
+      ]
+    },
+    {
+      "turn": 0,
+      "winning": [],
+      "losing": [
+        "过",
+        "2",
+        "6 6 6 6"
+      ]
+    },
+    {
+      "turn": 1,
+      "winning": [
+        "过",
+        "2",
+        "大王"
+      ],
+      "losing": []
+    },
+    {
+      "turn": 2,
+      "winning": [
+        "A"
+      ],
+      "losing": [
+        "8 8",
+        "8",
+        "小王"
+      ]
+    },
+    {
+      "turn": 0,
+      "winning": [],
+      "losing": [
+        "过",
+        "2",
+        "6 6 6 6"
+      ]
+    },
+    {
+      "turn": 1,
+      "winning": [
+        "过",
+        "2",
+        "大王"
+      ],
+      "losing": []
+    },
+    {
+      "turn": 2,
+      "winning": [
+        "小王"
+      ],
+      "losing": [
+        "8 8",
+        "8"
+      ]
+    },
+    {
+      "turn": 0,
+      "winning": [],
+      "losing": [
+        "过",
+        "6 6 6 6"
+      ]
+    },
+    {
+      "turn": 1,
+      "winning": [
+        "过"
+      ],
+      "losing": [
+        "大王"
+      ]
+    },
+    {
+      "turn": 2,
+      "winning": [
+        "8 8"
+      ],
+      "losing": [
+        "8"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "rf_balanced": {
+    "old": {
+      "aggregate_confusion": [
+        [
+          43,
+          8,
+          7,
+          0
+        ],
+        [
+          5,
+          27,
+          44,
+          0
+        ],
+        [
+          1,
+          25,
+          90,
+          0
+        ],
+        [
+          0,
+          1,
+          27,
+          0
+        ]
+      ],
+      "grade3_predicted2": 25,
+      "grade3_total": 116
+    },
+    "expanded": {
+      "aggregate_confusion": [
+        [
+          42,
+          16,
+          0,
+          0
+        ],
+        [
+          10,
+          61,
+          5,
+          0
+        ],
+        [
+          3,
+          94,
+          19,
+          0
+        ],
+        [
+          0,
+          22,
+          6,
+          0
+        ]
+      ],
+      "grade3_predicted2": 94,
+      "grade3_total": 116
+    }
+  },
+  "mlp_balanced": {
+    "old": {
+      "aggregate_confusion": [
+        [
+          42,
+          8,
+          7,
+          1
+        ],
+        [
+          11,
+          27,
+          38,
+          0
+        ],
+        [
+          9,
+          33,
+          73,
+          1
+        ],
+        [
+          0,
+          6,
+          22,
+          0
+        ]
+      ],
+      "grade3_predicted2": 33,
+      "grade3_total": 116
+    },
+    "expanded": {
+      "aggregate_confusion": [
+        [
+          47,
+          9,
+          1,
+          1
+        ],
+        [
+          14,
+          54,
+          8,
+          0
+        ],
+        [
+          5,
+          85,
+          25,
+          1
+        ],
+        [
+          6,
+          15,
+          7,
+          0
+        ]
+      ],
+      "grade3_predicted2": 85,
+      "grade3_total": 116
+    }
+  },
+  "cross_balanced": {
+    "old": {
+      "aggregate_confusion": [
+        [
+          42,
+          7,
+          9,
+          0
+        ],
+        [
+          8,
+          34,
+          34,
+          0
+        ],
+        [
+          9,
+          33,
+          71,
+          3
+        ],
+        [
+          1,
+          6,
+          21,
+          0
+        ]
+      ],
+      "grade3_predicted2": 33,
+      "grade3_total": 116
+    },
+    "expanded": {
+      "aggregate_confusion": [
+        [
+          47,
+          8,
+          3,
+          0
+        ],
+        [
+          17,
+          41,
+          18,
+          0
+        ],
+        [
+          10,
+          76,
+          29,
+          1
+        ],
+        [
+          6,
+          12,
+          9,
+          1
+        ]
+      ],
+      "grade3_predicted2": 76,
+      "grade3_total": 116
+    }
+  }
+}

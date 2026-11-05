@@ -1,0 +1,15 @@
+{
+  "python": "3.11.15 (main, Jun 11 2026, 15:20:16) [GCC 14.3.0]",
+  "torch": "2.5.1+cu121",
+  "numpy": "1.26.4",
+  "sklearn": "1.9.0",
+  "threads": 1,
+  "epochs": 100,
+  "cv_seeds": [
+    17,
+    73
+  ],
+  "final_seed": 917,
+  "seconds": 161.44668626785278,
+  "dataset_sha256": "c8d107007c9ea6ca3a05416a31b4f56b92996820aa22ef7699377fd75ac133e0"
+}

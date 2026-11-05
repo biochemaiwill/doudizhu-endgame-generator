@@ -1,0 +1,615 @@
+[
+  {
+    "origin_id": "S2026110513-0204",
+    "proofs": [
+      {
+        "side": "hard",
+        "status": "three_way_pass",
+        "key": "6990f930f51a317ba3d45e23e0110dde074490a31e46aa0756abd16c699ccbf5",
+        "root": [
+          {
+            "cards": [],
+            "move": "过",
+            "type": 0,
+            "mover_wins": false
+          },
+          {
+            "cards": [
+              16
+            ],
+            "move": "小王",
+            "type": 1,
+            "mover_wins": true
+          },
+          {
+            "cards": [
+              17
+            ],
+            "move": "大王",
+            "type": 1,
+            "mover_wins": true
+          },
+          {
+            "cards": [
+              16,
+              17
+            ],
+            "move": "小王 大王",
+            "type": 14,
+            "mover_wins": false
+          }
+        ]
+      },
+      {
+        "side": "easy",
+        "status": "three_way_pass",
+        "key": "5e03712e863ac32d0bdb56d0430f84aa1f5f9b0b9a483db91fa47534b2213560",
+        "root": [
+          {
+            "cards": [],
+            "move": "过",
+            "type": 0,
+            "mover_wins": false
+          },
+          {
+            "cards": [
+              16
+            ],
+            "move": "小王",
+            "type": 1,
+            "mover_wins": true
+          },
+          {
+            "cards": [
+              17
+            ],
+            "move": "大王",
+            "type": 1,
+            "mover_wins": true
+          },
+          {
+            "cards": [
+              16,
+              17
+            ],
+            "move": "小王 大王",
+            "type": 14,
+            "mover_wins": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "origin_id": "S2026110513-0442",
+    "proofs": [
+      {
+        "side": "hard",
+        "status": "three_way_pass",
+        "key": "4f7f0435d9297936e19bd12b2d343815ad7ab3405b65f43ed808784573327353",
+        "root": [
+          {
+            "cards": [
+              10,
+              12,
+              12,
+              12
+            ],
+            "move": "10 Q Q Q",
+            "type": 4,
+            "mover_wins": true
+          },
+          {
+            "cards": [
+              11,
+              12,
+              12,
+              12
+            ],
+            "move": "J Q Q Q",
+            "type": 4,
+            "mover_wins": true
+          },
+          {
+            "cards": [
+              12,
+              12,
+              12
+            ],
+            "move": "Q Q Q",
+            "type": 3,
+            "mover_wins": false
+          },
+          {
+            "cards": [
+              12,
+              12
+            ],
+            "move": "Q Q",
+            "type": 2,
+            "mover_wins": false
+          },
+          {
+            "cards": [
+              10
+            ],
+            "move": "10",
+            "type": 1,
+            "mover_wins": false
+          },
+          {
+            "cards": [
+              11
+            ],
+            "move": "J",
+            "type": 1,
+            "mover_wins": false
+          },
+          {
+            "cards": [
+              12
+            ],
+            "move": "Q",
+            "type": 1,
+            "mover_wins": false
+          }
+        ]
+      },
+      {
+        "side": "easy",
+        "status": "three_way_pass",
+        "key": "34881e38769262bdad99d6107ee3e6e429e4b6432b6167f99cc08b80ab9970f3",
+        "root": [
+          {
+            "cards": [
+              11,
+              11
+            ],
+            "move": "J J",
+            "type": 2,
+            "mover_wins": true
+          },
+          {
+            "cards": [
+              12,
+              12
+            ],
+            "move": "Q Q",
+            "type": 2,
+            "mover_wins": true
+          },
+          {
+            "cards": [
+              10
+            ],
+            "move": "10",
+            "type": 1,
+            "mover_wins": true
+          },
+          {
+            "cards": [
+              11
+            ],
+            "move": "J",
+            "type": 1,
+            "mover_wins": false
+          },
+          {
+            "cards": [
+              12
+            ],
+            "move": "Q",
+            "type": 1,
+            "mover_wins": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "origin_id": "S2026110513-1063",
+    "proofs": [
+      {
+        "side": "hard",
+        "status": "three_way_pass",
+        "key": "c44cefc6923eaca4876a89acb0bd06d640544078c3a9a14117000d408b114a9f",
+        "root": [
+          {
+            "cards": [
+              3,
+              5,
+              5,
+              5
+            ],
+            "move": "3 5 5 5",
+            "type": 4,
+            "mover_wins": true
+          },
+          {
+            "cards": [
+              4,
+              5,
+              5,
+              5
+            ],
+            "move": "4 5 5 5",
+            "type": 4,
+            "mover_wins": true
+          },
+          {
+            "cards": [
+              5,
+              5,
+              5
+            ],
+            "move": "5 5 5",
+            "type": 3,
+            "mover_wins": false
+          },
+          {
+            "cards": [
+              5,
+              5
+            ],
+            "move": "5 5",
+            "type": 2,
+            "mover_wins": false
+          },
+          {
+            "cards": [
+              3
+            ],
+            "move": "3",
+            "type": 1,
+            "mover_wins": false
+          },
+          {
+            "cards": [
+              4
+            ],
+            "move": "4",
+            "type": 1,
+            "mover_wins": false
+          },
+          {
+            "cards": [
+              5
+            ],
+            "move": "5",
+            "type": 1,
+            "mover_wins": false
+          }
+        ]
+      },
+      {
+        "side": "easy",
+        "status": "three_way_pass",
+        "key": "d820e0c053d4bbed836e12fd06f3d21e8c00050305e3fdb594e0165b073b27d3",
+        "root": [
+          {
+            "cards": [
+              3,
+              5,
+              5,
+              5
+            ],
+            "move": "3 5 5 5",
+            "type": 4,
+            "mover_wins": true
+          },
+          {
+            "cards": [
+              5,
+              5,
+              5,
+              14
+            ],
+            "move": "5 5 5 A",
+            "type": 4,
+            "mover_wins": true
+          },
+          {
+            "cards": [
+              5,
+              5,
+              5
+            ],
+            "move": "5 5 5",
+            "type": 3,
+            "mover_wins": true
+          },
+          {
+            "cards": [
+              5,
+              5
+            ],
+            "move": "5 5",
+            "type": 2,
+            "mover_wins": true
+          },
+          {
+            "cards": [
+              3
+            ],
+            "move": "3",
+            "type": 1,
+            "mover_wins": true
+          },
+          {
+            "cards": [
+              5
+            ],
+            "move": "5",
+            "type": 1,
+            "mover_wins": false
+          },
+          {
+            "cards": [
+              14
+            ],
+            "move": "A",
+            "type": 1,
+            "mover_wins": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "origin_id": "S2026110513-1393",
+    "proofs": [
+      {
+        "side": "hard",
+        "status": "three_way_pass",
+        "key": "81deebe45d86f62793a90a2aee54be7c93f8194be26d83bd07ab4064e17b49b1",
+        "root": [
+          {
+            "cards": [
+              10,
+              10
+            ],
+            "move": "10 10",
+            "type": 2,
+            "mover_wins": false
+          },
+          {
+            "cards": [
+              10
+            ],
+            "move": "10",
+            "type": 1,
+            "mover_wins": false
+          },
+          {
+            "cards": [
+              14
+            ],
+            "move": "A",
+            "type": 1,
+            "mover_wins": true
+          },
+          {
+            "cards": [
+              15
+            ],
+            "move": "2",
+            "type": 1,
+            "mover_wins": false
+          }
+        ]
+      },
+      {
+        "side": "easy",
+        "status": "three_way_pass",
+        "key": "2e90af3d23425590f5eddc4f80f6774c1ed98133758efcac9ce7cfbafed2a344",
+        "root": [
+          {
+            "cards": [
+              10,
+              10
+            ],
+            "move": "10 10",
+            "type": 2,
+            "mover_wins": true
+          },
+          {
+            "cards": [
+              10
+            ],
+            "move": "10",
+            "type": 1,
+            "mover_wins": false
+          },
+          {
+            "cards": [
+              14
+            ],
+            "move": "A",
+            "type": 1,
+            "mover_wins": true
+          },
+          {
+            "cards": [
+              16
+            ],
+            "move": "小王",
+            "type": 1,
+            "mover_wins": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "origin_id": "S2026110513-1775",
+    "proofs": [
+      {
+        "side": "hard",
+        "status": "three_way_pass",
+        "key": "f932765f749e638cffc2fa0da6ac18731ba3fc8729744abfe5880ee943162401",
+        "root": [
+          {
+            "cards": [
+              6,
+              6
+            ],
+            "move": "6 6",
+            "type": 2,
+            "mover_wins": false
+          },
+          {
+            "cards": [
+              6
+            ],
+            "move": "6",
+            "type": 1,
+            "mover_wins": true
+          },
+          {
+            "cards": [
+              9
+            ],
+            "move": "9",
+            "type": 1,
+            "mover_wins": true
+          },
+          {
+            "cards": [
+              16
+            ],
+            "move": "小王",
+            "type": 1,
+            "mover_wins": false
+          }
+        ]
+      },
+      {
+        "side": "easy",
+        "status": "three_way_pass",
+        "key": "8966af82831b0da26803bca10aaaac84387c52b962fe7225ec222c4236f14a85",
+        "root": [
+          {
+            "cards": [
+              6,
+              6
+            ],
+            "move": "6 6",
+            "type": 2,
+            "mover_wins": false
+          },
+          {
+            "cards": [
+              3
+            ],
+            "move": "3",
+            "type": 1,
+            "mover_wins": true
+          },
+          {
+            "cards": [
+              6
+            ],
+            "move": "6",
+            "type": 1,
+            "mover_wins": true
+          },
+          {
+            "cards": [
+              16
+            ],
+            "move": "小王",
+            "type": 1,
+            "mover_wins": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "origin_id": "S2026110513-2319",
+    "proofs": [
+      {
+        "side": "hard",
+        "status": "three_way_pass",
+        "key": "18237609b31baf41f6bc8f6a7432197955027af9ead23d1bf487d60083e2f989",
+        "root": [
+          {
+            "cards": [],
+            "move": "过",
+            "type": 0,
+            "mover_wins": false
+          },
+          {
+            "cards": [
+              11
+            ],
+            "move": "J",
+            "type": 1,
+            "mover_wins": false
+          },
+          {
+            "cards": [
+              12
+            ],
+            "move": "Q",
+            "type": 1,
+            "mover_wins": false
+          },
+          {
+            "cards": [
+              13
+            ],
+            "move": "K",
+            "type": 1,
+            "mover_wins": true
+          },
+          {
+            "cards": [
+              14
+            ],
+            "move": "A",
+            "type": 1,
+            "mover_wins": true
+          }
+        ]
+      },
+      {
+        "side": "easy",
+        "status": "three_way_pass",
+        "key": "08c9c9994651c8c6e5dbf6517607831ef73f8b5123ca10cc9fa6741ffce177b9",
+        "root": [
+          {
+            "cards": [],
+            "move": "过",
+            "type": 0,
+            "mover_wins": false
+          },
+          {
+            "cards": [
+              12
+            ],
+            "move": "Q",
+            "type": 1,
+            "mover_wins": false
+          },
+          {
+            "cards": [
+              13
+            ],
+            "move": "K",
+            "type": 1,
+            "mover_wins": true
+          },
+          {
+            "cards": [
+              14
+            ],
+            "move": "A",
+            "type": 1,
+            "mover_wins": true
+          }
+        ]
+      }
+    ]
+  }
+]
