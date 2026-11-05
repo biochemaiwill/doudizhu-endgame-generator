@@ -1,0 +1,5 @@
+{
+  "selected": "mlp_balanced",
+  "criterion": "val accuracy, macro recall, negative MAE",
+  "test_used": false
+}
