@@ -1,0 +1,549 @@
+[
+  {
+    "id": "control_single",
+    "total": 1,
+    "depth": 1,
+    "concealment": 1,
+    "reason": "地主只有一张3且先手，直接出完；无需比较策略。",
+    "trap": "无",
+    "key": "3",
+    "label_type": "llm_estimate_not_human_calibrated",
+    "rubric_version": "v0.1",
+    "verified_case": {
+      "id": "control_single",
+      "hands": [
+        "3",
+        "4",
+        "5"
+      ],
+      "turn": 0,
+      "last": null,
+      "passes": 0,
+      "n_cards": 3,
+      "legal_moves": 1,
+      "winning_moves": [
+        "3"
+      ],
+      "three_checks_agree": true,
+      "independent_cache_states": 0,
+      "seconds": 0.0002,
+      "root_move_evidence": [
+        {
+          "move": "3",
+          "type": 1,
+          "mover_forced_win": true
+        }
+      ]
+    }
+  },
+  {
+    "id": "control_pair",
+    "total": 1,
+    "depth": 1,
+    "concealment": 1,
+    "reason": "地主可用22控制对子，也可拆2控制单张；所有合法首着都能赢，没有关键陷阱。",
+    "trap": "无致败首着",
+    "key": "22、3、2均可",
+    "label_type": "llm_estimate_not_human_calibrated",
+    "rubric_version": "v0.1",
+    "verified_case": {
+      "id": "control_pair",
+      "hands": [
+        "2 2 3",
+        "4 4",
+        "5 5"
+      ],
+      "turn": 0,
+      "last": null,
+      "passes": 0,
+      "n_cards": 7,
+      "legal_moves": 3,
+      "winning_moves": [
+        "2 2",
+        "3",
+        "2"
+      ],
+      "three_checks_agree": true,
+      "independent_cache_states": 43,
+      "seconds": 0.0014,
+      "root_move_evidence": [
+        {
+          "move": "2 2",
+          "type": 2,
+          "mover_forced_win": true,
+          "next_player": 1,
+          "replies": [
+            {
+              "move": "过",
+              "next_mover_forced_win": false
+            }
+          ]
+        },
+        {
+          "move": "3",
+          "type": 1,
+          "mover_forced_win": true,
+          "next_player": 1,
+          "replies": [
+            {
+              "move": "过",
+              "next_mover_forced_win": false
+            },
+            {
+              "move": "4",
+              "next_mover_forced_win": false
+            }
+          ]
+        },
+        {
+          "move": "2",
+          "type": 1,
+          "mover_forced_win": true,
+          "next_player": 1,
+          "replies": [
+            {
+              "move": "过",
+              "next_mover_forced_win": false
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "p6_feed_teammate",
+    "total": 2,
+    "depth": 1,
+    "concealment": 2,
+    "reason": "须放下优先出掉自己三张的惯性，拆333出33让下家QQ直接走完；合作意图看清后即可验证。",
+    "trap": "333带6或10会让地主777带2压住并出完。",
+    "key": "33",
+    "label_type": "llm_estimate_not_human_calibrated",
+    "rubric_version": "v0.1",
+    "verified_case": {
+      "id": "p6_feed_teammate",
+      "hands": [
+        "7 7 7 2",
+        "3 3 3 6 T",
+        "Q Q"
+      ],
+      "turn": 1,
+      "last": null,
+      "passes": 0,
+      "n_cards": 11,
+      "legal_moves": 7,
+      "winning_moves": [
+        "3 3"
+      ],
+      "three_checks_agree": true,
+      "independent_cache_states": 1144,
+      "seconds": 0.0268,
+      "root_move_evidence": [
+        {
+          "move": "3 3 3 6",
+          "type": 4,
+          "mover_forced_win": false,
+          "next_player": 2,
+          "replies": [
+            {
+              "move": "过",
+              "next_mover_forced_win": false
+            }
+          ]
+        },
+        {
+          "move": "3 3 3 10",
+          "type": 4,
+          "mover_forced_win": false,
+          "next_player": 2,
+          "replies": [
+            {
+              "move": "过",
+              "next_mover_forced_win": false
+            }
+          ]
+        },
+        {
+          "move": "3 3 3",
+          "type": 3,
+          "mover_forced_win": false,
+          "next_player": 2,
+          "replies": [
+            {
+              "move": "过",
+              "next_mover_forced_win": false
+            }
+          ]
+        },
+        {
+          "move": "3 3",
+          "type": 2,
+          "mover_forced_win": true,
+          "next_player": 2,
+          "replies": [
+            {
+              "move": "过",
+              "next_mover_forced_win": false
+            },
+            {
+              "move": "Q Q",
+              "next_mover_forced_win": true
+            }
+          ]
+        },
+        {
+          "move": "3",
+          "type": 1,
+          "mover_forced_win": false,
+          "next_player": 2,
+          "replies": [
+            {
+              "move": "过",
+              "next_mover_forced_win": false
+            },
+            {
+              "move": "Q",
+              "next_mover_forced_win": false
+            }
+          ]
+        },
+        {
+          "move": "6",
+          "type": 1,
+          "mover_forced_win": false,
+          "next_player": 2,
+          "replies": [
+            {
+              "move": "过",
+              "next_mover_forced_win": false
+            },
+            {
+              "move": "Q",
+              "next_mover_forced_win": false
+            }
+          ]
+        },
+        {
+          "move": "10",
+          "type": 1,
+          "mover_forced_win": false,
+          "next_player": 2,
+          "replies": [
+            {
+              "move": "过",
+              "next_mover_forced_win": false
+            },
+            {
+              "move": "Q",
+              "next_mover_forced_win": false
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "p7_farmer_keep_king",
+    "total": 3,
+    "depth": 3,
+    "concealment": 2,
+    "reason": "需同时保留33的结构与K的单张控制，先出4；还要验证地主拆9接牌与不接牌两种分支。",
+    "trap": "出33被99直接压完；先出K耗尽控制，先出3破坏对子。",
+    "key": "4",
+    "label_type": "llm_estimate_not_human_calibrated",
+    "rubric_version": "v0.1",
+    "verified_case": {
+      "id": "p7_farmer_keep_king",
+      "hands": [
+        "9 9",
+        "8 8 8",
+        "3 3 4 K"
+      ],
+      "turn": 2,
+      "last": null,
+      "passes": 0,
+      "n_cards": 9,
+      "legal_moves": 4,
+      "winning_moves": [
+        "4"
+      ],
+      "three_checks_agree": true,
+      "independent_cache_states": 293,
+      "seconds": 0.0095,
+      "root_move_evidence": [
+        {
+          "move": "3 3",
+          "type": 2,
+          "mover_forced_win": false,
+          "next_player": 0,
+          "replies": [
+            {
+              "move": "过",
+              "next_mover_forced_win": false
+            },
+            {
+              "move": "9 9",
+              "next_mover_forced_win": true
+            }
+          ]
+        },
+        {
+          "move": "3",
+          "type": 1,
+          "mover_forced_win": false,
+          "next_player": 0,
+          "replies": [
+            {
+              "move": "过",
+              "next_mover_forced_win": false
+            },
+            {
+              "move": "9",
+              "next_mover_forced_win": true
+            }
+          ]
+        },
+        {
+          "move": "4",
+          "type": 1,
+          "mover_forced_win": true,
+          "next_player": 0,
+          "replies": [
+            {
+              "move": "过",
+              "next_mover_forced_win": false
+            },
+            {
+              "move": "9",
+              "next_mover_forced_win": false
+            }
+          ]
+        },
+        {
+          "move": "K",
+          "type": 1,
+          "mover_forced_win": false,
+          "next_player": 0,
+          "replies": [
+            {
+              "move": "过",
+              "next_mover_forced_win": true
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "p8_small_pair_first",
+    "total": 2,
+    "depth": 2,
+    "concealment": 2,
+    "reason": "先QQ引出KK，再用AA收回牌权，最后送走5；是普通玩家较熟悉的保留大牌接管思路。",
+    "trap": "先AA会让QQ失去保护，先5或拆对子均输。",
+    "key": "QQ",
+    "label_type": "llm_estimate_not_human_calibrated",
+    "rubric_version": "v0.1",
+    "verified_case": {
+      "id": "p8_small_pair_first",
+      "hands": [
+        "Q Q 5 A A",
+        "6 2",
+        "8 K K"
+      ],
+      "turn": 0,
+      "last": null,
+      "passes": 0,
+      "n_cards": 10,
+      "legal_moves": 5,
+      "winning_moves": [
+        "Q Q"
+      ],
+      "three_checks_agree": true,
+      "independent_cache_states": 960,
+      "seconds": 0.0235,
+      "root_move_evidence": [
+        {
+          "move": "Q Q",
+          "type": 2,
+          "mover_forced_win": true,
+          "next_player": 1,
+          "replies": [
+            {
+              "move": "过",
+              "next_mover_forced_win": false
+            }
+          ]
+        },
+        {
+          "move": "A A",
+          "type": 2,
+          "mover_forced_win": false,
+          "next_player": 1,
+          "replies": [
+            {
+              "move": "过",
+              "next_mover_forced_win": true
+            }
+          ]
+        },
+        {
+          "move": "5",
+          "type": 1,
+          "mover_forced_win": false,
+          "next_player": 1,
+          "replies": [
+            {
+              "move": "过",
+              "next_mover_forced_win": true
+            },
+            {
+              "move": "6",
+              "next_mover_forced_win": true
+            },
+            {
+              "move": "2",
+              "next_mover_forced_win": true
+            }
+          ]
+        },
+        {
+          "move": "Q",
+          "type": 1,
+          "mover_forced_win": false,
+          "next_player": 1,
+          "replies": [
+            {
+              "move": "过",
+              "next_mover_forced_win": true
+            },
+            {
+              "move": "2",
+              "next_mover_forced_win": true
+            }
+          ]
+        },
+        {
+          "move": "A",
+          "type": 1,
+          "mover_forced_win": false,
+          "next_player": 1,
+          "replies": [
+            {
+              "move": "过",
+              "next_mover_forced_win": true
+            },
+            {
+              "move": "2",
+              "next_mover_forced_win": true
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "p9_force_split",
+    "total": 4,
+    "depth": 4,
+    "concealment": 4,
+    "reason": "Q是唯一胜着；要区分先10被J接走、先22浪费对A控制等陷阱，并覆盖地主过牌、拆A、出大王三种应对及两农民衔接。",
+    "trap": "先10给地主用J而保留AA的机会；先22使两个单2的控制价值消失。",
+    "key": "Q",
+    "label_type": "llm_estimate_not_human_calibrated",
+    "rubric_version": "v0.1",
+    "verified_case": {
+      "id": "p9_force_split",
+      "hands": [
+        "J A A D",
+        "6 T Q K",
+        "T Q 2 2"
+      ],
+      "turn": 2,
+      "last": null,
+      "passes": 0,
+      "n_cards": 12,
+      "legal_moves": 4,
+      "winning_moves": [
+        "Q"
+      ],
+      "three_checks_agree": true,
+      "independent_cache_states": 9325,
+      "seconds": 0.2448,
+      "root_move_evidence": [
+        {
+          "move": "2 2",
+          "type": 2,
+          "mover_forced_win": false,
+          "next_player": 0,
+          "replies": [
+            {
+              "move": "过",
+              "next_mover_forced_win": true
+            }
+          ]
+        },
+        {
+          "move": "10",
+          "type": 1,
+          "mover_forced_win": false,
+          "next_player": 0,
+          "replies": [
+            {
+              "move": "过",
+              "next_mover_forced_win": false
+            },
+            {
+              "move": "J",
+              "next_mover_forced_win": true
+            },
+            {
+              "move": "A",
+              "next_mover_forced_win": false
+            },
+            {
+              "move": "大王",
+              "next_mover_forced_win": false
+            }
+          ]
+        },
+        {
+          "move": "Q",
+          "type": 1,
+          "mover_forced_win": true,
+          "next_player": 0,
+          "replies": [
+            {
+              "move": "过",
+              "next_mover_forced_win": false
+            },
+            {
+              "move": "A",
+              "next_mover_forced_win": false
+            },
+            {
+              "move": "大王",
+              "next_mover_forced_win": false
+            }
+          ]
+        },
+        {
+          "move": "2",
+          "type": 1,
+          "mover_forced_win": false,
+          "next_player": 0,
+          "replies": [
+            {
+              "move": "过",
+              "next_mover_forced_win": true
+            },
+            {
+              "move": "大王",
+              "next_mover_forced_win": true
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

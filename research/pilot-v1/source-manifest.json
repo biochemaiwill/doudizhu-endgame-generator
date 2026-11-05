@@ -1,0 +1,61 @@
+{
+  "source": "https://github.com/ShuyaoGao/doudizhu-endgame-solver",
+  "commit": "bdee2f6e5215830d1ea0637e2311fdb93201584a",
+  "files": [
+    {
+      "path": "LICENSE",
+      "sha256": "3eca13db127dc5b9b42f0bfb85e8409d27271cfe2a852c99c7981810d1cd74fb",
+      "bytes": 1067
+    },
+    {
+      "path": "LICENSE-docs",
+      "sha256": "7fee5640c97f7814bd2d3ea6bfbcd9e200c2438260ea02234c05cbe0529b2bb8",
+      "bytes": 18994
+    },
+    {
+      "path": "doudizhu/__init__.py",
+      "sha256": "2316d80e2ee95623c559616e97558af17e0a31fce106c9a9d8d3d61e54ebc5aa",
+      "bytes": 227
+    },
+    {
+      "path": "doudizhu/cards.py",
+      "sha256": "204fe3d2bdd458346c1b39bdd34c656c9e0814c6aa34e7af073892e326053d82",
+      "bytes": 2764
+    },
+    {
+      "path": "doudizhu/moves.py",
+      "sha256": "439dbad422e972e14895fb551df2e78e0a4405128d8a809a0b601645b9746bf8",
+      "bytes": 11331
+    },
+    {
+      "path": "endgame/__init__.py",
+      "sha256": "6fd3f5e50d99df3a3061be168c3f701ea9bde4fa7b6b1c5e3059bdbcad343769",
+      "bytes": 817
+    },
+    {
+      "path": "endgame/fast.py",
+      "sha256": "6982d75e70ed9b3ad69ee9dd89b0e7851878891f2ff4f8ba945e17588592dd98",
+      "bytes": 10023
+    },
+    {
+      "path": "endgame/solver.py",
+      "sha256": "fcf76ae912caeeca9af013689fcfe37b6790015e05815b9e919c664ecb56fea9",
+      "bytes": 15157
+    },
+    {
+      "path": "endgame/puzzles.py",
+      "sha256": "96cb089145d1bc3b80951132fcd9acb430be37e4567dabe15de420bbf80be939",
+      "bytes": 5528
+    },
+    {
+      "path": "tests/reference_solver.py",
+      "sha256": "d180b77fdf8a615aed8120d4fdc7a521eb67c6cb377658fa15655bce1534ba1d",
+      "bytes": 2004
+    },
+    {
+      "path": "doudizhu/game.py",
+      "sha256": "c99289e8ca7e1b46b5b3af5899bb026f409e6b3f20df1c3b11bb5648c7ea566f",
+      "bytes": 6802
+    }
+  ]
+}

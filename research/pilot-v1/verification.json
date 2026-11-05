@@ -1,0 +1,488 @@
+{
+  "label_status": "pilot_only_not_human_calibrated",
+  "python": "3.10.12",
+  "source_commit": "bdee2f6e5215830d1ea0637e2311fdb93201584a",
+  "cases": [
+    {
+      "id": "control_single",
+      "hands": [
+        "3",
+        "4",
+        "5"
+      ],
+      "turn": 0,
+      "last": null,
+      "passes": 0,
+      "n_cards": 3,
+      "legal_moves": 1,
+      "winning_moves": [
+        "3"
+      ],
+      "three_checks_agree": true,
+      "independent_cache_states": 0,
+      "seconds": 0.0002,
+      "root_move_evidence": [
+        {
+          "move": "3",
+          "type": 1,
+          "mover_forced_win": true
+        }
+      ]
+    },
+    {
+      "id": "control_pair",
+      "hands": [
+        "2 2 3",
+        "4 4",
+        "5 5"
+      ],
+      "turn": 0,
+      "last": null,
+      "passes": 0,
+      "n_cards": 7,
+      "legal_moves": 3,
+      "winning_moves": [
+        "2 2",
+        "3",
+        "2"
+      ],
+      "three_checks_agree": true,
+      "independent_cache_states": 43,
+      "seconds": 0.0015,
+      "root_move_evidence": [
+        {
+          "move": "2 2",
+          "type": 2,
+          "mover_forced_win": true,
+          "next_player": 1,
+          "replies": [
+            {
+              "move": "过",
+              "next_mover_forced_win": false
+            }
+          ]
+        },
+        {
+          "move": "3",
+          "type": 1,
+          "mover_forced_win": true,
+          "next_player": 1,
+          "replies": [
+            {
+              "move": "过",
+              "next_mover_forced_win": false
+            },
+            {
+              "move": "4",
+              "next_mover_forced_win": false
+            }
+          ]
+        },
+        {
+          "move": "2",
+          "type": 1,
+          "mover_forced_win": true,
+          "next_player": 1,
+          "replies": [
+            {
+              "move": "过",
+              "next_mover_forced_win": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p6_feed_teammate",
+      "hands": [
+        "7 7 7 2",
+        "3 3 3 6 T",
+        "Q Q"
+      ],
+      "turn": 1,
+      "last": null,
+      "passes": 0,
+      "n_cards": 11,
+      "legal_moves": 7,
+      "winning_moves": [
+        "3 3"
+      ],
+      "three_checks_agree": true,
+      "independent_cache_states": 1144,
+      "seconds": 0.0306,
+      "root_move_evidence": [
+        {
+          "move": "3 3 3 6",
+          "type": 4,
+          "mover_forced_win": false,
+          "next_player": 2,
+          "replies": [
+            {
+              "move": "过",
+              "next_mover_forced_win": false
+            }
+          ]
+        },
+        {
+          "move": "3 3 3 10",
+          "type": 4,
+          "mover_forced_win": false,
+          "next_player": 2,
+          "replies": [
+            {
+              "move": "过",
+              "next_mover_forced_win": false
+            }
+          ]
+        },
+        {
+          "move": "3 3 3",
+          "type": 3,
+          "mover_forced_win": false,
+          "next_player": 2,
+          "replies": [
+            {
+              "move": "过",
+              "next_mover_forced_win": false
+            }
+          ]
+        },
+        {
+          "move": "3 3",
+          "type": 2,
+          "mover_forced_win": true,
+          "next_player": 2,
+          "replies": [
+            {
+              "move": "过",
+              "next_mover_forced_win": false
+            },
+            {
+              "move": "Q Q",
+              "next_mover_forced_win": true
+            }
+          ]
+        },
+        {
+          "move": "3",
+          "type": 1,
+          "mover_forced_win": false,
+          "next_player": 2,
+          "replies": [
+            {
+              "move": "过",
+              "next_mover_forced_win": false
+            },
+            {
+              "move": "Q",
+              "next_mover_forced_win": false
+            }
+          ]
+        },
+        {
+          "move": "6",
+          "type": 1,
+          "mover_forced_win": false,
+          "next_player": 2,
+          "replies": [
+            {
+              "move": "过",
+              "next_mover_forced_win": false
+            },
+            {
+              "move": "Q",
+              "next_mover_forced_win": false
+            }
+          ]
+        },
+        {
+          "move": "10",
+          "type": 1,
+          "mover_forced_win": false,
+          "next_player": 2,
+          "replies": [
+            {
+              "move": "过",
+              "next_mover_forced_win": false
+            },
+            {
+              "move": "Q",
+              "next_mover_forced_win": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p7_farmer_keep_king",
+      "hands": [
+        "9 9",
+        "8 8 8",
+        "3 3 4 K"
+      ],
+      "turn": 2,
+      "last": null,
+      "passes": 0,
+      "n_cards": 9,
+      "legal_moves": 4,
+      "winning_moves": [
+        "4"
+      ],
+      "three_checks_agree": true,
+      "independent_cache_states": 293,
+      "seconds": 0.0067,
+      "root_move_evidence": [
+        {
+          "move": "3 3",
+          "type": 2,
+          "mover_forced_win": false,
+          "next_player": 0,
+          "replies": [
+            {
+              "move": "过",
+              "next_mover_forced_win": false
+            },
+            {
+              "move": "9 9",
+              "next_mover_forced_win": true
+            }
+          ]
+        },
+        {
+          "move": "3",
+          "type": 1,
+          "mover_forced_win": false,
+          "next_player": 0,
+          "replies": [
+            {
+              "move": "过",
+              "next_mover_forced_win": false
+            },
+            {
+              "move": "9",
+              "next_mover_forced_win": true
+            }
+          ]
+        },
+        {
+          "move": "4",
+          "type": 1,
+          "mover_forced_win": true,
+          "next_player": 0,
+          "replies": [
+            {
+              "move": "过",
+              "next_mover_forced_win": false
+            },
+            {
+              "move": "9",
+              "next_mover_forced_win": false
+            }
+          ]
+        },
+        {
+          "move": "K",
+          "type": 1,
+          "mover_forced_win": false,
+          "next_player": 0,
+          "replies": [
+            {
+              "move": "过",
+              "next_mover_forced_win": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p8_small_pair_first",
+      "hands": [
+        "Q Q 5 A A",
+        "6 2",
+        "8 K K"
+      ],
+      "turn": 0,
+      "last": null,
+      "passes": 0,
+      "n_cards": 10,
+      "legal_moves": 5,
+      "winning_moves": [
+        "Q Q"
+      ],
+      "three_checks_agree": true,
+      "independent_cache_states": 960,
+      "seconds": 0.022,
+      "root_move_evidence": [
+        {
+          "move": "Q Q",
+          "type": 2,
+          "mover_forced_win": true,
+          "next_player": 1,
+          "replies": [
+            {
+              "move": "过",
+              "next_mover_forced_win": false
+            }
+          ]
+        },
+        {
+          "move": "A A",
+          "type": 2,
+          "mover_forced_win": false,
+          "next_player": 1,
+          "replies": [
+            {
+              "move": "过",
+              "next_mover_forced_win": true
+            }
+          ]
+        },
+        {
+          "move": "5",
+          "type": 1,
+          "mover_forced_win": false,
+          "next_player": 1,
+          "replies": [
+            {
+              "move": "过",
+              "next_mover_forced_win": true
+            },
+            {
+              "move": "6",
+              "next_mover_forced_win": true
+            },
+            {
+              "move": "2",
+              "next_mover_forced_win": true
+            }
+          ]
+        },
+        {
+          "move": "Q",
+          "type": 1,
+          "mover_forced_win": false,
+          "next_player": 1,
+          "replies": [
+            {
+              "move": "过",
+              "next_mover_forced_win": true
+            },
+            {
+              "move": "2",
+              "next_mover_forced_win": true
+            }
+          ]
+        },
+        {
+          "move": "A",
+          "type": 1,
+          "mover_forced_win": false,
+          "next_player": 1,
+          "replies": [
+            {
+              "move": "过",
+              "next_mover_forced_win": true
+            },
+            {
+              "move": "2",
+              "next_mover_forced_win": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p9_force_split",
+      "hands": [
+        "J A A D",
+        "6 T Q K",
+        "T Q 2 2"
+      ],
+      "turn": 2,
+      "last": null,
+      "passes": 0,
+      "n_cards": 12,
+      "legal_moves": 4,
+      "winning_moves": [
+        "Q"
+      ],
+      "three_checks_agree": true,
+      "independent_cache_states": 9325,
+      "seconds": 0.2289,
+      "root_move_evidence": [
+        {
+          "move": "2 2",
+          "type": 2,
+          "mover_forced_win": false,
+          "next_player": 0,
+          "replies": [
+            {
+              "move": "过",
+              "next_mover_forced_win": true
+            }
+          ]
+        },
+        {
+          "move": "10",
+          "type": 1,
+          "mover_forced_win": false,
+          "next_player": 0,
+          "replies": [
+            {
+              "move": "过",
+              "next_mover_forced_win": false
+            },
+            {
+              "move": "J",
+              "next_mover_forced_win": true
+            },
+            {
+              "move": "A",
+              "next_mover_forced_win": false
+            },
+            {
+              "move": "大王",
+              "next_mover_forced_win": false
+            }
+          ]
+        },
+        {
+          "move": "Q",
+          "type": 1,
+          "mover_forced_win": true,
+          "next_player": 0,
+          "replies": [
+            {
+              "move": "过",
+              "next_mover_forced_win": false
+            },
+            {
+              "move": "A",
+              "next_mover_forced_win": false
+            },
+            {
+              "move": "大王",
+              "next_mover_forced_win": false
+            }
+          ]
+        },
+        {
+          "move": "2",
+          "type": 1,
+          "mover_forced_win": false,
+          "next_player": 0,
+          "replies": [
+            {
+              "move": "过",
+              "next_mover_forced_win": true
+            },
+            {
+              "move": "大王",
+              "next_mover_forced_win": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
