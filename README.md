@@ -11,3 +11,5 @@
 代码、文档及小型清单优先存 GitHub；不在本地克隆大型数据、权重或第三方仓库。
 
 - [六道三人残局试标与验证](research/pilot-v1/README.md)（等待评分口径确认）
+
+- [100道三人残局试标：来源、评分与验证](research/pilot100/README.md)

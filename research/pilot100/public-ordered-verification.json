@@ -1,0 +1,4583 @@
+[
+  {
+    "source": "public_position",
+    "source_id": "33iq-579558",
+    "hands": [
+      "D222987",
+      "XQJ7755",
+      "AAA88866"
+    ],
+    "turn": 2,
+    "last_text": null,
+    "passes": 0,
+    "source_url": "https://www.33iq.com/topic/4961/",
+    "source_note": "smok; question 579558",
+    "key": "1ff1621de87a09c75e1b93f3d18e8e51d7d495f9ba549da3fd90f73e4aee77bf",
+    "n_cards": 22,
+    "last": null,
+    "moves": [
+      {
+        "cards": [
+          6,
+          6,
+          8,
+          8,
+          8
+        ],
+        "move": "6 6 8 8 8",
+        "type": 5,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          8,
+          8,
+          8,
+          14,
+          14
+        ],
+        "move": "8 8 8 A A",
+        "type": 5,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          6,
+          6,
+          14,
+          14,
+          14
+        ],
+        "move": "6 6 A A A",
+        "type": 5,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          8,
+          8,
+          14,
+          14,
+          14
+        ],
+        "move": "8 8 A A A",
+        "type": 5,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          6,
+          8,
+          8,
+          8
+        ],
+        "move": "6 8 8 8",
+        "type": 4,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          8,
+          8,
+          8,
+          14
+        ],
+        "move": "8 8 8 A",
+        "type": 4,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          6,
+          14,
+          14,
+          14
+        ],
+        "move": "6 A A A",
+        "type": 4,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          8,
+          14,
+          14,
+          14
+        ],
+        "move": "8 A A A",
+        "type": 4,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          8,
+          8,
+          8
+        ],
+        "move": "8 8 8",
+        "type": 3,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          14,
+          14,
+          14
+        ],
+        "move": "A A A",
+        "type": 3,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          6,
+          6
+        ],
+        "move": "6 6",
+        "type": 2,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          8,
+          8
+        ],
+        "move": "8 8",
+        "type": 2,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          14,
+          14
+        ],
+        "move": "A A",
+        "type": 2,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          6
+        ],
+        "move": "6",
+        "type": 1,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          8
+        ],
+        "move": "8",
+        "type": 1,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          14
+        ],
+        "move": "A",
+        "type": 1,
+        "mover_wins": false
+      }
+    ],
+    "winning_moves": [
+      "6 6 8 8 8",
+      "8 8 8 A A",
+      "6 6 A A A",
+      "8 8 A A A",
+      "8 8 8",
+      "A A A",
+      "6 6",
+      "8 8",
+      "A A"
+    ],
+    "reference_states": 4462,
+    "pv": [
+      {
+        "player": 2,
+        "legal": 16,
+        "winning": 9,
+        "cards": [
+          6,
+          6,
+          8,
+          8,
+          8
+        ],
+        "move": "6 6 8 8 8",
+        "type": 5
+      },
+      {
+        "player": 0,
+        "legal": 1,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 1,
+        "legal": 1,
+        "winning": 1,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 2,
+        "legal": 3,
+        "winning": 3,
+        "cards": [
+          14,
+          14,
+          14
+        ],
+        "move": "A A A",
+        "type": 3
+      }
+    ],
+    "trap_examples": [
+      {
+        "first": "6 8 8 8",
+        "continuation": [
+          {
+            "player": 0,
+            "legal": 5,
+            "winning": 3,
+            "cards": [
+              7,
+              15,
+              15,
+              15
+            ],
+            "move": "7 2 2 2",
+            "type": 4
+          },
+          {
+            "player": 1,
+            "legal": 1,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 2,
+            "legal": 1,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 0,
+            "legal": 3,
+            "winning": 2,
+            "cards": [
+              8
+            ],
+            "move": "8",
+            "type": 1
+          },
+          {
+            "player": 1,
+            "legal": 4,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 2,
+            "legal": 2,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 0,
+            "legal": 2,
+            "winning": 2,
+            "cards": [
+              9
+            ],
+            "move": "9",
+            "type": 1
+          },
+          {
+            "player": 1,
+            "legal": 4,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 2,
+            "legal": 2,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 0,
+            "legal": 1,
+            "winning": 1,
+            "cards": [
+              17
+            ],
+            "move": "大王",
+            "type": 1
+          }
+        ]
+      },
+      {
+        "first": "8 8 8 A",
+        "continuation": [
+          {
+            "player": 0,
+            "legal": 5,
+            "winning": 3,
+            "cards": [
+              7,
+              15,
+              15,
+              15
+            ],
+            "move": "7 2 2 2",
+            "type": 4
+          },
+          {
+            "player": 1,
+            "legal": 1,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 2,
+            "legal": 1,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 0,
+            "legal": 3,
+            "winning": 2,
+            "cards": [
+              8
+            ],
+            "move": "8",
+            "type": 1
+          },
+          {
+            "player": 1,
+            "legal": 4,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 2,
+            "legal": 2,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 0,
+            "legal": 2,
+            "winning": 2,
+            "cards": [
+              9
+            ],
+            "move": "9",
+            "type": 1
+          },
+          {
+            "player": 1,
+            "legal": 4,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 2,
+            "legal": 2,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 0,
+            "legal": 1,
+            "winning": 1,
+            "cards": [
+              17
+            ],
+            "move": "大王",
+            "type": 1
+          }
+        ]
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "source": "public_position",
+    "source_id": "33iq-579557",
+    "hands": [
+      "DX2KKKQQJJ987",
+      "777665",
+      "AAA88866"
+    ],
+    "turn": 2,
+    "last_text": null,
+    "passes": 0,
+    "source_url": "https://www.33iq.com/topic/4961/",
+    "source_note": "smok; question 579557",
+    "key": "94aa81bcdc1eacd4ac1fe0d2ced8ef8804b2e0d203da596f438caada9590a1fe",
+    "n_cards": 27,
+    "last": null,
+    "moves": [
+      {
+        "cards": [
+          6,
+          6,
+          8,
+          8,
+          8
+        ],
+        "move": "6 6 8 8 8",
+        "type": 5,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          8,
+          8,
+          8,
+          14,
+          14
+        ],
+        "move": "8 8 8 A A",
+        "type": 5,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          6,
+          6,
+          14,
+          14,
+          14
+        ],
+        "move": "6 6 A A A",
+        "type": 5,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          8,
+          8,
+          14,
+          14,
+          14
+        ],
+        "move": "8 8 A A A",
+        "type": 5,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          6,
+          8,
+          8,
+          8
+        ],
+        "move": "6 8 8 8",
+        "type": 4,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          8,
+          8,
+          8,
+          14
+        ],
+        "move": "8 8 8 A",
+        "type": 4,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          6,
+          14,
+          14,
+          14
+        ],
+        "move": "6 A A A",
+        "type": 4,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          8,
+          14,
+          14,
+          14
+        ],
+        "move": "8 A A A",
+        "type": 4,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          8,
+          8,
+          8
+        ],
+        "move": "8 8 8",
+        "type": 3,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          14,
+          14,
+          14
+        ],
+        "move": "A A A",
+        "type": 3,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          6,
+          6
+        ],
+        "move": "6 6",
+        "type": 2,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          8,
+          8
+        ],
+        "move": "8 8",
+        "type": 2,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          14,
+          14
+        ],
+        "move": "A A",
+        "type": 2,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          6
+        ],
+        "move": "6",
+        "type": 1,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          8
+        ],
+        "move": "8",
+        "type": 1,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          14
+        ],
+        "move": "A",
+        "type": 1,
+        "mover_wins": false
+      }
+    ],
+    "winning_moves": [
+      "6 8 8 8"
+    ],
+    "reference_states": 10818,
+    "pv": [
+      {
+        "player": 2,
+        "legal": 16,
+        "winning": 1,
+        "cards": [
+          6,
+          8,
+          8,
+          8
+        ],
+        "move": "6 8 8 8",
+        "type": 4
+      },
+      {
+        "player": 0,
+        "legal": 10,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 1,
+        "legal": 1,
+        "winning": 1,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 2,
+        "legal": 5,
+        "winning": 1,
+        "cards": [
+          6,
+          14,
+          14,
+          14
+        ],
+        "move": "6 A A A",
+        "type": 4
+      }
+    ],
+    "trap_examples": [
+      {
+        "first": "6 6 8 8 8",
+        "continuation": [
+          {
+            "player": 0,
+            "legal": 4,
+            "winning": 2,
+            "cards": [
+              11,
+              11,
+              13,
+              13,
+              13
+            ],
+            "move": "J J K K K",
+            "type": 5
+          },
+          {
+            "player": 1,
+            "legal": 1,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 2,
+            "legal": 1,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 0,
+            "legal": 9,
+            "winning": 6,
+            "cards": [
+              7
+            ],
+            "move": "7",
+            "type": 1
+          },
+          {
+            "player": 1,
+            "legal": 1,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 2,
+            "legal": 2,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 0,
+            "legal": 8,
+            "winning": 5,
+            "cards": [
+              8
+            ],
+            "move": "8",
+            "type": 1
+          },
+          {
+            "player": 1,
+            "legal": 1,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 2,
+            "legal": 2,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 0,
+            "legal": 7,
+            "winning": 7,
+            "cards": [
+              12,
+              12
+            ],
+            "move": "Q Q",
+            "type": 2
+          },
+          {
+            "player": 1,
+            "legal": 1,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 2,
+            "legal": 2,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 0,
+            "legal": 5,
+            "winning": 5,
+            "cards": [
+              9
+            ],
+            "move": "9",
+            "type": 1
+          },
+          {
+            "player": 1,
+            "legal": 1,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 2,
+            "legal": 2,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 0,
+            "legal": 4,
+            "winning": 4,
+            "cards": [
+              15
+            ],
+            "move": "2",
+            "type": 1
+          },
+          {
+            "player": 1,
+            "legal": 1,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 2,
+            "legal": 1,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 0,
+            "legal": 3,
+            "winning": 3,
+            "cards": [
+              16
+            ],
+            "move": "小王",
+            "type": 1
+          },
+          {
+            "player": 1,
+            "legal": 1,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 2,
+            "legal": 1,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 0,
+            "legal": 1,
+            "winning": 1,
+            "cards": [
+              17
+            ],
+            "move": "大王",
+            "type": 1
+          }
+        ]
+      },
+      {
+        "first": "8 8 8 A A",
+        "continuation": [
+          {
+            "player": 0,
+            "legal": 4,
+            "winning": 3,
+            "cards": [
+              11,
+              11,
+              13,
+              13,
+              13
+            ],
+            "move": "J J K K K",
+            "type": 5
+          },
+          {
+            "player": 1,
+            "legal": 1,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 2,
+            "legal": 1,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 0,
+            "legal": 9,
+            "winning": 9,
+            "cards": [
+              12,
+              12
+            ],
+            "move": "Q Q",
+            "type": 2
+          },
+          {
+            "player": 1,
+            "legal": 1,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 2,
+            "legal": 1,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 0,
+            "legal": 7,
+            "winning": 7,
+            "cards": [
+              7
+            ],
+            "move": "7",
+            "type": 1
+          },
+          {
+            "player": 1,
+            "legal": 1,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 2,
+            "legal": 2,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 0,
+            "legal": 6,
+            "winning": 6,
+            "cards": [
+              8
+            ],
+            "move": "8",
+            "type": 1
+          },
+          {
+            "player": 1,
+            "legal": 1,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 2,
+            "legal": 2,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 0,
+            "legal": 5,
+            "winning": 5,
+            "cards": [
+              9
+            ],
+            "move": "9",
+            "type": 1
+          },
+          {
+            "player": 1,
+            "legal": 1,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 2,
+            "legal": 2,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 0,
+            "legal": 4,
+            "winning": 4,
+            "cards": [
+              15
+            ],
+            "move": "2",
+            "type": 1
+          },
+          {
+            "player": 1,
+            "legal": 1,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 2,
+            "legal": 1,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 0,
+            "legal": 3,
+            "winning": 3,
+            "cards": [
+              16
+            ],
+            "move": "小王",
+            "type": 1
+          },
+          {
+            "player": 1,
+            "legal": 1,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 2,
+            "legal": 1,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 0,
+            "legal": 1,
+            "winning": 1,
+            "cards": [
+              17
+            ],
+            "move": "大王",
+            "type": 1
+          }
+        ]
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "source": "public_position",
+    "source_id": "33iq-507272",
+    "hands": [
+      "2AKKJ8663",
+      "D2AQ988644",
+      "4333"
+    ],
+    "turn": 0,
+    "last_text": null,
+    "passes": 0,
+    "source_url": "https://www.33iq.com/topic/574/7/",
+    "source_note": "katy Clarkson; question 507272",
+    "key": "25bc61cfd22b84e757bcca4dd2c773e3c1867644e5fb7d37a484fdf0a3ea4359",
+    "n_cards": 23,
+    "last": null,
+    "moves": [
+      {
+        "cards": [
+          6,
+          6
+        ],
+        "move": "6 6",
+        "type": 2,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          13,
+          13
+        ],
+        "move": "K K",
+        "type": 2,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          3
+        ],
+        "move": "3",
+        "type": 1,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          6
+        ],
+        "move": "6",
+        "type": 1,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          8
+        ],
+        "move": "8",
+        "type": 1,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          11
+        ],
+        "move": "J",
+        "type": 1,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          13
+        ],
+        "move": "K",
+        "type": 1,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          14
+        ],
+        "move": "A",
+        "type": 1,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          15
+        ],
+        "move": "2",
+        "type": 1,
+        "mover_wins": false
+      }
+    ],
+    "winning_moves": [
+      "3"
+    ],
+    "reference_states": 45617,
+    "pv": [
+      {
+        "player": 0,
+        "legal": 9,
+        "winning": 1,
+        "cards": [
+          3
+        ],
+        "move": "3",
+        "type": 1
+      },
+      {
+        "player": 1,
+        "legal": 9,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 2,
+        "legal": 2,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 0,
+        "legal": 8,
+        "winning": 5,
+        "cards": [
+          6,
+          6
+        ],
+        "move": "6 6",
+        "type": 2
+      },
+      {
+        "player": 1,
+        "legal": 2,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 2,
+        "legal": 1,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 0,
+        "legal": 6,
+        "winning": 4,
+        "cards": [
+          13,
+          13
+        ],
+        "move": "K K",
+        "type": 2
+      },
+      {
+        "player": 1,
+        "legal": 1,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 2,
+        "legal": 1,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 0,
+        "legal": 4,
+        "winning": 1,
+        "cards": [
+          8
+        ],
+        "move": "8",
+        "type": 1
+      },
+      {
+        "player": 1,
+        "legal": 6,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 2,
+        "legal": 1,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 0,
+        "legal": 3,
+        "winning": 3,
+        "cards": [
+          11
+        ],
+        "move": "J",
+        "type": 1
+      },
+      {
+        "player": 1,
+        "legal": 5,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 2,
+        "legal": 1,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 0,
+        "legal": 2,
+        "winning": 2,
+        "cards": [
+          14
+        ],
+        "move": "A",
+        "type": 1
+      },
+      {
+        "player": 1,
+        "legal": 3,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 2,
+        "legal": 1,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 0,
+        "legal": 1,
+        "winning": 1,
+        "cards": [
+          15
+        ],
+        "move": "2",
+        "type": 1
+      }
+    ],
+    "trap_examples": [
+      {
+        "first": "6 6",
+        "continuation": [
+          {
+            "player": 1,
+            "legal": 2,
+            "winning": 1,
+            "cards": [
+              8,
+              8
+            ],
+            "move": "8 8",
+            "type": 2
+          },
+          {
+            "player": 2,
+            "legal": 1,
+            "winning": 1,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 0,
+            "legal": 2,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 1,
+            "legal": 8,
+            "winning": 7,
+            "cards": [
+              4,
+              4
+            ],
+            "move": "4 4",
+            "type": 2
+          },
+          {
+            "player": 2,
+            "legal": 1,
+            "winning": 1,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 0,
+            "legal": 2,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 1,
+            "legal": 6,
+            "winning": 6,
+            "cards": [
+              6
+            ],
+            "move": "6",
+            "type": 1
+          },
+          {
+            "player": 2,
+            "legal": 1,
+            "winning": 1,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 0,
+            "legal": 6,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 1,
+            "legal": 5,
+            "winning": 5,
+            "cards": [
+              9
+            ],
+            "move": "9",
+            "type": 1
+          },
+          {
+            "player": 2,
+            "legal": 1,
+            "winning": 1,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 0,
+            "legal": 5,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 1,
+            "legal": 4,
+            "winning": 4,
+            "cards": [
+              12
+            ],
+            "move": "Q",
+            "type": 1
+          },
+          {
+            "player": 2,
+            "legal": 1,
+            "winning": 1,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 0,
+            "legal": 4,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 1,
+            "legal": 3,
+            "winning": 3,
+            "cards": [
+              14
+            ],
+            "move": "A",
+            "type": 1
+          },
+          {
+            "player": 2,
+            "legal": 1,
+            "winning": 1,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 0,
+            "legal": 2,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 1,
+            "legal": 2,
+            "winning": 2,
+            "cards": [
+              15
+            ],
+            "move": "2",
+            "type": 1
+          },
+          {
+            "player": 2,
+            "legal": 1,
+            "winning": 1,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 0,
+            "legal": 1,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 1,
+            "legal": 1,
+            "winning": 1,
+            "cards": [
+              17
+            ],
+            "move": "大王",
+            "type": 1
+          }
+        ]
+      },
+      {
+        "first": "K K",
+        "continuation": [
+          {
+            "player": 1,
+            "legal": 1,
+            "winning": 1,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 2,
+            "legal": 1,
+            "winning": 1,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 0,
+            "legal": 7,
+            "winning": 0,
+            "cards": [
+              6,
+              6
+            ],
+            "move": "6 6",
+            "type": 2
+          },
+          {
+            "player": 1,
+            "legal": 2,
+            "winning": 2,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 2,
+            "legal": 1,
+            "winning": 1,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 0,
+            "legal": 5,
+            "winning": 0,
+            "cards": [
+              3
+            ],
+            "move": "3",
+            "type": 1
+          },
+          {
+            "player": 1,
+            "legal": 9,
+            "winning": 5,
+            "cards": [
+              6
+            ],
+            "move": "6",
+            "type": 1
+          },
+          {
+            "player": 2,
+            "legal": 1,
+            "winning": 1,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 0,
+            "legal": 5,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 1,
+            "legal": 9,
+            "winning": 8,
+            "cards": [
+              4,
+              4
+            ],
+            "move": "4 4",
+            "type": 2
+          },
+          {
+            "player": 2,
+            "legal": 1,
+            "winning": 1,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 0,
+            "legal": 1,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 1,
+            "legal": 7,
+            "winning": 7,
+            "cards": [
+              8,
+              8
+            ],
+            "move": "8 8",
+            "type": 2
+          },
+          {
+            "player": 2,
+            "legal": 1,
+            "winning": 1,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 0,
+            "legal": 1,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 1,
+            "legal": 5,
+            "winning": 5,
+            "cards": [
+              9
+            ],
+            "move": "9",
+            "type": 1
+          },
+          {
+            "player": 2,
+            "legal": 1,
+            "winning": 1,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 0,
+            "legal": 4,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 1,
+            "legal": 4,
+            "winning": 4,
+            "cards": [
+              12
+            ],
+            "move": "Q",
+            "type": 1
+          },
+          {
+            "player": 2,
+            "legal": 1,
+            "winning": 1,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 0,
+            "legal": 3,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 1,
+            "legal": 3,
+            "winning": 3,
+            "cards": [
+              14
+            ],
+            "move": "A",
+            "type": 1
+          },
+          {
+            "player": 2,
+            "legal": 1,
+            "winning": 1,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 0,
+            "legal": 2,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          }
+        ]
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "source": "public_position",
+    "source_id": "33iq-507273",
+    "hands": [
+      "2QJJT98766543",
+      "DAA98875544",
+      "433"
+    ],
+    "turn": 0,
+    "last_text": null,
+    "passes": 0,
+    "source_url": "https://www.33iq.com/topic/574/7/",
+    "source_note": "katy Clarkson; question 507273",
+    "key": "4a04495d433501287cd8d1030bc0eca79c8c4f1183e690455318e7be939e387a",
+    "n_cards": 27,
+    "last": null,
+    "status": "unknown_budget",
+    "reason": "BudgetExceeded"
+  },
+  {
+    "source": "public_position",
+    "source_id": "gamersky-1",
+    "hands": [
+      "DXAJJ88",
+      "KQJTTTT943",
+      "KKQQ"
+    ],
+    "turn": 1,
+    "last_text": null,
+    "passes": 0,
+    "source_url": "https://www.gamersky.com/handbook/201411/487845.shtml",
+    "source_note": "头头来了; 第一题初始",
+    "key": "3cd39c374898aa89d2aca2ea9809b1a99db91e270f1de70ae82d21ac183c9e32",
+    "n_cards": 21,
+    "last": null,
+    "moves": [
+      {
+        "cards": [
+          3,
+          4,
+          10,
+          10,
+          10,
+          10
+        ],
+        "move": "3 4 10 10 10 10",
+        "type": 11,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          3,
+          9,
+          10,
+          10,
+          10,
+          10
+        ],
+        "move": "3 9 10 10 10 10",
+        "type": 11,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          3,
+          10,
+          10,
+          10,
+          10,
+          11
+        ],
+        "move": "3 10 10 10 10 J",
+        "type": 11,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          3,
+          10,
+          10,
+          10,
+          10,
+          12
+        ],
+        "move": "3 10 10 10 10 Q",
+        "type": 11,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          3,
+          10,
+          10,
+          10,
+          10,
+          13
+        ],
+        "move": "3 10 10 10 10 K",
+        "type": 11,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          4,
+          9,
+          10,
+          10,
+          10,
+          10
+        ],
+        "move": "4 9 10 10 10 10",
+        "type": 11,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          4,
+          10,
+          10,
+          10,
+          10,
+          11
+        ],
+        "move": "4 10 10 10 10 J",
+        "type": 11,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          4,
+          10,
+          10,
+          10,
+          10,
+          12
+        ],
+        "move": "4 10 10 10 10 Q",
+        "type": 11,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          4,
+          10,
+          10,
+          10,
+          10,
+          13
+        ],
+        "move": "4 10 10 10 10 K",
+        "type": 11,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          9,
+          10,
+          10,
+          10,
+          10,
+          11
+        ],
+        "move": "9 10 10 10 10 J",
+        "type": 11,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          9,
+          10,
+          10,
+          10,
+          10,
+          12
+        ],
+        "move": "9 10 10 10 10 Q",
+        "type": 11,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          9,
+          10,
+          10,
+          10,
+          10,
+          13
+        ],
+        "move": "9 10 10 10 10 K",
+        "type": 11,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          10,
+          10,
+          10,
+          10,
+          11,
+          12
+        ],
+        "move": "10 10 10 10 J Q",
+        "type": 11,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          10,
+          10,
+          10,
+          10,
+          11,
+          13
+        ],
+        "move": "10 10 10 10 J K",
+        "type": 11,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          10,
+          10,
+          10,
+          10,
+          12,
+          13
+        ],
+        "move": "10 10 10 10 Q K",
+        "type": 11,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "move": "9 10 J Q K",
+        "type": 6,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          3,
+          10,
+          10,
+          10
+        ],
+        "move": "3 10 10 10",
+        "type": 4,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          4,
+          10,
+          10,
+          10
+        ],
+        "move": "4 10 10 10",
+        "type": 4,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          9,
+          10,
+          10,
+          10
+        ],
+        "move": "9 10 10 10",
+        "type": 4,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          10,
+          10,
+          10,
+          11
+        ],
+        "move": "10 10 10 J",
+        "type": 4,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          10,
+          10,
+          10,
+          12
+        ],
+        "move": "10 10 10 Q",
+        "type": 4,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          10,
+          10,
+          10,
+          13
+        ],
+        "move": "10 10 10 K",
+        "type": 4,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          10,
+          10,
+          10
+        ],
+        "move": "10 10 10",
+        "type": 3,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          10,
+          10
+        ],
+        "move": "10 10",
+        "type": 2,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          3
+        ],
+        "move": "3",
+        "type": 1,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          4
+        ],
+        "move": "4",
+        "type": 1,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          9
+        ],
+        "move": "9",
+        "type": 1,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          10
+        ],
+        "move": "10",
+        "type": 1,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          11
+        ],
+        "move": "J",
+        "type": 1,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          12
+        ],
+        "move": "Q",
+        "type": 1,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          13
+        ],
+        "move": "K",
+        "type": 1,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          10,
+          10,
+          10,
+          10
+        ],
+        "move": "10 10 10 10",
+        "type": 13,
+        "mover_wins": false
+      }
+    ],
+    "winning_moves": [
+      "9 10 J Q K",
+      "3 10 10 10",
+      "4 10 10 10",
+      "10 10",
+      "3",
+      "4",
+      "9",
+      "J"
+    ],
+    "reference_states": 70686,
+    "pv": [
+      {
+        "player": 1,
+        "legal": 32,
+        "winning": 8,
+        "cards": [
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "move": "9 10 J Q K",
+        "type": 6
+      },
+      {
+        "player": 2,
+        "legal": 1,
+        "winning": 1,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 0,
+        "legal": 2,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 1,
+        "legal": 7,
+        "winning": 2,
+        "cards": [
+          3,
+          10,
+          10,
+          10
+        ],
+        "move": "3 10 10 10",
+        "type": 4
+      },
+      {
+        "player": 2,
+        "legal": 1,
+        "winning": 1,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 0,
+        "legal": 2,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 1,
+        "legal": 1,
+        "winning": 1,
+        "cards": [
+          4
+        ],
+        "move": "4",
+        "type": 1
+      }
+    ],
+    "trap_examples": [
+      {
+        "first": "3 4 10 10 10 10",
+        "continuation": [
+          {
+            "player": 2,
+            "legal": 1,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 0,
+            "legal": 2,
+            "winning": 1,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 1,
+            "legal": 4,
+            "winning": 0,
+            "cards": [
+              9
+            ],
+            "move": "9",
+            "type": 1
+          },
+          {
+            "player": 2,
+            "legal": 3,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 0,
+            "legal": 6,
+            "winning": 5,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 1,
+            "legal": 3,
+            "winning": 0,
+            "cards": [
+              11
+            ],
+            "move": "J",
+            "type": 1
+          },
+          {
+            "player": 2,
+            "legal": 3,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 0,
+            "legal": 5,
+            "winning": 2,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 1,
+            "legal": 2,
+            "winning": 0,
+            "cards": [
+              12
+            ],
+            "move": "Q",
+            "type": 1
+          },
+          {
+            "player": 2,
+            "legal": 2,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 0,
+            "legal": 5,
+            "winning": 1,
+            "cards": [
+              14
+            ],
+            "move": "A",
+            "type": 1
+          },
+          {
+            "player": 1,
+            "legal": 1,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 2,
+            "legal": 1,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 0,
+            "legal": 7,
+            "winning": 2,
+            "cards": [
+              8,
+              8
+            ],
+            "move": "8 8",
+            "type": 2
+          },
+          {
+            "player": 1,
+            "legal": 1,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 2,
+            "legal": 3,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 0,
+            "legal": 5,
+            "winning": 4,
+            "cards": [
+              11,
+              11
+            ],
+            "move": "J J",
+            "type": 2
+          },
+          {
+            "player": 1,
+            "legal": 1,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 2,
+            "legal": 3,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 0,
+            "legal": 3,
+            "winning": 3,
+            "cards": [
+              16
+            ],
+            "move": "小王",
+            "type": 1
+          },
+          {
+            "player": 1,
+            "legal": 1,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 2,
+            "legal": 1,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 0,
+            "legal": 1,
+            "winning": 1,
+            "cards": [
+              17
+            ],
+            "move": "大王",
+            "type": 1
+          }
+        ]
+      },
+      {
+        "first": "3 9 10 10 10 10",
+        "continuation": [
+          {
+            "player": 2,
+            "legal": 1,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 0,
+            "legal": 2,
+            "winning": 1,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 1,
+            "legal": 4,
+            "winning": 0,
+            "cards": [
+              4
+            ],
+            "move": "4",
+            "type": 1
+          },
+          {
+            "player": 2,
+            "legal": 3,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 0,
+            "legal": 7,
+            "winning": 6,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 1,
+            "legal": 3,
+            "winning": 0,
+            "cards": [
+              11
+            ],
+            "move": "J",
+            "type": 1
+          },
+          {
+            "player": 2,
+            "legal": 3,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 0,
+            "legal": 5,
+            "winning": 2,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 1,
+            "legal": 2,
+            "winning": 0,
+            "cards": [
+              12
+            ],
+            "move": "Q",
+            "type": 1
+          },
+          {
+            "player": 2,
+            "legal": 2,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 0,
+            "legal": 5,
+            "winning": 1,
+            "cards": [
+              14
+            ],
+            "move": "A",
+            "type": 1
+          },
+          {
+            "player": 1,
+            "legal": 1,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 2,
+            "legal": 1,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 0,
+            "legal": 7,
+            "winning": 2,
+            "cards": [
+              8,
+              8
+            ],
+            "move": "8 8",
+            "type": 2
+          },
+          {
+            "player": 1,
+            "legal": 1,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 2,
+            "legal": 3,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 0,
+            "legal": 5,
+            "winning": 4,
+            "cards": [
+              11,
+              11
+            ],
+            "move": "J J",
+            "type": 2
+          },
+          {
+            "player": 1,
+            "legal": 1,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 2,
+            "legal": 3,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 0,
+            "legal": 3,
+            "winning": 3,
+            "cards": [
+              16
+            ],
+            "move": "小王",
+            "type": 1
+          },
+          {
+            "player": 1,
+            "legal": 1,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 2,
+            "legal": 1,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 0,
+            "legal": 1,
+            "winning": 1,
+            "cards": [
+              17
+            ],
+            "move": "大王",
+            "type": 1
+          }
+        ]
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "source": "public_position",
+    "source_id": "gamersky-1b",
+    "hands": [
+      "DXJJ88",
+      "KQJ93",
+      "KKQQ"
+    ],
+    "turn": 1,
+    "last_text": null,
+    "passes": 0,
+    "source_url": "https://www.gamersky.com/handbook/201411/487845.shtml",
+    "source_note": "头头来了; 第一题后续，4/A/TTTT/过/过之后",
+    "key": "0cbccc322ad1a282b8c7eec14babaed2243f7f3b36c21c497201dffc4bdd063c",
+    "n_cards": 15,
+    "last": null,
+    "moves": [
+      {
+        "cards": [
+          3
+        ],
+        "move": "3",
+        "type": 1,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          9
+        ],
+        "move": "9",
+        "type": 1,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          11
+        ],
+        "move": "J",
+        "type": 1,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          12
+        ],
+        "move": "Q",
+        "type": 1,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          13
+        ],
+        "move": "K",
+        "type": 1,
+        "mover_wins": true
+      }
+    ],
+    "winning_moves": [
+      "3",
+      "9",
+      "J",
+      "Q",
+      "K"
+    ],
+    "reference_states": 2366,
+    "pv": [
+      {
+        "player": 1,
+        "legal": 5,
+        "winning": 5,
+        "cards": [
+          3
+        ],
+        "move": "3",
+        "type": 1
+      },
+      {
+        "player": 2,
+        "legal": 3,
+        "winning": 2,
+        "cards": [
+          12
+        ],
+        "move": "Q",
+        "type": 1
+      },
+      {
+        "player": 0,
+        "legal": 4,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 1,
+        "legal": 2,
+        "winning": 2,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 2,
+        "legal": 3,
+        "winning": 1,
+        "cards": [
+          12
+        ],
+        "move": "Q",
+        "type": 1
+      },
+      {
+        "player": 0,
+        "legal": 4,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 1,
+        "legal": 2,
+        "winning": 2,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 2,
+        "legal": 2,
+        "winning": 1,
+        "cards": [
+          13,
+          13
+        ],
+        "move": "K K",
+        "type": 2
+      }
+    ],
+    "trap_examples": [],
+    "status": "verified"
+  },
+  {
+    "source": "public_position",
+    "source_id": "gamersky-2-follow",
+    "hands": [
+      "2999987",
+      "KKQJ98777654433",
+      "23"
+    ],
+    "turn": 1,
+    "last_text": "QQ",
+    "passes": 1,
+    "source_url": "https://www.gamersky.com/handbook/201411/487845.shtml",
+    "source_note": "头头来了; 第二题上家出QQ，条件化地主过牌",
+    "status": "error",
+    "error": "ValueError('physical cards')"
+  },
+  {
+    "source": "public_position",
+    "source_id": "gamersky-3",
+    "hands": [
+      "222K8",
+      "AJJJQ",
+      "TTT995543"
+    ],
+    "turn": 2,
+    "last_text": null,
+    "passes": 0,
+    "source_url": "https://www.gamersky.com/handbook/201411/487845.shtml",
+    "source_note": "头头来了; 第三题",
+    "key": "fe4a5cc1a7b31a08fca9cc6696b038d3b79b690e9840d0e9790ae9f9c84da782",
+    "n_cards": 19,
+    "last": null,
+    "moves": [
+      {
+        "cards": [
+          5,
+          5,
+          10,
+          10,
+          10
+        ],
+        "move": "5 5 10 10 10",
+        "type": 5,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          9,
+          9,
+          10,
+          10,
+          10
+        ],
+        "move": "9 9 10 10 10",
+        "type": 5,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          3,
+          10,
+          10,
+          10
+        ],
+        "move": "3 10 10 10",
+        "type": 4,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          4,
+          10,
+          10,
+          10
+        ],
+        "move": "4 10 10 10",
+        "type": 4,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          5,
+          10,
+          10,
+          10
+        ],
+        "move": "5 10 10 10",
+        "type": 4,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          9,
+          10,
+          10,
+          10
+        ],
+        "move": "9 10 10 10",
+        "type": 4,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          10,
+          10,
+          10
+        ],
+        "move": "10 10 10",
+        "type": 3,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          5,
+          5
+        ],
+        "move": "5 5",
+        "type": 2,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          9,
+          9
+        ],
+        "move": "9 9",
+        "type": 2,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          10,
+          10
+        ],
+        "move": "10 10",
+        "type": 2,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          3
+        ],
+        "move": "3",
+        "type": 1,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          4
+        ],
+        "move": "4",
+        "type": 1,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          5
+        ],
+        "move": "5",
+        "type": 1,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          9
+        ],
+        "move": "9",
+        "type": 1,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          10
+        ],
+        "move": "10",
+        "type": 1,
+        "mover_wins": false
+      }
+    ],
+    "winning_moves": [
+      "10 10 10"
+    ],
+    "reference_states": 595,
+    "pv": [
+      {
+        "player": 2,
+        "legal": 15,
+        "winning": 1,
+        "cards": [
+          10,
+          10,
+          10
+        ],
+        "move": "10 10 10",
+        "type": 3
+      },
+      {
+        "player": 0,
+        "legal": 2,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 1,
+        "legal": 2,
+        "winning": 1,
+        "cards": [
+          11,
+          11,
+          11
+        ],
+        "move": "J J J",
+        "type": 3
+      },
+      {
+        "player": 2,
+        "legal": 1,
+        "winning": 1,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 0,
+        "legal": 2,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 1,
+        "legal": 2,
+        "winning": 1,
+        "cards": [
+          12
+        ],
+        "move": "Q",
+        "type": 1
+      },
+      {
+        "player": 2,
+        "legal": 1,
+        "winning": 1,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 0,
+        "legal": 3,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 1,
+        "legal": 1,
+        "winning": 1,
+        "cards": [
+          14
+        ],
+        "move": "A",
+        "type": 1
+      }
+    ],
+    "trap_examples": [
+      {
+        "first": "5 5 10 10 10",
+        "continuation": [
+          {
+            "player": 0,
+            "legal": 1,
+            "winning": 1,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 1,
+            "legal": 1,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 2,
+            "legal": 4,
+            "winning": 0,
+            "cards": [
+              9,
+              9
+            ],
+            "move": "9 9",
+            "type": 2
+          },
+          {
+            "player": 0,
+            "legal": 2,
+            "winning": 2,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 1,
+            "legal": 2,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 2,
+            "legal": 2,
+            "winning": 0,
+            "cards": [
+              3
+            ],
+            "move": "3",
+            "type": 1
+          },
+          {
+            "player": 0,
+            "legal": 4,
+            "winning": 3,
+            "cards": [
+              8
+            ],
+            "move": "8",
+            "type": 1
+          },
+          {
+            "player": 1,
+            "legal": 4,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 2,
+            "legal": 1,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 0,
+            "legal": 5,
+            "winning": 5,
+            "cards": [
+              13,
+              15,
+              15,
+              15
+            ],
+            "move": "K 2 2 2",
+            "type": 4
+          }
+        ]
+      },
+      {
+        "first": "9 9 10 10 10",
+        "continuation": [
+          {
+            "player": 0,
+            "legal": 1,
+            "winning": 1,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 1,
+            "legal": 1,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 2,
+            "legal": 4,
+            "winning": 0,
+            "cards": [
+              5,
+              5
+            ],
+            "move": "5 5",
+            "type": 2
+          },
+          {
+            "player": 0,
+            "legal": 2,
+            "winning": 2,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 1,
+            "legal": 2,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 2,
+            "legal": 2,
+            "winning": 0,
+            "cards": [
+              3
+            ],
+            "move": "3",
+            "type": 1
+          },
+          {
+            "player": 0,
+            "legal": 4,
+            "winning": 3,
+            "cards": [
+              8
+            ],
+            "move": "8",
+            "type": 1
+          },
+          {
+            "player": 1,
+            "legal": 4,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 2,
+            "legal": 1,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 0,
+            "legal": 5,
+            "winning": 5,
+            "cards": [
+              13,
+              15,
+              15,
+              15
+            ],
+            "move": "K 2 2 2",
+            "type": 4
+          }
+        ]
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "source": "public_position",
+    "source_id": "gamersky-4",
+    "hands": [
+      "DX28766543",
+      "AAKQ",
+      "2AKQJT93"
+    ],
+    "turn": 1,
+    "last_text": null,
+    "passes": 0,
+    "source_url": "https://www.gamersky.com/handbook/201411/487845.shtml",
+    "source_note": "头头来了; 第四题",
+    "key": "972ad36695d6ad5be8ac7579f3e88a793e9c9d56a045e5fee04377c487c5087a",
+    "n_cards": 22,
+    "last": null,
+    "moves": [
+      {
+        "cards": [
+          14,
+          14
+        ],
+        "move": "A A",
+        "type": 2,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          12
+        ],
+        "move": "Q",
+        "type": 1,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          13
+        ],
+        "move": "K",
+        "type": 1,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          14
+        ],
+        "move": "A",
+        "type": 1,
+        "mover_wins": false
+      }
+    ],
+    "winning_moves": [
+      "A A"
+    ],
+    "reference_states": 4152,
+    "pv": [
+      {
+        "player": 1,
+        "legal": 4,
+        "winning": 1,
+        "cards": [
+          14,
+          14
+        ],
+        "move": "A A",
+        "type": 2
+      },
+      {
+        "player": 2,
+        "legal": 1,
+        "winning": 1,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 0,
+        "legal": 2,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 1,
+        "legal": 2,
+        "winning": 2,
+        "cards": [
+          12
+        ],
+        "move": "Q",
+        "type": 1
+      },
+      {
+        "player": 2,
+        "legal": 4,
+        "winning": 1,
+        "cards": [
+          15
+        ],
+        "move": "2",
+        "type": 1
+      },
+      {
+        "player": 0,
+        "legal": 4,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 1,
+        "legal": 1,
+        "winning": 1,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 2,
+        "legal": 10,
+        "winning": 1,
+        "cards": [
+          3
+        ],
+        "move": "3",
+        "type": 1
+      },
+      {
+        "player": 0,
+        "legal": 10,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 1,
+        "legal": 2,
+        "winning": 2,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 2,
+        "legal": 9,
+        "winning": 1,
+        "cards": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ],
+        "move": "9 10 J Q K A",
+        "type": 6
+      }
+    ],
+    "trap_examples": [
+      {
+        "first": "Q",
+        "continuation": [
+          {
+            "player": 2,
+            "legal": 4,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 0,
+            "legal": 5,
+            "winning": 3,
+            "cards": [
+              15
+            ],
+            "move": "2",
+            "type": 1
+          },
+          {
+            "player": 1,
+            "legal": 1,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 2,
+            "legal": 1,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 0,
+            "legal": 13,
+            "winning": 8,
+            "cards": [
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "move": "3 4 5 6 7 8",
+            "type": 6
+          },
+          {
+            "player": 1,
+            "legal": 1,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 2,
+            "legal": 2,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 0,
+            "legal": 4,
+            "winning": 4,
+            "cards": [
+              6
+            ],
+            "move": "6",
+            "type": 1
+          },
+          {
+            "player": 1,
+            "legal": 3,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 2,
+            "legal": 8,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 0,
+            "legal": 3,
+            "winning": 3,
+            "cards": [
+              16
+            ],
+            "move": "小王",
+            "type": 1
+          },
+          {
+            "player": 1,
+            "legal": 1,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 2,
+            "legal": 1,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 0,
+            "legal": 1,
+            "winning": 1,
+            "cards": [
+              17
+            ],
+            "move": "大王",
+            "type": 1
+          }
+        ]
+      },
+      {
+        "first": "K",
+        "continuation": [
+          {
+            "player": 2,
+            "legal": 3,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 0,
+            "legal": 5,
+            "winning": 3,
+            "cards": [
+              15
+            ],
+            "move": "2",
+            "type": 1
+          },
+          {
+            "player": 1,
+            "legal": 1,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 2,
+            "legal": 1,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 0,
+            "legal": 13,
+            "winning": 8,
+            "cards": [
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "move": "3 4 5 6 7 8",
+            "type": 6
+          },
+          {
+            "player": 1,
+            "legal": 1,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 2,
+            "legal": 2,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 0,
+            "legal": 4,
+            "winning": 4,
+            "cards": [
+              6
+            ],
+            "move": "6",
+            "type": 1
+          },
+          {
+            "player": 1,
+            "legal": 3,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 2,
+            "legal": 8,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 0,
+            "legal": 3,
+            "winning": 3,
+            "cards": [
+              16
+            ],
+            "move": "小王",
+            "type": 1
+          },
+          {
+            "player": 1,
+            "legal": 1,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 2,
+            "legal": 1,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 0,
+            "legal": 1,
+            "winning": 1,
+            "cards": [
+              17
+            ],
+            "move": "大王",
+            "type": 1
+          }
+        ]
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "source": "public_position",
+    "source_id": "gamersky-5-follow",
+    "hands": [
+      "2KQJT955",
+      "AAKQJT443",
+      "6"
+    ],
+    "turn": 1,
+    "last_text": "K",
+    "passes": 0,
+    "source_url": "https://www.gamersky.com/handbook/201411/487845.shtml",
+    "source_note": "头头来了; 第五题第一局，地主已出K，按出牌次序轮到下家",
+    "key": "5267fcac903f34e0a93d48692201bcdcaa1e309e12b9a09b3b64e3a0c32d8a1c",
+    "n_cards": 18,
+    "last": {
+      "cards": [
+        13
+      ],
+      "move": "K",
+      "type": 1
+    },
+    "moves": [
+      {
+        "cards": [],
+        "move": "过",
+        "type": 0,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          14
+        ],
+        "move": "A",
+        "type": 1,
+        "mover_wins": false
+      }
+    ],
+    "winning_moves": [
+      "过"
+    ],
+    "reference_states": 2084,
+    "pv": [
+      {
+        "player": 1,
+        "legal": 2,
+        "winning": 1,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 2,
+        "legal": 1,
+        "winning": 1,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 0,
+        "legal": 9,
+        "winning": 0,
+        "cards": [
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "move": "9 10 J Q K",
+        "type": 6
+      },
+      {
+        "player": 1,
+        "legal": 2,
+        "winning": 1,
+        "cards": [
+          10,
+          11,
+          12,
+          13,
+          14
+        ],
+        "move": "10 J Q K A",
+        "type": 6
+      },
+      {
+        "player": 2,
+        "legal": 1,
+        "winning": 1,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 0,
+        "legal": 1,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 1,
+        "legal": 4,
+        "winning": 2,
+        "cards": [
+          3
+        ],
+        "move": "3",
+        "type": 1
+      },
+      {
+        "player": 2,
+        "legal": 2,
+        "winning": 1,
+        "cards": [
+          6
+        ],
+        "move": "6",
+        "type": 1
+      }
+    ],
+    "trap_examples": [
+      {
+        "first": "A",
+        "continuation": [
+          {
+            "player": 2,
+            "legal": 1,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 0,
+            "legal": 2,
+            "winning": 1,
+            "cards": [
+              15
+            ],
+            "move": "2",
+            "type": 1
+          },
+          {
+            "player": 1,
+            "legal": 1,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 2,
+            "legal": 1,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 0,
+            "legal": 8,
+            "winning": 1,
+            "cards": [
+              5,
+              5
+            ],
+            "move": "5 5",
+            "type": 2
+          },
+          {
+            "player": 1,
+            "legal": 1,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 2,
+            "legal": 1,
+            "winning": 0,
+            "cards": [],
+            "move": "过",
+            "type": 0
+          },
+          {
+            "player": 0,
+            "legal": 6,
+            "winning": 1,
+            "cards": [
+              9,
+              10,
+              11,
+              12,
+              13
+            ],
+            "move": "9 10 J Q K",
+            "type": 6
+          }
+        ]
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "source": "public_position",
+    "source_id": "gamersky-6",
+    "hands": [
+      "2AKK877666",
+      "AAQJT988874433",
+      "55"
+    ],
+    "turn": 0,
+    "last_text": null,
+    "passes": 0,
+    "source_url": "https://www.gamersky.com/handbook/201411/487845.shtml",
+    "source_note": "头头来了; 第五题第二局初始",
+    "key": "878644ba61fe57a335a197e250e42463b1b43164ea47c99e6e38e757d6a62a73",
+    "n_cards": 26,
+    "last": null,
+    "moves": [
+      {
+        "cards": [
+          6,
+          6,
+          6,
+          7,
+          7
+        ],
+        "move": "6 6 6 7 7",
+        "type": 5,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          6,
+          6,
+          6,
+          13,
+          13
+        ],
+        "move": "6 6 6 K K",
+        "type": 5,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          6,
+          6,
+          6,
+          7
+        ],
+        "move": "6 6 6 7",
+        "type": 4,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          6,
+          6,
+          6,
+          8
+        ],
+        "move": "6 6 6 8",
+        "type": 4,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          6,
+          6,
+          6,
+          13
+        ],
+        "move": "6 6 6 K",
+        "type": 4,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          6,
+          6,
+          6,
+          14
+        ],
+        "move": "6 6 6 A",
+        "type": 4,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          6,
+          6,
+          6,
+          15
+        ],
+        "move": "6 6 6 2",
+        "type": 4,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          6,
+          6,
+          6
+        ],
+        "move": "6 6 6",
+        "type": 3,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          6,
+          6
+        ],
+        "move": "6 6",
+        "type": 2,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          7,
+          7
+        ],
+        "move": "7 7",
+        "type": 2,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          13,
+          13
+        ],
+        "move": "K K",
+        "type": 2,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          6
+        ],
+        "move": "6",
+        "type": 1,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          7
+        ],
+        "move": "7",
+        "type": 1,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          8
+        ],
+        "move": "8",
+        "type": 1,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          13
+        ],
+        "move": "K",
+        "type": 1,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          14
+        ],
+        "move": "A",
+        "type": 1,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          15
+        ],
+        "move": "2",
+        "type": 1,
+        "mover_wins": false
+      }
+    ],
+    "winning_moves": [],
+    "status": "losing"
+  },
+  {
+    "source": "public_position",
+    "source_id": "gamersky-7",
+    "hands": [
+      "AAT86",
+      "2QQ43",
+      "TTT9"
+    ],
+    "turn": 0,
+    "last_text": null,
+    "passes": 0,
+    "source_url": "https://www.gamersky.com/handbook/201411/487845.shtml",
+    "source_note": "头头来了; 第七题，先验证地主是否必胜",
+    "key": "9a6242b83a190fea60f317323e8730d6be79fab302f60c16a71abd8e24d386a7",
+    "n_cards": 14,
+    "last": null,
+    "moves": [
+      {
+        "cards": [
+          14,
+          14
+        ],
+        "move": "A A",
+        "type": 2,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          6
+        ],
+        "move": "6",
+        "type": 1,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          8
+        ],
+        "move": "8",
+        "type": 1,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          10
+        ],
+        "move": "10",
+        "type": 1,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          14
+        ],
+        "move": "A",
+        "type": 1,
+        "mover_wins": false
+      }
+    ],
+    "winning_moves": [],
+    "status": "losing"
+  },
+  {
+    "source": "public_position",
+    "source_id": "refgpt-example",
+    "hands": [
+      "888866663333",
+      "2QTTTT",
+      "AAAAKKKK554"
+    ],
+    "turn": 0,
+    "last_text": null,
+    "passes": 0,
+    "source_url": "https://huggingface.co/datasets/Mutonix/RefGPT-Reason",
+    "source_note": "public dataset viewer example; answers untrusted",
+    "key": "2760216ba1bba91c928d5ef95973117271be0acf4bb674a65d0ee51f606da5fe",
+    "n_cards": 29,
+    "last": null,
+    "moves": [
+      {
+        "cards": [
+          3,
+          3,
+          3,
+          3,
+          6,
+          6,
+          8,
+          8
+        ],
+        "move": "3 3 3 3 6 6 8 8",
+        "type": 12,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          3,
+          3,
+          6,
+          6,
+          6,
+          6,
+          8,
+          8
+        ],
+        "move": "3 3 6 6 6 6 8 8",
+        "type": 12,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          3,
+          3,
+          6,
+          6,
+          8,
+          8,
+          8,
+          8
+        ],
+        "move": "3 3 6 6 8 8 8 8",
+        "type": 12,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          3,
+          3,
+          3,
+          3,
+          6,
+          6
+        ],
+        "move": "3 3 3 3 6 6",
+        "type": 11,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          3,
+          3,
+          3,
+          3,
+          6,
+          8
+        ],
+        "move": "3 3 3 3 6 8",
+        "type": 11,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          3,
+          3,
+          3,
+          3,
+          8,
+          8
+        ],
+        "move": "3 3 3 3 8 8",
+        "type": 11,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          3,
+          3,
+          6,
+          6,
+          6,
+          6
+        ],
+        "move": "3 3 6 6 6 6",
+        "type": 11,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          3,
+          6,
+          6,
+          6,
+          6,
+          8
+        ],
+        "move": "3 6 6 6 6 8",
+        "type": 11,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          6,
+          6,
+          6,
+          6,
+          8,
+          8
+        ],
+        "move": "6 6 6 6 8 8",
+        "type": 11,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          3,
+          3,
+          8,
+          8,
+          8,
+          8
+        ],
+        "move": "3 3 8 8 8 8",
+        "type": 11,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          3,
+          6,
+          8,
+          8,
+          8,
+          8
+        ],
+        "move": "3 6 8 8 8 8",
+        "type": 11,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          6,
+          6,
+          8,
+          8,
+          8,
+          8
+        ],
+        "move": "6 6 8 8 8 8",
+        "type": 11,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          3,
+          3,
+          3,
+          6,
+          6
+        ],
+        "move": "3 3 3 6 6",
+        "type": 5,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          3,
+          3,
+          3,
+          8,
+          8
+        ],
+        "move": "3 3 3 8 8",
+        "type": 5,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          3,
+          3,
+          6,
+          6,
+          6
+        ],
+        "move": "3 3 6 6 6",
+        "type": 5,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          6,
+          6,
+          6,
+          8,
+          8
+        ],
+        "move": "6 6 6 8 8",
+        "type": 5,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          3,
+          3,
+          8,
+          8,
+          8
+        ],
+        "move": "3 3 8 8 8",
+        "type": 5,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          6,
+          6,
+          8,
+          8,
+          8
+        ],
+        "move": "6 6 8 8 8",
+        "type": 5,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          3,
+          3,
+          3,
+          6
+        ],
+        "move": "3 3 3 6",
+        "type": 4,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          3,
+          3,
+          3,
+          8
+        ],
+        "move": "3 3 3 8",
+        "type": 4,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          3,
+          6,
+          6,
+          6
+        ],
+        "move": "3 6 6 6",
+        "type": 4,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          6,
+          6,
+          6,
+          8
+        ],
+        "move": "6 6 6 8",
+        "type": 4,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          3,
+          8,
+          8,
+          8
+        ],
+        "move": "3 8 8 8",
+        "type": 4,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          6,
+          8,
+          8,
+          8
+        ],
+        "move": "6 8 8 8",
+        "type": 4,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          3,
+          3,
+          3
+        ],
+        "move": "3 3 3",
+        "type": 3,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          6,
+          6,
+          6
+        ],
+        "move": "6 6 6",
+        "type": 3,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          8,
+          8,
+          8
+        ],
+        "move": "8 8 8",
+        "type": 3,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          3,
+          3
+        ],
+        "move": "3 3",
+        "type": 2,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          6,
+          6
+        ],
+        "move": "6 6",
+        "type": 2,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          8,
+          8
+        ],
+        "move": "8 8",
+        "type": 2,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          3
+        ],
+        "move": "3",
+        "type": 1,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          6
+        ],
+        "move": "6",
+        "type": 1,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          8
+        ],
+        "move": "8",
+        "type": 1,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "move": "3 3 3 3",
+        "type": 13,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          6,
+          6,
+          6,
+          6
+        ],
+        "move": "6 6 6 6",
+        "type": 13,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          8,
+          8,
+          8,
+          8
+        ],
+        "move": "8 8 8 8",
+        "type": 13,
+        "mover_wins": false
+      }
+    ],
+    "winning_moves": [],
+    "status": "losing"
+  }
+]

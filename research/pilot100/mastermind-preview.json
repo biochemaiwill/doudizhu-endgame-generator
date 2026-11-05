@@ -1,0 +1,41 @@
+{
+  "features": [
+    {
+      "feature_idx": 0,
+      "name": "sentence",
+      "type": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    },
+    {
+      "feature_idx": 1,
+      "name": "answer",
+      "type": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    }
+  ],
+  "rows": [
+    {
+      "row_idx": 0,
+      "row": {
+        "sentence": "Here is a Peasants vs Landlord card game. Assume you are the landlord. The current cards for the landlord are: [3, 3, 4, 5, 9, 9, 10, 11, 11, 12, 12, 12, 13, 13, 20, 30]. The current cards for the peasant that plays before landlord are: [5, 6, 6, 6, 7, 7, 7, 11, 14, 17]. The current cards for the peasant that plays after landlord are: [4, 4, 8, 8, 10, 10, 12, 13, 14, 14]. The last two moves by other players are [[4], []]. The legal actions for the landlord are: [[5], [9], [10], [11], [12], [13], [20], [30], [20, 30], []]. First, you need to select several possible actions from all the legal actions. Then, predict the corresponding responses your opponent might adopt. Finally, based on the prediction results, provide the best action.",
+        "answer": "Some possible actions are: [[5], [10]]. If I play [5], the next two players will play [8] and [11]. If I play [10], the next two players will play [12] and [14]. Therefore, I will finally play [5]"
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1,
+      "row": {
+        "sentence": "Here is a Peasants vs Landlord card game. Assume you are the landlord. The current cards for the landlord are: [5, 8, 9, 9, 10, 10, 10, 11, 12, 12, 14, 17, 20, 30]. The current cards for the peasant that plays before landlord are: [4, 4, 6, 6, 8, 9, 10, 11, 13, 14]. The current cards for the peasant that plays after landlord are: [3, 5, 5, 5, 7, 7, 9, 11, 11, 13, 17]. The last two moves by other players are [[3], []]. The legal actions for the landlord are: [[5], [8], [9], [10], [11], [12], [14], [17], [20], [30], [20, 30], []]. First, you need to select several possible actions from all the legal actions. Then, predict the corresponding responses your opponent might adopt. Finally, based on the prediction results, provide the best action.",
+        "answer": "Some possible actions are: [[5], [8], [11]]. If I play [5], the next two players will play [7] and [8]. If I play [8], the next two players will play [9] and [10]. If I play [11], the next two players will play [13] and [14]. Therefore, I will finally play [11]"
+      },
+      "truncated_cells": []
+    }
+  ],
+  "num_rows_total": 570934,
+  "num_rows_per_page": 100,
+  "partial": false
+}

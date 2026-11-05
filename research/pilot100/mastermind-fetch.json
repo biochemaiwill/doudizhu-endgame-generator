@@ -1,0 +1,137 @@
+{
+  "offset_seed": 20261107,
+  "pages": [
+    {
+      "offset": 28000,
+      "error": null,
+      "returned": 100
+    },
+    {
+      "offset": 52900,
+      "error": null,
+      "returned": 100
+    },
+    {
+      "offset": 58400,
+      "error": null,
+      "returned": 100
+    },
+    {
+      "offset": 61400,
+      "error": null,
+      "returned": 100
+    },
+    {
+      "offset": 122700,
+      "error": null,
+      "returned": 100
+    },
+    {
+      "offset": 123200,
+      "error": null,
+      "returned": 100
+    },
+    {
+      "offset": 137100,
+      "error": null,
+      "returned": 100
+    },
+    {
+      "offset": 153100,
+      "error": null,
+      "returned": 100
+    },
+    {
+      "offset": 174600,
+      "error": null,
+      "returned": 100
+    },
+    {
+      "offset": 178200,
+      "error": null,
+      "returned": 100
+    },
+    {
+      "offset": 199700,
+      "error": null,
+      "returned": 100
+    },
+    {
+      "offset": 231600,
+      "error": null,
+      "returned": 100
+    },
+    {
+      "offset": 255100,
+      "error": null,
+      "returned": 100
+    },
+    {
+      "offset": 255800,
+      "error": null,
+      "returned": 100
+    },
+    {
+      "offset": 271300,
+      "error": null,
+      "returned": 100
+    },
+    {
+      "offset": 311500,
+      "error": null,
+      "returned": 100
+    },
+    {
+      "offset": 328100,
+      "error": null,
+      "returned": 100
+    },
+    {
+      "offset": 361600,
+      "error": null,
+      "returned": 100
+    },
+    {
+      "offset": 450900,
+      "error": null,
+      "returned": 100
+    },
+    {
+      "offset": 456400,
+      "error": null,
+      "returned": 100
+    },
+    {
+      "offset": 462500,
+      "error": null,
+      "returned": 100
+    },
+    {
+      "offset": 498000,
+      "error": null,
+      "returned": 100
+    },
+    {
+      "offset": 541300,
+      "error": null,
+      "returned": 100
+    },
+    {
+      "offset": 563600,
+      "error": null,
+      "returned": 100
+    }
+  ],
+  "counts": {
+    "too_many_cards": 1547,
+    "short_candidate": 325,
+    "duplicate": 524,
+    "parse_or_contract_reject": 4
+  },
+  "last_two_order": "newest first; based on kwai/DouZero get_last_two_moves, legal moves crosschecked",
+  "mapping": {
+    "17": "2",
+    "20": "small joker",
+    "30": "big joker"
+  }
+}

@@ -1,0 +1,522 @@
+{
+  "rows": 100,
+  "unique_states": 100,
+  "anchor_overlaps": 0,
+  "distribution": {
+    "1": 42,
+    "2": 39,
+    "3": 15,
+    "4": 4
+  },
+  "source_counts": {
+    "synthetic_baseline": 30,
+    "synthetic_enriched": 12,
+    "MasterMind train API": 50,
+    "public_position": 8
+  },
+  "three_way_outcome_checks": [
+    {
+      "id": "DZ001",
+      "status": "pass",
+      "reference_states": 396
+    },
+    {
+      "id": "DZ002",
+      "status": "pass",
+      "reference_states": 352
+    },
+    {
+      "id": "DZ003",
+      "status": "pass",
+      "reference_states": 124
+    },
+    {
+      "id": "DZ004",
+      "status": "pass",
+      "reference_states": 227
+    },
+    {
+      "id": "DZ005",
+      "status": "pass",
+      "reference_states": 8
+    },
+    {
+      "id": "DZ006",
+      "status": "pass",
+      "reference_states": 245
+    },
+    {
+      "id": "DZ007",
+      "status": "pass",
+      "reference_states": 18
+    },
+    {
+      "id": "DZ008",
+      "status": "pass",
+      "reference_states": 29
+    },
+    {
+      "id": "DZ009",
+      "status": "pass",
+      "reference_states": 13
+    },
+    {
+      "id": "DZ010",
+      "status": "pass",
+      "reference_states": 38
+    },
+    {
+      "id": "DZ011",
+      "status": "pass",
+      "reference_states": 96
+    },
+    {
+      "id": "DZ012",
+      "status": "pass",
+      "reference_states": 194
+    },
+    {
+      "id": "DZ013",
+      "status": "pass",
+      "reference_states": 54
+    },
+    {
+      "id": "DZ014",
+      "status": "pass",
+      "reference_states": 910
+    },
+    {
+      "id": "DZ015",
+      "status": "pass",
+      "reference_states": 50
+    },
+    {
+      "id": "DZ016",
+      "status": "pass",
+      "reference_states": 565
+    },
+    {
+      "id": "DZ017",
+      "status": "pass",
+      "reference_states": 195
+    },
+    {
+      "id": "DZ018",
+      "status": "pass",
+      "reference_states": 383
+    },
+    {
+      "id": "DZ019",
+      "status": "pass",
+      "reference_states": 16
+    },
+    {
+      "id": "DZ020",
+      "status": "pass",
+      "reference_states": 58
+    },
+    {
+      "id": "DZ021",
+      "status": "pass",
+      "reference_states": 82
+    },
+    {
+      "id": "DZ022",
+      "status": "pass",
+      "reference_states": 1001
+    },
+    {
+      "id": "DZ023",
+      "status": "pass",
+      "reference_states": 68
+    },
+    {
+      "id": "DZ024",
+      "status": "pass",
+      "reference_states": 27
+    },
+    {
+      "id": "DZ025",
+      "status": "pass",
+      "reference_states": 37
+    },
+    {
+      "id": "DZ026",
+      "status": "pass",
+      "reference_states": 173
+    },
+    {
+      "id": "DZ027",
+      "status": "pass",
+      "reference_states": 91
+    },
+    {
+      "id": "DZ028",
+      "status": "pass",
+      "reference_states": 27
+    },
+    {
+      "id": "DZ029",
+      "status": "pass",
+      "reference_states": 27
+    },
+    {
+      "id": "DZ030",
+      "status": "pass",
+      "reference_states": 23
+    },
+    {
+      "id": "DZ031",
+      "status": "pass",
+      "reference_states": 480
+    },
+    {
+      "id": "DZ032",
+      "status": "pass",
+      "reference_states": 1429
+    },
+    {
+      "id": "DZ033",
+      "status": "pass",
+      "reference_states": 2011
+    },
+    {
+      "id": "DZ034",
+      "status": "pass",
+      "reference_states": 369
+    },
+    {
+      "id": "DZ035",
+      "status": "pass",
+      "reference_states": 1485
+    },
+    {
+      "id": "DZ036",
+      "status": "pass",
+      "reference_states": 588
+    },
+    {
+      "id": "DZ037",
+      "status": "pass",
+      "reference_states": 578
+    },
+    {
+      "id": "DZ038",
+      "status": "pass",
+      "reference_states": 219
+    },
+    {
+      "id": "DZ039",
+      "status": "pass",
+      "reference_states": 744
+    },
+    {
+      "id": "DZ040",
+      "status": "pass",
+      "reference_states": 1807
+    },
+    {
+      "id": "DZ041",
+      "status": "pass",
+      "reference_states": 2604
+    },
+    {
+      "id": "DZ042",
+      "status": "pass",
+      "reference_states": 365
+    },
+    {
+      "id": "DZ043",
+      "status": "pass",
+      "reference_states": 14
+    },
+    {
+      "id": "DZ044",
+      "status": "pass",
+      "reference_states": 1091
+    },
+    {
+      "id": "DZ045",
+      "status": "pass",
+      "reference_states": 103
+    },
+    {
+      "id": "DZ046",
+      "status": "pass",
+      "reference_states": 5
+    },
+    {
+      "id": "DZ047",
+      "status": "pass",
+      "reference_states": 106
+    },
+    {
+      "id": "DZ048",
+      "status": "pass",
+      "reference_states": 19
+    },
+    {
+      "id": "DZ049",
+      "status": "pass",
+      "reference_states": 20
+    },
+    {
+      "id": "DZ050",
+      "status": "pass",
+      "reference_states": 45
+    },
+    {
+      "id": "DZ051",
+      "status": "pass",
+      "reference_states": 2706
+    },
+    {
+      "id": "DZ052",
+      "status": "pass",
+      "reference_states": 8
+    },
+    {
+      "id": "DZ053",
+      "status": "pass",
+      "reference_states": 21
+    },
+    {
+      "id": "DZ054",
+      "status": "pass",
+      "reference_states": 1
+    },
+    {
+      "id": "DZ055",
+      "status": "pass",
+      "reference_states": 2129
+    },
+    {
+      "id": "DZ056",
+      "status": "pass",
+      "reference_states": 272
+    },
+    {
+      "id": "DZ057",
+      "status": "pass",
+      "reference_states": 359
+    },
+    {
+      "id": "DZ058",
+      "status": "pass",
+      "reference_states": 10
+    },
+    {
+      "id": "DZ059",
+      "status": "pass",
+      "reference_states": 17
+    },
+    {
+      "id": "DZ060",
+      "status": "pass",
+      "reference_states": 90
+    },
+    {
+      "id": "DZ061",
+      "status": "pass",
+      "reference_states": 12
+    },
+    {
+      "id": "DZ062",
+      "status": "pass",
+      "reference_states": 870
+    },
+    {
+      "id": "DZ063",
+      "status": "pass",
+      "reference_states": 273
+    },
+    {
+      "id": "DZ064",
+      "status": "pass",
+      "reference_states": 7
+    },
+    {
+      "id": "DZ065",
+      "status": "pass",
+      "reference_states": 41
+    },
+    {
+      "id": "DZ066",
+      "status": "pass",
+      "reference_states": 4
+    },
+    {
+      "id": "DZ067",
+      "status": "pass",
+      "reference_states": 35
+    },
+    {
+      "id": "DZ068",
+      "status": "pass",
+      "reference_states": 4261
+    },
+    {
+      "id": "DZ069",
+      "status": "pass",
+      "reference_states": 22
+    },
+    {
+      "id": "DZ070",
+      "status": "pass",
+      "reference_states": 31
+    },
+    {
+      "id": "DZ071",
+      "status": "pass",
+      "reference_states": 11
+    },
+    {
+      "id": "DZ072",
+      "status": "pass",
+      "reference_states": 3089
+    },
+    {
+      "id": "DZ073",
+      "status": "pass",
+      "reference_states": 28
+    },
+    {
+      "id": "DZ074",
+      "status": "pass",
+      "reference_states": 381
+    },
+    {
+      "id": "DZ075",
+      "status": "pass",
+      "reference_states": 35
+    },
+    {
+      "id": "DZ076",
+      "status": "pass",
+      "reference_states": 4
+    },
+    {
+      "id": "DZ077",
+      "status": "pass",
+      "reference_states": 9
+    },
+    {
+      "id": "DZ078",
+      "status": "pass",
+      "reference_states": 33
+    },
+    {
+      "id": "DZ079",
+      "status": "pass",
+      "reference_states": 617
+    },
+    {
+      "id": "DZ080",
+      "status": "pass",
+      "reference_states": 292
+    },
+    {
+      "id": "DZ081",
+      "status": "pass",
+      "reference_states": 2
+    },
+    {
+      "id": "DZ082",
+      "status": "pass",
+      "reference_states": 97
+    },
+    {
+      "id": "DZ083",
+      "status": "pass",
+      "reference_states": 224
+    },
+    {
+      "id": "DZ084",
+      "status": "pass",
+      "reference_states": 200
+    },
+    {
+      "id": "DZ085",
+      "status": "pass",
+      "reference_states": 10
+    },
+    {
+      "id": "DZ086",
+      "status": "pass",
+      "reference_states": 32
+    },
+    {
+      "id": "DZ087",
+      "status": "pass",
+      "reference_states": 18
+    },
+    {
+      "id": "DZ088",
+      "status": "pass",
+      "reference_states": 3274
+    },
+    {
+      "id": "DZ089",
+      "status": "pass",
+      "reference_states": 1749
+    },
+    {
+      "id": "DZ090",
+      "status": "pass",
+      "reference_states": 27
+    },
+    {
+      "id": "DZ091",
+      "status": "pass",
+      "reference_states": 140
+    },
+    {
+      "id": "DZ092",
+      "status": "pass",
+      "reference_states": 39
+    },
+    {
+      "id": "DZ093",
+      "status": "pass",
+      "reference_states": 4462
+    },
+    {
+      "id": "DZ094",
+      "status": "pass",
+      "reference_states": 10818
+    },
+    {
+      "id": "DZ095",
+      "status": "pass",
+      "reference_states": 45617
+    },
+    {
+      "id": "DZ096",
+      "status": "pass",
+      "reference_states": 70686
+    },
+    {
+      "id": "DZ097",
+      "status": "pass",
+      "reference_states": 2366
+    },
+    {
+      "id": "DZ098",
+      "status": "pass",
+      "reference_states": 595
+    },
+    {
+      "id": "DZ099",
+      "status": "pass",
+      "reference_states": 4152
+    },
+    {
+      "id": "DZ100",
+      "status": "pass",
+      "reference_states": 2084
+    }
+  ],
+  "sha256": "85b3d83ca0ed203801161299c83178f858b8e0d3e3a6a288341ca759ada0b59c",
+  "human_calibrated": false,
+  "train_test_split": "not assigned; MasterMind source trajectories unresolved"
+}

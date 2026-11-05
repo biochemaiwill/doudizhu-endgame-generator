@@ -1,0 +1,51 @@
+import pathlib,json,hashlib,sys,collections
+root=pathlib.Path.home()/"doudizhu-endgame-generator/research/pilot100"
+sys.path.insert(0,str(root))
+from build import hand_size,hand_to_cards,hand_from_cards,validate_position,state_key,Solver,signature,TimeBudget,BudgetExceeded,signal
+from verify_sources import restore
+import reference_ordered
+payload=json.loads('{"normal": [[1, 1, 1, 1, "大对子AA与两张最高控制牌提供明显优势，多种首着都能赢；按整组出牌即可。"], [2, 2, 2, 2, "保留33、66整体出手，避免把对子拆成低单张；小王负责回收牌权。"], [3, 1, 1, 1, "999带一张可大幅清空手牌，2和小王收尾；合法首着均可赢。"], [4, 2, 2, 2, "AAA带JJ可直接留下单5收尾；若带走单J则破坏剩余结构，需要比较带牌。"], [5, 1, 1, 1, "只有Q和2两张，先小后大即可；两个首着都能赢。"], [6, 2, 2, 2, "先处理8或9并保留A，避免先出A后失去夺回单张牌权的能力。"], [7, 2, 2, 2, "必须先10保留Q，需考虑对手A接牌后的剩余低牌，而非先打大牌。"], [8, 2, 2, 2, "先出77或1010，33留后；直接33会被对手77一手走完。"], [9, 1, 1, 1, "55是对手无法压制的完整对子，先出后剩单4；选择直观。"], [10, 1, 1, 1, "777带8直接出完，是一眼可见的终局牌型。"], [11, 1, 1, 1, "地主仅剩K且能压桌面10，直接出完；虽过牌也可赢，不必展开复杂推理。"], [12, 1, 1, 1, "农民持大小王且队友有2，控制牌优势明显，多种首着均可赢。"], [13, 1, 1, 1, "KK可安全整体出手，队友还有大小王协助；没有致败首着。"], [14, 2, 2, 2, "不能先出A；先清KK或低牌，保留与地主同点的A作为后续控制。"], [15, 1, 1, 1, "66加大小王有直接清牌路线，队友KK也可接力；不需要隐蔽拆牌。"], [16, 2, 2, 2, "需利用队友K和AA接管，并注意让牌；首着宽容，难点是后续协同。"], [17, 2, 2, 2, "先处理10或Q，保留2；先用2会让地主小王接走后取得控制。"], [18, 3, 3, 3, "必须先出最小3让队友参与；需验证地主双王和33的后续，不是单纯比最大牌。"], [19, 1, 1, 1, "过牌即可让只剩单10的队友接到自由出牌权并走完。"], [20, 2, 2, 2, "应过或用6，保留小王；过牌交还队友后还要应对地主两张单牌。"], [21, 1, 1, 1, "QQ整组先出，A和小王收尾，队友可补牌；所有合法首着可赢。"], [22, 2, 3, 2, "先处理QQ或低牌，AA不能提前耗掉；需要检查低单张与对手A的接牌关系。"], [23, 1, 1, 1, "88整组清掉后还有2和双王，控制优势明显。"], [24, 1, 1, 1, "AAA带4可一手出完，无需寻找深层策略。"], [25, 2, 2, 1, "单牌虽多，但A和队友2可共同控制；主要是按次序出小牌并合理让牌。"], [26, 2, 2, 2, "先出3、5或9并留小王；抢先出小王会让地主随后用888结构清场。"], [27, 2, 2, 2, "只有7先出能赢，需把2留作后续控制；先2会被地主大王拿走。"], [28, 2, 2, 1, "过牌可让地主出单牌，由队友大王接管后走8；首着并不苛刻。"], [29, 2, 2, 1, "可选择过牌让队友处理单张，也可KK接手；关键是保留双方互相配合的牌权。"], [30, 1, 1, 1, "222带A能直接压过桌面444带A并出完，不需要绕路。"]], "hard": [["H1", 3, 3, 3, "只能先A；先33会被QQ接走，先小王也丢失控制，需要安排对子和王的出场顺序。"], ["H2", 3, 3, 3, "应先77或10而不是最大的QQ，需要保留QQ承接后续单张和对子变化。"], ["H6", 3, 3, 3, "先44或J才能赢，既不能随手掉4，也不能提前出大王；需兼顾对手88与小王。"], ["H8", 2, 2, 2, "先清66和1010，最后利用2处理4；起手单张或先2都会破坏控制。"], ["H10", 2, 2, 2, "77整体出是唯一胜着，要避免给地主J和对子接手的机会。"], ["H11", 2, 2, 2, "先JJ，保留K解决8；三张单牌起手都会给对手接管机会。"], ["H14", 3, 3, 3, "先99而不是22；要考虑对手王炸后仍能否用22夺回牌权，不能把最大对子先耗掉。"], ["H15", 2, 2, 2, "必须把一张10并入9到K的顺子后留下另一张10；出1010看似省牌却输。"], ["H18", 3, 3, 3, "先出3或8，44和AA不能急于出；需要先处理单张同时预防地主1010接管。"], ["H19", 3, 3, 3, "先3或K，不能先88或大王；要处理对手KK与QQ结构并保留自己的后续控制。"], ["H20", 3, 3, 3, "要拆66先出6或7，出66被JJ压制；先最小4同样输，关键是给队友合适的接牌窗口。"], ["H27", 3, 3, 3, "必须先10或K试探大王，AA需留到后面；先7或AA都会使最后低单张无法处理。"]], "master": [[1, 2, 2, 2, "保留33整体并在适当时机用2控牌；先3或8会给只剩9的农民走牌机会。"], [2, 1, 1, 1, "99、1010可整组清理，2和小王控制单张；多个首着均赢。"], [3, 2, 2, 2, "555带66后只剩7；若带6拆散对子，剩6和7便难以同时处理。"], [4, 1, 1, 1, "55可以直接出完，其他牌与推演无关。"], [5, 1, 1, 1, "99无人能压，先出对子后单3；唯一胜着并不隐蔽。"], [6, 1, 1, 1, "77一手出完，直接终局。"], [7, 1, 1, 1, "必须接住桌面6，过牌会让单8的农民直接走完；10和2均可接。"], [8, 2, 2, 1, "可以过牌也可以用2接，核心是保留或重获一次牌权，再走单3。"], [9, 2, 2, 2, "需要把KKK的带牌与多个对子安排好，2留作接手；牌多但大部分后续是整组清理。"], [10, 1, 1, 1, "用Q压住后，444带3、再出6即可；拒绝接牌会放走单9。"], [11, 2, 2, 2, "先2接手，再把334455作为连对出完，留下5；需识别连对组合而非逐对拆打。"], [12, 1, 1, 1, "地主手中仅一张2，可压住10后直接获胜。"], [13, 2, 2, 1, "接或过都可，但后续需用三张带牌清理4、6等单张，避免无意义拆组。"], [14, 3, 3, 3, "须用55接44并保留一张5组成顺子；用88接虽然合法，却破坏后续清牌结构。"], [15, 2, 2, 2, "用KK接1010，保留QQQ带4并留下10；用QQ接会拆坏三张结构。"], [16, 1, 1, 1, "JJJ带7或10压住后只剩单牌，两个方案都能直接收尾。"], [17, 1, 1, 1, "8888可直接炸完；虽过牌也可赢，没有必要寻求复杂路线。"], [18, 2, 2, 2, "QQQ必须带4而不是3，保留33作最后一手，这是带牌选择题。"], [19, 1, 1, 1, "先1010无人能接，再走5；先拆10也能赢，难点有限。"], [20, 1, 1, 1, "99和AA可安全清理，最后3；整体结构明显。"], [21, 1, 1, 1, "99直接出完。"], [22, 1, 1, 1, "先88后9即可，其他两家没有对子。"], [23, 1, 1, 1, "先77可保证剩J收尾；无需拆牌或多分支计划。"], [24, 1, 1, 1, "1010直接出完。"], [25, 2, 2, 2, "可等对手出低单后用2接回，也可立即接；要保留JJ整体作为收尾。"], [26, 2, 2, 2, "大王负责关键回收，KKK带4处理低牌；需要规划一次接手而非先耗尽大王。"], [27, 1, 1, 1, "A压过3即可直接出完。"], [28, 1, 1, 1, "必须用2压A，过牌会让单8的农民直接出完。"], [29, 2, 2, 2, "A接手后可把333444与两张单牌组合成飞机带翅膀，减少尾牌。"], [30, 2, 3, 2, "接QQ或暂过均可，后续要利用2和小王覆盖多个单张，控制安排比首着选择更重要。"], [31, 1, 1, 1, "444带3或6都可，出完组合后只剩一张单牌。"], [32, 2, 2, 2, "保留1010与2的功能，先拆10或先2会让对方利用J及对子取得主动。"], [33, 1, 1, 1, "22整体出后，A和10收尾路线清楚；首着都可赢。"], [34, 2, 2, 2, "对手有单9，必须先2控制再走8；不能照常先出小牌。"], [35, 1, 1, 1, "JJ直接出完。"], [36, 1, 1, 1, "666带7直接出完；裸三张虽省去带牌，反而会输。"], [37, 2, 2, 1, "可以过或用2，保留另一个2再处理4；多次等待不等于更深推理。"], [38, 3, 3, 2, "首着可过或小王，但之后须正确处理KK、22和低3，存在连续的控制牌选择。"], [39, 1, 1, 1, "A压6后立即结束。"], [40, 1, 1, 1, "王炸后只剩2，清牌结构非常直接；暂过也不会改变可赢性。"], [41, 2, 2, 2, "要选顺子长度和三张带牌组合，最短34567反而留下难处理的单牌。"], [42, 1, 1, 1, "33先出后2收尾，首着均可赢。"], [43, 1, 1, 1, "44直接出完。"], [44, 1, 1, 1, "78910J一手顺子直接出完。"], [45, 1, 1, 1, "88直接出完。"], [46, 3, 3, 2, "首着可暂过，但对手5回来后需要J接管，KKK与小王的使用顺序决定能否清理8。"], [47, 2, 2, 2, "必须接住单7，再用多个对子清牌；过牌会让农民持续掌握单张节奏。"], [48, 2, 2, 1, "可等更小对子再用22接手，随后777带4；首着选择宽松。"], [49, 2, 2, 2, "用334455连对或555带对子处理七张牌；随手三带一会留下被1010压制的对子。"], [50, 1, 1, 1, "333带5直接出完，裸333后走5也可赢。"]], "public": [["33iq-579558", 2, 2, 2, "888带66后可用AAA一手收尾；不能把三带一与三带二混为一谈，但有多个直接清牌方案。"], ["33iq-579557", 4, 4, 4, "只有888带单6能赢，同样的888带对子却输；必须同时考虑地主KKK回应、AAA反压和队友777的接力。"], ["33iq-507272", 4, 4, 4, "唯一首着是最小3，不能先清66或KK；需要破坏农民配合并保留后续对子及2的控制。"], ["gamersky-1", 3, 3, 3, "保留炸弹并非必要，可拆10组成9到K顺子；带牌和拆弹方式不同会改变最终胜负。"], ["gamersky-1b", 3, 3, 2, "五种单张首着都可赢，但之后需要队友拆QQ、保留KK并控制地主双王和两个对子。"], ["gamersky-3", 4, 4, 4, "唯一首着是裸TTT，三带一或三带二全输；需给队友JJJ接手空间，同时应对地主222。"], ["gamersky-4", 4, 4, 4, "先AA是唯一胜着，后续要用队友2拦截，并在关键时机出3而不是急出整条顺子。"], ["gamersky-5-follow", 3, 3, 4, "面对K只能过；拆A虽然立即压住，却让地主55成为控制对子，需看清接牌后的整体结构。"]]}')
+normal={f"DZ{r[0]:03d}":r[1:] for r in payload["normal"]}
+hard={r[0]:r[1:] for r in payload["hard"]}
+master={f"M{r[0]}":r[1:] for r in payload["master"]}
+public={r[0]:r[1:] for r in payload["public"]}
+rows=json.loads((root/"selection.json").read_text())
+dataset=[];audit=[];dist=collections.Counter()
+for row in rows:
+ origin=row["origin_id"]
+ if row["source"]=="synthetic_baseline":lab=normal[origin]
+ elif row["source"]=="synthetic_enriched":lab=hard[origin]
+ elif row["source"]=="MasterMind train API":lab=master[origin]
+ else:lab=public[origin]
+ total,depth,concealment,reason=lab
+ p=restore(row);validate_position(p)
+ last={"cards":list(p.last.cards),"type":p.last.type,"main":p.last.main,"length":p.last.length} if p.last else None
+ inp={"hands":[hand_to_cards(h) for h in p.hands],"turn":p.turn,"last":last,"passes":p.passes,"rank_encoding":"3..14=3..A;15=2;16=small_joker;17=big_joker","roles":["landlord","farmer_down","farmer_up"]}
+ d={"id":row["id"],"input":inp,"target":{"overall":total,"reasoning_depth":depth,"move_concealment":concealment},"reason":reason,"annotation":{"type":"single_assistant_estimate","rubric":"v0.1","human_calibrated":False,"blind":False,"model_version":"not recorded; assistant in this conversation","date":"2026-11-05"},"provenance":{"source":row["source"],"origin_id":origin,"url":row.get("source_url"),"row_index":row.get("source_row"),"family":("gamersky-201411-487845" if origin.startswith("gamersky") else origin if not origin.startswith("M") else "MasterMind-train-trajectory-unresolved")},"verification":{"status":"verified","key":row["key"],"winning_moves":row["winning_moves"],"legal_move_count":len(row["moves"]),"evidence":"selection.json","exact_under":"vendored rules bdee2f6e; independent enumeration crosscheck"}}
+ dataset.append(d);dist[total]+=1
+ for n in (total,depth,concealment):assert isinstance(n,int) and 1<=n<=5
+ assert reason
+ assert row["status"]=="verified"
+ # Fresh independent adjudication from serialized inputs, with explicit failures.
+ signal.setitimer(signal.ITIMER_REAL,25)
+ try:
+  vals=Solver(node_limit=1500000).move_values(p)
+  ref=reference_ordered.move_values(p)
+  sig=[((t,c),w) for t,c,w in signature(vals)]
+  assert ref==sig,row["id"]
+  assert signature(vals)==signature(Solver(node_limit=1500000,canonical=False).move_values(p)),row["id"]
+  assert sorted(m.text() for m,w in vals if w)==sorted(row["winning_moves"]),row["id"]
+  audit.append({"id":row["id"],"status":"pass","reference_states":reference_ordered.solve.cache_info().currsize})
+ finally:signal.setitimer(signal.ITIMER_REAL,0)
+ print(row["id"],"PASS",flush=True) if len(audit)%20==0 else None
+assert len(dataset)==100 and len({d["id"] for d in dataset})==100 and len({d["verification"]["key"] for d in dataset})==100
+anchors=json.loads((root.parent/"pilot-v1/verification.json").read_text())["cases"]
+from endgame.fast import hand_from_text
+from endgame.solver import Position
+ak={state_key(Position(tuple(hand_from_text(h) for h in a["hands"]),a["turn"])) for a in anchors}
+assert not ak.intersection(d["verification"]["key"] for d in dataset)
+(root/"dataset.jsonl").write_text("".join(json.dumps(d,ensure_ascii=False)+"\n" for d in dataset),encoding="utf-8")
+(root/"annotation-inputs.json").write_text(json.dumps(payload,ensure_ascii=False,indent=2),encoding="utf-8")
+auditout={"rows":100,"unique_states":100,"anchor_overlaps":0,"distribution":dict(sorted(dist.items())),"source_counts":dict(collections.Counter(d["provenance"]["source"] for d in dataset)),"three_way_outcome_checks":audit,"sha256":hashlib.sha256((root/"dataset.jsonl").read_bytes()).hexdigest(),"human_calibrated":False,"train_test_split":"not assigned; MasterMind source trajectories unresolved"}
+(root/"validation.json").write_text(json.dumps(auditout,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+print(json.dumps({k:v for k,v in auditout.items() if k!="three_way_outcome_checks"},ensure_ascii=False),flush=True)

@@ -1,0 +1,14 @@
+{
+  "seed": 20261106,
+  "counts": {
+    "not_narrow": 627,
+    "losing": 322,
+    "verified": 28,
+    "simple_heuristics_win": 31,
+    "timeout": 11
+  },
+  "verified": 28,
+  "seconds": 153.45544027723372,
+  "filters": "at most two winning root actions; at least three choices; no immediate win; largest-group and smallest-single not both winning",
+  "label_status": "unlabeled; filter is not difficulty"
+}

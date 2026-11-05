@@ -1,0 +1,17 @@
+{
+  "seed": 20261105,
+  "python": "3.10.12",
+  "source_commit": "bdee2f6e5215830d1ea0637e2311fdb93201584a",
+  "counts": {
+    "verified": 180,
+    "losing": 124,
+    "timeout": 25,
+    "forced_no_choice": 13
+  },
+  "selected": 100,
+  "elapsed_seconds": 152.383,
+  "reference_timeout_seconds": 3,
+  "optimized_node_limit": 120000,
+  "data_source": "synthetic remaining hands plus optional legal prefix; not full historical game",
+  "label_status": "not_yet_annotated"
+}
