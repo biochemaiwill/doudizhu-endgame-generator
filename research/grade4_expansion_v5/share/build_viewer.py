@@ -1,0 +1,57 @@
+from pathlib import Path
+import json,html,hashlib
+from collections import Counter
+ROOT=Path(__file__).resolve().parents[2]
+HERE=Path(__file__).resolve().parent
+rows=[json.loads(x) for p in [ROOT/"scorer_v2/dataset.jsonl",ROOT/"expansion_v3/dataset.jsonl",ROOT/"grade4_expansion_v5/dataset.jsonl"] for x in p.read_text().splitlines()]
+split=json.loads((ROOT/"scorer_v2/split.json").read_text())["ids"]
+pairs=json.loads((ROOT/"expansion_v2/pairs.json").read_text())+json.loads((ROOT/"expansion_v3/pairs.json").read_text())
+owner={i:p for p,ids in split.items() for i in ids}
+from collections import defaultdict
+paired=defaultdict(list)
+for p in pairs:
+ paired[p["hard_id"]].append((p["easy_id"],"查看较简单的配对题"))
+ paired[p["easy_id"]].append((p["hard_id"],"查看较难的配对题"))
+esc=lambda s:html.escape(str(s),quote=True)
+rank={11:"J",12:"Q",13:"K",14:"A",15:"2",16:"小王",17:"大王"}
+source_names={"synthetic_variant":"同题族构造变体","synthetic_baseline":"合成基础题","synthetic_enriched":"合成筛选题","MasterMind train API":"MasterMind","public_position":"公开题目","independent_synthetic_remaining_hands":"独立合成题","synthetic_exact_count_control":"等牌数简单对照"}
+def cards(xs):
+ return "".join('<span class="card '+("joker" if n>=16 else "")+'">'+esc(rank.get(n,n))+'</span>' for n in sorted(xs))
+parts=[]
+for r in rows:
+ i=r["input"];t=r["target"];src=source_names.get(r["provenance"]["source"],r["provenance"]["source"])
+ part=owner.get(r["id"],"unassigned");part_cn={"train":"训练集","val":"验证集","test":"测试集","unassigned":"未划分 / 未训练"}[part]
+ hands="".join('<div class="hand '+("active" if k==i["turn"] else "")+'"><div class="role">'+["地主","地主下家 · 农民","地主上家 · 农民"][k]+(" <b>当前出牌</b>" if k==i["turn"] else "")+'<small>'+str(len(h))+' 张</small></div><div class="cards">'+cards(h)+'</div></div>' for k,h in enumerate(i["hands"]))
+ prev="自由首出" if i["last"] is None else "上一手："+ " ".join(str(rank.get(n,n)) for n in i["last"]["cards"])+" · 已连续过牌 "+str(i["passes"])+" 次"
+ link=""
+ parent=r["provenance"].get("parent_id")
+ if parent:
+  link+='<a class="familylink" href="#'+esc(parent)+'" data-parent="'+esc(parent)+'">查看同族父题 → '+esc(parent)+'</a>'
+ if r["id"] in paired:
+  for other,label in paired[r["id"]]:
+   link+='<a class="pairlink" href="#'+esc(other)+'" data-target="'+esc(other)+'">'+label+' → '+esc(other)+'</a>'
+ url=r["provenance"].get("url")
+ sourcelink='<a href="'+esc(url)+'" target="_blank" rel="noopener noreferrer">打开原来源 ↗</a>' if url and url.startswith(("https://","http://")) else ""
+ search=" ".join([r["id"],r["reason"],src,r["provenance"]["origin_id"]])
+ parts.append('<article id="'+esc(r["id"])+'" data-score="'+str(t["overall"])+'" data-source="'+esc(src)+'" data-split="'+part+'" data-search="'+esc(search.lower())+'"><header><strong>'+esc(r["id"])+'</strong><span class="score score'+str(t["overall"])+'">'+str(t["overall"])+' 分</span><span class="tag">'+esc(src)+'</span><span class="tag">'+part_cn+'</span></header>'+hands+'<div class="status">'+esc(prev)+'</div><div class="dimensions"><span>推理深度 <b>'+str(t["reasoning_depth"])+'/5</b></span><span>出法隐蔽性 <b>'+str(t["move_concealment"])+'/5</b></span>'+link+'</div><details><summary>展开必胜首着与评分依据</summary><div class="answer"><b>必胜首着</b><p>'+esc("；".join(r["verification"]["winning_moves"]))+'</p><b>评分依据</b><p>'+esc(r["reason"])+'</p><div class="foot">'+sourcelink+'<span>来源编号：'+esc(r["provenance"]["origin_id"])+'</span></div></div></details></article>')
+options="".join('<option>'+esc(s)+'</option>' for s in sorted({source_names.get(r["provenance"]["source"],r["provenance"]["source"]) for r in rows}))
+template="""<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>斗地主残局 · 189 题数据册</title><style>
+:root{color-scheme:light;--ink:#1b3040;--muted:#5e7280;--line:#dbe4e7;--accent:#126d60}*{box-sizing:border-box}body{margin:0;background:#eef3f2;color:var(--ink);font:15px/1.65 "Microsoft YaHei","PingFang SC",sans-serif}.wrap{max-width:1060px;margin:auto;padding:30px 20px}h1{font-size:30px;margin:8px 0}p{margin:8px 0}.hero{background:#123e38;color:#fff;padding:26px 32px;border-radius:18px}.hero p{color:#d4e6e0}.stats{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px}.stat{background:#ffffff12;border:1px solid #ffffff26;padding:9px 17px;border-radius:9px}.stat b{font-size:23px;margin-right:7px}.notice{font-size:13px;color:var(--muted);padding:16px 4px}.toolbar{position:sticky;top:0;z-index:5;background:#eef3f2f5;backdrop-filter:blur(10px);padding:12px 0;display:flex;gap:9px;flex-wrap:wrap}input,select,button{font:inherit;border:1px solid #c4d4d2;border-radius:8px;padding:9px 12px;background:white;color:var(--ink)}input{flex:1;min-width:190px}button{cursor:pointer}button:hover{background:#deebe6}.count{color:var(--muted);font-size:13px;margin:2px 0 16px}article{background:white;border:1px solid var(--line);border-radius:13px;margin-bottom:18px;overflow:hidden;scroll-margin-top:105px;box-shadow:0 3px 13px #183b3310}article header{padding:14px 18px;display:flex;align-items:center;gap:10px;flex-wrap:wrap;border-bottom:1px solid var(--line)}article header strong{font-size:19px}.score{border-radius:8px;padding:2px 11px;font-weight:bold}.score1{background:#e6f1eb;color:#256149}.score2{background:#e7effa;color:#315d8a}.score3{background:#fff0d4;color:#8b5b14}.score4{background:#fbe6e4;color:#a03d32}.tag{font-size:12px;color:var(--muted);background:#f1f4f5;padding:3px 8px;border-radius:5px}.hand{padding:11px 18px;border-bottom:1px solid #eef2f2;display:grid;grid-template-columns:165px 1fr;align-items:center;gap:12px}.hand.active{background:#f0f8f3;border-left:4px solid var(--accent);padding-left:14px}.role{font-weight:bold;font-size:13px}.role b{display:block;color:var(--accent);font-size:11px}.role small{display:block;color:var(--muted);font-weight:normal}.cards{display:flex;gap:5px;flex-wrap:wrap}.card{display:inline-flex;align-items:center;justify-content:center;min-width:35px;height:47px;padding:0 6px;border:1px solid #c9d5d8;border-radius:5px;background:linear-gradient(#fff,#f6f8f7);font-size:22px;font-weight:bold;box-shadow:0 2px 0 #dce4e3}.card.joker{font-size:14px;color:#b54736;min-width:43px}.status{padding:9px 18px;color:var(--muted);font-size:13px}.dimensions{padding:7px 18px 14px;display:flex;gap:20px;flex-wrap:wrap;font-size:13px}.dimensions b{margin-left:6px}.pairlink,a{color:var(--accent)}details{border-top:1px solid var(--line)}summary{padding:12px 18px;cursor:pointer;font-size:13px;color:var(--accent);font-weight:bold}.answer{background:#f8faf9;padding:4px 18px 18px;font-size:14px}.foot{display:flex;gap:18px;flex-wrap:wrap;color:var(--muted);font-size:12px}.empty{text-align:center;padding:40px;color:var(--muted)}[hidden]{display:none!important}@media(max-width:600px){.wrap{padding:15px 10px}.hero{padding:20px}h1{font-size:24px}.hand{grid-template-columns:1fr;gap:7px}.role small{display:inline;margin-left:9px}.role b{display:inline;margin-left:10px}.card{min-width:31px;height:42px;font-size:20px}.toolbar{top:0}.dimensions{gap:10px}}@media print{.toolbar,.notice{display:none}.hero{background:#fff;color:#000;border:1px solid #ccc}.hero p{color:#333}article{break-inside:avoid;box-shadow:none}.wrap{max-width:none}.card{box-shadow:none}details:not([open]){display:none}}
+</style></head><body><main class="wrap"><section class="hero"><div>离线数据册 · 2026-11-05</div><h1>斗地主残局 · 看牌，也看推理</h1><p>189 道三人明牌残局 · 24 组配对关系</p><div class="stats"><div class="stat"><b>57</b>1 分</div><div class="stat"><b>46</b>2 分</div><div class="stat"><b>42</b>3 分</div><div class="stat"><b>8</b>4 分</div><div class="stat"><b>0</b>5 分</div></div></section><div class="notice">评分面向经常打斗地主的普通玩家，关注推理深度和关键出法隐蔽性。标签为助手试标，尚未经过玩家实测校准；所有收录局面均已核对必胜性。行动顺序：地主 → 地主下家 → 地主上家。简单配对题为人工构造对照，不代表自然对局分布。</div><section class="toolbar" aria-label="筛选题目"><input id="query" placeholder="搜索编号、评分依据、来源…" aria-label="搜索"><select id="score" aria-label="按难度筛选"><option value="">全部分数</option><option value="1">1 分</option><option value="2">2 分</option><option value="3">3 分</option><option value="4">4 分</option></select><select id="source" aria-label="按来源筛选"><option value="">全部来源</option>OPTIONS</select><select id="split" aria-label="按数据划分筛选"><option value="">全部划分</option><option value="train">训练集</option><option value="val">验证集</option><option value="test">测试集</option><option value="unassigned">未划分 / 未训练</option></select><button id="reset">重置</button><button id="expand">展开当前答案</button></section><p id="count" class="count" aria-live="polite"></p><section id="list">ARTICLES</section><p id="empty" class="empty" hidden>没有符合筛选条件的题目。</p><footer class="notice">本文件可直接离线打开，不使用外部脚本或字体。旧版训练 124 题 · 验证 12 题 · 测试 17 题；新增 36 题未划分、未训练。新增题若与旧题同族，后续训练须整体分组，当前不自动分配。2026-11-05 数据版本。</footer></main><script>
+const all=[...document.querySelectorAll('article')],query=document.querySelector('#query'),score=document.querySelector('#score'),source=document.querySelector('#source'),split=document.querySelector('#split');
+function filter(){let count=0;const q=query.value.trim().toLowerCase();for(const card of all){card.hidden=!!((score.value&&card.dataset.score!==score.value)||(source.value&&card.dataset.source!==source.value)||(split.value&&card.dataset.split!==split.value)||(q&&!card.dataset.search.includes(q)));if(!card.hidden)count++}document.querySelector('#count').textContent='显示 '+count+' / 189 道';document.querySelector('#empty').hidden=count!==0}
+for(const x of [query,score,source,split])x.addEventListener('input',filter);
+document.querySelector('#reset').addEventListener('click',()=>{query.value=score.value=source.value=split.value='';filter()});
+document.querySelector('#expand').addEventListener('click',()=>{const visible=all.filter(x=>!x.hidden);const open=visible.some(x=>!x.querySelector('details').open);for(const x of visible)x.querySelector('details').open=open});
+document.querySelectorAll('.pairlink,.familylink').forEach(a=>a.addEventListener('click',e=>{e.preventDefault();query.value=score.value=source.value=split.value='';filter();const t=document.getElementById((a.dataset.target||a.dataset.parent));t.scrollIntoView({behavior:'smooth',block:'start'});history.replaceState(null,'','#'+(a.dataset.target||a.dataset.parent))}));
+filter();if(location.hash){const t=document.getElementById(location.hash.slice(1));if(t)setTimeout(()=>t.scrollIntoView(),80)}
+</script></body></html>"""
+text=template.replace("OPTIONS",options).replace("ARTICLES","".join(parts))
+import re
+counts=Counter(r["target"]["overall"] for r in rows)
+text=re.sub(r'<div class="stat"><b>\d+</b>([1-5]) 分</div>',lambda m:'<div class="stat"><b>'+str(counts[int(m[1])])+'</b>'+m[1]+' 分</div>',text)
+assert len(rows)==189 and len({r["id"] for r in rows})==189
+
+assert len(pairs)==24
+target=HERE/"斗地主残局数据集_189题.html";target.write_text(text,encoding="utf-8")
+print(json.dumps({"path":str(target),"bytes":target.stat().st_size,"sha256":hashlib.sha256(target.read_bytes()).hexdigest(),"rows":189,"pairs":24},ensure_ascii=False))
