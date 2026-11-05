@@ -1,0 +1,16 @@
+{
+  "python": "3.11.15 (main, Jun 11 2026, 15:20:16) [GCC 14.3.0]",
+  "torch": "2.5.1+cu121",
+  "sklearn": "1.9.0",
+  "numpy": "1.26.4",
+  "epochs": 100,
+  "cv_seeds": [
+    17,
+    73
+  ],
+  "final_seed": 917,
+  "seconds": 193.23526048660278,
+  "device": "cpu",
+  "threads": 1,
+  "dataset_sha256": "64dd8aef5abdf3f4eaca7ffa4c31b247a09d0bac7a4f058fc04500039155b0af"
+}

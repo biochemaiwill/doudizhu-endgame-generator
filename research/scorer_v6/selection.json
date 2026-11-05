@@ -1,0 +1,15 @@
+{
+  "name": "kind-forest_mode-base_balanced-True_depth-None_leaf-1_max_features-sqrt",
+  "config": {
+    "kind": "forest",
+    "mode": "base",
+    "balanced": true,
+    "depth": null,
+    "leaf": 1,
+    "max_features": "sqrt"
+  },
+  "criterion": "mean group CV overall accuracy then macro recall",
+  "external_test_read": false,
+  "cv_is_development": true,
+  "target_accuracy": 0.9
+}
