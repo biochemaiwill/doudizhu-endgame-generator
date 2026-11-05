@@ -1,0 +1,45 @@
+{
+  "checked_date": "2026-11-05",
+  "repositories": [
+    {
+      "repository": "ShuyaoGao/doudizhu-endgame-solver",
+      "branch": "main",
+      "commit": "bdee2f6e5215830d1ea0637e2311fdb93201584a",
+      "license": "MIT"
+    },
+    {
+      "repository": "naturalleo/doudizhu_endgame",
+      "branch": "master",
+      "commit": "9d80cdffeb4148c83c3544797dd1c8d70c3b287e",
+      "license": "GPL-3.0"
+    },
+    {
+      "repository": "WZ403809264/doudizhu_solver",
+      "branch": "main",
+      "commit": "41b1ed81335405b188cf3a3b5e340d1383398355",
+      "license": null
+    },
+    {
+      "repository": "kwai/DouZero",
+      "branch": "main",
+      "commit": "718a5c920bf3361e34178a38f3b80458e176b351",
+      "license": "Apache-2.0"
+    }
+  ],
+  "downloaded_data": false,
+  "mastermind": {
+    "repository": "OpenDILabCommunity/MasterMind",
+    "sha": "ba6263616a517f8a0db60c8cc9acb9ba9a947bd8",
+    "files": [
+      {
+        "path": "doudizhu/train_dataset.parquet",
+        "size": 98611761
+      },
+      {
+        "path": "doudizhu/test_dataset.parquet",
+        "size": 899370
+      }
+    ],
+    "basis": "dataset card and file metadata only; no dataset downloaded"
+  }
+}

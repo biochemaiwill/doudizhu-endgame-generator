@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+checkpoints/
+cache/
+raw_data/
+*.pt
+*.pth
+*.ckpt
+*.parquet
