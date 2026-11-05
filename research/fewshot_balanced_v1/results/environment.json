@@ -1,0 +1,12 @@
+{
+  "python": "3.11.15 (main, Jun 11 2026, 15:20:16) [GCC 14.3.0]",
+  "numpy": "1.26.4",
+  "sklearn": "1.9.0",
+  "torch": "2.5.1+cu121",
+  "platform": "Linux-5.15.0-91-generic-x86_64-with-glibc2.35",
+  "device": "cpu",
+  "torch_threads": 1,
+  "command": "OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 /home/wutianxiang/miniconda3/envs/research/bin/python research/fewshot_balanced_v1/experiment.py",
+  "no_dependency_install": true,
+  "no_weight_download": true
+}

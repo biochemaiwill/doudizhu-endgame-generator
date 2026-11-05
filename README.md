@@ -2,7 +2,7 @@
 
 三人明牌必胜残局与人类推理难度评估研究。
 
-当前阶段：数据调研。尚未实现生成器或训练评分模型。
+当前阶段：完成100题试标、评分器基线及1—4分均衡few-shot开发实验；尚未训练生成器。
 
 - [数据调研报告](docs/data-research-2026-11-05.md)
 - [来源版本元数据](docs/source-versions.json)
@@ -16,3 +16,5 @@
 
 - [牌面评分器v1：分层训练与结果](research/scorer_v1/README.md)（实验版，未达奖励模型要求）
 - [新增高分候选](research/highscore_candidates_v1/README.md)（同族变体，未用于本轮训练）
+
+- [均衡few-shot实验与方法调研](research/fewshot_balanced_v1/README.md)（每级2题，5次抽样；仍无5分样本）
