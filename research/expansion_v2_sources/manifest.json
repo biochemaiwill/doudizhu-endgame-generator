@@ -1,0 +1,17 @@
+{
+  "python": "3.10.12",
+  "rules": "unchanged pilot-v1 vendored bdee2f6e",
+  "command": "python3 research/expansion_v2_sources/verify.py",
+  "node_limit": 4000000,
+  "seconds_per_state": 60,
+  "outcome_checks": [
+    "optimized",
+    "canonical_off",
+    "independent_ordered"
+  ],
+  "source_answers_trusted": false,
+  "status_counts": {
+    "losing": 2,
+    "verified": 2
+  }
+}

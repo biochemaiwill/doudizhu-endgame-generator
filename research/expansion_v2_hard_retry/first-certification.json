@@ -1,0 +1,838 @@
+{
+  "input": {
+    "source_id": "33iq-507273",
+    "hands": [
+      "2QJJT98766543",
+      "DAA98875544",
+      "433"
+    ],
+    "turn": 0,
+    "last_text": null,
+    "passes": 0,
+    "url": "https://www.33iq.com/topic/574/7/",
+    "note": "katy Clarkson; question 507273"
+  },
+  "key": "4a04495d433501287cd8d1030bc0eca79c8c4f1183e690455318e7be939e387a",
+  "python": "3.10.12 (main, Mar  3 2026, 11:56:32) [GCC 11.4.0]",
+  "platform": "Linux-5.15.0-91-generic-x86_64-with-glibc2.35",
+  "modes": [
+    {
+      "mode": "canonical",
+      "status": "completed",
+      "cpu_seconds": 5.197204823,
+      "winning_moves": [
+        "2"
+      ],
+      "moves": [
+        {
+          "cards": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "move": "3 4 5 6 7 8 9 10 J Q",
+          "type": 6,
+          "mover_wins": false
+        },
+        {
+          "cards": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "move": "3 4 5 6 7 8 9 10 J",
+          "type": 6,
+          "mover_wins": false
+        },
+        {
+          "cards": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "move": "4 5 6 7 8 9 10 J Q",
+          "type": 6,
+          "mover_wins": false
+        },
+        {
+          "cards": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "move": "3 4 5 6 7 8 9 10",
+          "type": 6,
+          "mover_wins": false
+        },
+        {
+          "cards": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "move": "4 5 6 7 8 9 10 J",
+          "type": 6,
+          "mover_wins": false
+        },
+        {
+          "cards": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "move": "5 6 7 8 9 10 J Q",
+          "type": 6,
+          "mover_wins": false
+        },
+        {
+          "cards": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "move": "3 4 5 6 7 8 9",
+          "type": 6,
+          "mover_wins": false
+        },
+        {
+          "cards": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "move": "4 5 6 7 8 9 10",
+          "type": 6,
+          "mover_wins": false
+        },
+        {
+          "cards": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "move": "5 6 7 8 9 10 J",
+          "type": 6,
+          "mover_wins": false
+        },
+        {
+          "cards": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "move": "6 7 8 9 10 J Q",
+          "type": 6,
+          "mover_wins": false
+        },
+        {
+          "cards": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "move": "3 4 5 6 7 8",
+          "type": 6,
+          "mover_wins": false
+        },
+        {
+          "cards": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "move": "4 5 6 7 8 9",
+          "type": 6,
+          "mover_wins": false
+        },
+        {
+          "cards": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "move": "5 6 7 8 9 10",
+          "type": 6,
+          "mover_wins": false
+        },
+        {
+          "cards": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "move": "6 7 8 9 10 J",
+          "type": 6,
+          "mover_wins": false
+        },
+        {
+          "cards": [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "move": "7 8 9 10 J Q",
+          "type": 6,
+          "mover_wins": false
+        },
+        {
+          "cards": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "move": "3 4 5 6 7",
+          "type": 6,
+          "mover_wins": false
+        },
+        {
+          "cards": [
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "move": "4 5 6 7 8",
+          "type": 6,
+          "mover_wins": false
+        },
+        {
+          "cards": [
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "move": "5 6 7 8 9",
+          "type": 6,
+          "mover_wins": false
+        },
+        {
+          "cards": [
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "move": "6 7 8 9 10",
+          "type": 6,
+          "mover_wins": false
+        },
+        {
+          "cards": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "move": "7 8 9 10 J",
+          "type": 6,
+          "mover_wins": false
+        },
+        {
+          "cards": [
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "move": "8 9 10 J Q",
+          "type": 6,
+          "mover_wins": false
+        },
+        {
+          "cards": [
+            6,
+            6
+          ],
+          "move": "6 6",
+          "type": 2,
+          "mover_wins": false
+        },
+        {
+          "cards": [
+            11,
+            11
+          ],
+          "move": "J J",
+          "type": 2,
+          "mover_wins": false
+        },
+        {
+          "cards": [
+            3
+          ],
+          "move": "3",
+          "type": 1,
+          "mover_wins": false
+        },
+        {
+          "cards": [
+            4
+          ],
+          "move": "4",
+          "type": 1,
+          "mover_wins": false
+        },
+        {
+          "cards": [
+            5
+          ],
+          "move": "5",
+          "type": 1,
+          "mover_wins": false
+        },
+        {
+          "cards": [
+            6
+          ],
+          "move": "6",
+          "type": 1,
+          "mover_wins": false
+        },
+        {
+          "cards": [
+            7
+          ],
+          "move": "7",
+          "type": 1,
+          "mover_wins": false
+        },
+        {
+          "cards": [
+            8
+          ],
+          "move": "8",
+          "type": 1,
+          "mover_wins": false
+        },
+        {
+          "cards": [
+            9
+          ],
+          "move": "9",
+          "type": 1,
+          "mover_wins": false
+        },
+        {
+          "cards": [
+            10
+          ],
+          "move": "10",
+          "type": 1,
+          "mover_wins": false
+        },
+        {
+          "cards": [
+            11
+          ],
+          "move": "J",
+          "type": 1,
+          "mover_wins": false
+        },
+        {
+          "cards": [
+            12
+          ],
+          "move": "Q",
+          "type": 1,
+          "mover_wins": false
+        },
+        {
+          "cards": [
+            15
+          ],
+          "move": "2",
+          "type": 1,
+          "mover_wins": true
+        }
+      ]
+    },
+    {
+      "mode": "uncanonical",
+      "status": "completed",
+      "cpu_seconds": 3.6358937399999993,
+      "winning_moves": [
+        "2"
+      ],
+      "moves": [
+        {
+          "cards": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "move": "3 4 5 6 7 8 9 10 J Q",
+          "type": 6,
+          "mover_wins": false
+        },
+        {
+          "cards": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "move": "3 4 5 6 7 8 9 10 J",
+          "type": 6,
+          "mover_wins": false
+        },
+        {
+          "cards": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "move": "4 5 6 7 8 9 10 J Q",
+          "type": 6,
+          "mover_wins": false
+        },
+        {
+          "cards": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "move": "3 4 5 6 7 8 9 10",
+          "type": 6,
+          "mover_wins": false
+        },
+        {
+          "cards": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "move": "4 5 6 7 8 9 10 J",
+          "type": 6,
+          "mover_wins": false
+        },
+        {
+          "cards": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "move": "5 6 7 8 9 10 J Q",
+          "type": 6,
+          "mover_wins": false
+        },
+        {
+          "cards": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "move": "3 4 5 6 7 8 9",
+          "type": 6,
+          "mover_wins": false
+        },
+        {
+          "cards": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "move": "4 5 6 7 8 9 10",
+          "type": 6,
+          "mover_wins": false
+        },
+        {
+          "cards": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "move": "5 6 7 8 9 10 J",
+          "type": 6,
+          "mover_wins": false
+        },
+        {
+          "cards": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "move": "6 7 8 9 10 J Q",
+          "type": 6,
+          "mover_wins": false
+        },
+        {
+          "cards": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "move": "3 4 5 6 7 8",
+          "type": 6,
+          "mover_wins": false
+        },
+        {
+          "cards": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "move": "4 5 6 7 8 9",
+          "type": 6,
+          "mover_wins": false
+        },
+        {
+          "cards": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "move": "5 6 7 8 9 10",
+          "type": 6,
+          "mover_wins": false
+        },
+        {
+          "cards": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "move": "6 7 8 9 10 J",
+          "type": 6,
+          "mover_wins": false
+        },
+        {
+          "cards": [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "move": "7 8 9 10 J Q",
+          "type": 6,
+          "mover_wins": false
+        },
+        {
+          "cards": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "move": "3 4 5 6 7",
+          "type": 6,
+          "mover_wins": false
+        },
+        {
+          "cards": [
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "move": "4 5 6 7 8",
+          "type": 6,
+          "mover_wins": false
+        },
+        {
+          "cards": [
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "move": "5 6 7 8 9",
+          "type": 6,
+          "mover_wins": false
+        },
+        {
+          "cards": [
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "move": "6 7 8 9 10",
+          "type": 6,
+          "mover_wins": false
+        },
+        {
+          "cards": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "move": "7 8 9 10 J",
+          "type": 6,
+          "mover_wins": false
+        },
+        {
+          "cards": [
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "move": "8 9 10 J Q",
+          "type": 6,
+          "mover_wins": false
+        },
+        {
+          "cards": [
+            6,
+            6
+          ],
+          "move": "6 6",
+          "type": 2,
+          "mover_wins": false
+        },
+        {
+          "cards": [
+            11,
+            11
+          ],
+          "move": "J J",
+          "type": 2,
+          "mover_wins": false
+        },
+        {
+          "cards": [
+            3
+          ],
+          "move": "3",
+          "type": 1,
+          "mover_wins": false
+        },
+        {
+          "cards": [
+            4
+          ],
+          "move": "4",
+          "type": 1,
+          "mover_wins": false
+        },
+        {
+          "cards": [
+            5
+          ],
+          "move": "5",
+          "type": 1,
+          "mover_wins": false
+        },
+        {
+          "cards": [
+            6
+          ],
+          "move": "6",
+          "type": 1,
+          "mover_wins": false
+        },
+        {
+          "cards": [
+            7
+          ],
+          "move": "7",
+          "type": 1,
+          "mover_wins": false
+        },
+        {
+          "cards": [
+            8
+          ],
+          "move": "8",
+          "type": 1,
+          "mover_wins": false
+        },
+        {
+          "cards": [
+            9
+          ],
+          "move": "9",
+          "type": 1,
+          "mover_wins": false
+        },
+        {
+          "cards": [
+            10
+          ],
+          "move": "10",
+          "type": 1,
+          "mover_wins": false
+        },
+        {
+          "cards": [
+            11
+          ],
+          "move": "J",
+          "type": 1,
+          "mover_wins": false
+        },
+        {
+          "cards": [
+            12
+          ],
+          "move": "Q",
+          "type": 1,
+          "mover_wins": false
+        },
+        {
+          "cards": [
+            15
+          ],
+          "move": "2",
+          "type": 1,
+          "mover_wins": true
+        }
+      ]
+    },
+    {
+      "mode": "independent",
+      "status": "completed",
+      "cpu_seconds": 65.546226392,
+      "states": 300000
+    }
+  ],
+  "status": "verified",
+  "overall": null,
+  "note": "Search effort is not human difficulty; no score unless certified and reviewed.",
+  "winning_moves": [
+    "2"
+  ]
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "farmer_down": "过",
+    "outcome_for_farmer": false,
+    "farmer_up": [
+      {
+        "move": "过",
+        "wins": false
+      }
+    ]
+  },
+  {
+    "farmer_down": "大王",
+    "outcome_for_farmer": false,
+    "farmer_up": [
+      {
+        "move": "过",
+        "wins": false
+      }
+    ]
+  }
+]

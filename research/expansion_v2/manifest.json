@@ -1,0 +1,27 @@
+{
+  "rows": 53,
+  "grades": {
+    "3": 27,
+    "4": 4,
+    "2": 7,
+    "1": 15
+  },
+  "pairs": 15,
+  "three_way_verified": 53,
+  "human_calibrated": false,
+  "training_changed": false,
+  "dataset_sha256": "fc4f47a3e922aca4a8509d30f8524f82d4f90bbdfa0fd7375f5f2516cfcab5fb",
+  "python": "3.10.12 (main, Mar  3 2026, 11:56:32) [GCC 11.4.0]",
+  "platform": "Linux-5.15.0-91-generic-x86_64-with-glibc2.35",
+  "seeds": [
+    2026110507,
+    2026110508
+  ],
+  "excluded_from_old_splits": true,
+  "screening_log": {
+    "path": "search-ledger.jsonl.gz",
+    "uncompressed_sha256": "9a21aac62c352c389e55b2b09b2b06340b18aa2e34c95f2fb96d639918656f73",
+    "uncompressed_bytes": 2874859,
+    "compressed_bytes": 308881
+  }
+}

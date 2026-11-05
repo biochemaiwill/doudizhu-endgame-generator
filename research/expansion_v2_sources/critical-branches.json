@@ -1,0 +1,819 @@
+[
+  {
+    "source_id": "sina-jj20121107-after-Q",
+    "path": [
+      "2",
+      "过",
+      "小王",
+      "过",
+      "过",
+      "6 J J J"
+    ],
+    "turn": 1,
+    "hands": [
+      "K 2",
+      "5 5 6 6 10 10 2",
+      "3 5 5 6 7 7 9 9 10 10 J Q Q Q"
+    ],
+    "moves": [
+      {
+        "cards": [],
+        "move": "过",
+        "type": 0,
+        "mover_wins": true
+      }
+    ],
+    "up_after_down_pass": [
+      {
+        "cards": [],
+        "move": "过",
+        "type": 0,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          3,
+          12,
+          12,
+          12
+        ],
+        "move": "3 Q Q Q",
+        "type": 4,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          5,
+          12,
+          12,
+          12
+        ],
+        "move": "5 Q Q Q",
+        "type": 4,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          6,
+          12,
+          12,
+          12
+        ],
+        "move": "6 Q Q Q",
+        "type": 4,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          7,
+          12,
+          12,
+          12
+        ],
+        "move": "7 Q Q Q",
+        "type": 4,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          9,
+          12,
+          12,
+          12
+        ],
+        "move": "9 Q Q Q",
+        "type": 4,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          10,
+          12,
+          12,
+          12
+        ],
+        "move": "10 Q Q Q",
+        "type": 4,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          11,
+          12,
+          12,
+          12
+        ],
+        "move": "J Q Q Q",
+        "type": 4,
+        "mover_wins": true
+      }
+    ]
+  },
+  {
+    "source_id": "sina-jj20121107-after-Q",
+    "path": [
+      "2",
+      "过",
+      "小王",
+      "过",
+      "过",
+      "J J J K"
+    ],
+    "turn": 1,
+    "hands": [
+      "6 2",
+      "5 5 6 6 10 10 2",
+      "3 5 5 6 7 7 9 9 10 10 J Q Q Q"
+    ],
+    "moves": [
+      {
+        "cards": [],
+        "move": "过",
+        "type": 0,
+        "mover_wins": true
+      }
+    ],
+    "up_after_down_pass": [
+      {
+        "cards": [],
+        "move": "过",
+        "type": 0,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          3,
+          12,
+          12,
+          12
+        ],
+        "move": "3 Q Q Q",
+        "type": 4,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          5,
+          12,
+          12,
+          12
+        ],
+        "move": "5 Q Q Q",
+        "type": 4,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          6,
+          12,
+          12,
+          12
+        ],
+        "move": "6 Q Q Q",
+        "type": 4,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          7,
+          12,
+          12,
+          12
+        ],
+        "move": "7 Q Q Q",
+        "type": 4,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          9,
+          12,
+          12,
+          12
+        ],
+        "move": "9 Q Q Q",
+        "type": 4,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          10,
+          12,
+          12,
+          12
+        ],
+        "move": "10 Q Q Q",
+        "type": 4,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          11,
+          12,
+          12,
+          12
+        ],
+        "move": "J Q Q Q",
+        "type": 4,
+        "mover_wins": true
+      }
+    ]
+  },
+  {
+    "source_id": "sina-jj20121107-after-Q",
+    "path": [
+      "2",
+      "过",
+      "小王",
+      "过",
+      "过",
+      "J J J 2"
+    ],
+    "turn": 1,
+    "hands": [
+      "6 K",
+      "5 5 6 6 10 10 2",
+      "3 5 5 6 7 7 9 9 10 10 J Q Q Q"
+    ],
+    "moves": [
+      {
+        "cards": [],
+        "move": "过",
+        "type": 0,
+        "mover_wins": true
+      }
+    ],
+    "up_after_down_pass": [
+      {
+        "cards": [],
+        "move": "过",
+        "type": 0,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          3,
+          12,
+          12,
+          12
+        ],
+        "move": "3 Q Q Q",
+        "type": 4,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          5,
+          12,
+          12,
+          12
+        ],
+        "move": "5 Q Q Q",
+        "type": 4,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          6,
+          12,
+          12,
+          12
+        ],
+        "move": "6 Q Q Q",
+        "type": 4,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          7,
+          12,
+          12,
+          12
+        ],
+        "move": "7 Q Q Q",
+        "type": 4,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          9,
+          12,
+          12,
+          12
+        ],
+        "move": "9 Q Q Q",
+        "type": 4,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          10,
+          12,
+          12,
+          12
+        ],
+        "move": "10 Q Q Q",
+        "type": 4,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          11,
+          12,
+          12,
+          12
+        ],
+        "move": "J Q Q Q",
+        "type": 4,
+        "mover_wins": true
+      }
+    ]
+  },
+  {
+    "source_id": "sina-jj20121107-after-Q",
+    "path": [
+      "2",
+      "过",
+      "小王",
+      "过",
+      "过",
+      "J J J"
+    ],
+    "turn": 1,
+    "hands": [
+      "6 K 2",
+      "5 5 6 6 10 10 2",
+      "3 5 5 6 7 7 9 9 10 10 J Q Q Q"
+    ],
+    "moves": [
+      {
+        "cards": [],
+        "move": "过",
+        "type": 0,
+        "mover_wins": true
+      }
+    ],
+    "up_after_down_pass": [
+      {
+        "cards": [],
+        "move": "过",
+        "type": 0,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          12,
+          12,
+          12
+        ],
+        "move": "Q Q Q",
+        "type": 3,
+        "mover_wins": true
+      }
+    ]
+  },
+  {
+    "source_id": "sina-jj20121107-after-Q",
+    "path": [
+      "2",
+      "过",
+      "小王",
+      "过",
+      "过",
+      "J J"
+    ],
+    "turn": 1,
+    "hands": [
+      "6 J K 2",
+      "5 5 6 6 10 10 2",
+      "3 5 5 6 7 7 9 9 10 10 J Q Q Q"
+    ],
+    "moves": [
+      {
+        "cards": [],
+        "move": "过",
+        "type": 0,
+        "mover_wins": true
+      }
+    ],
+    "up_after_down_pass": [
+      {
+        "cards": [],
+        "move": "过",
+        "type": 0,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          12,
+          12
+        ],
+        "move": "Q Q",
+        "type": 2,
+        "mover_wins": true
+      }
+    ]
+  },
+  {
+    "source_id": "sina-jj20121107-after-Q",
+    "path": [
+      "2",
+      "过",
+      "小王",
+      "过",
+      "过",
+      "6"
+    ],
+    "turn": 1,
+    "hands": [
+      "J J J K 2",
+      "5 5 6 6 10 10 2",
+      "3 5 5 6 7 7 9 9 10 10 J Q Q Q"
+    ],
+    "moves": [
+      {
+        "cards": [],
+        "move": "过",
+        "type": 0,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          10
+        ],
+        "move": "10",
+        "type": 1,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          15
+        ],
+        "move": "2",
+        "type": 1,
+        "mover_wins": true
+      }
+    ],
+    "up_after_down_pass": [
+      {
+        "cards": [],
+        "move": "过",
+        "type": 0,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          7
+        ],
+        "move": "7",
+        "type": 1,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          9
+        ],
+        "move": "9",
+        "type": 1,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          10
+        ],
+        "move": "10",
+        "type": 1,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          11
+        ],
+        "move": "J",
+        "type": 1,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          12
+        ],
+        "move": "Q",
+        "type": 1,
+        "mover_wins": false
+      }
+    ]
+  },
+  {
+    "source_id": "sina-jj20121107-after-Q",
+    "path": [
+      "2",
+      "过",
+      "小王",
+      "过",
+      "过",
+      "J"
+    ],
+    "turn": 1,
+    "hands": [
+      "6 J J K 2",
+      "5 5 6 6 10 10 2",
+      "3 5 5 6 7 7 9 9 10 10 J Q Q Q"
+    ],
+    "moves": [
+      {
+        "cards": [],
+        "move": "过",
+        "type": 0,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          15
+        ],
+        "move": "2",
+        "type": 1,
+        "mover_wins": true
+      }
+    ],
+    "up_after_down_pass": [
+      {
+        "cards": [],
+        "move": "过",
+        "type": 0,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          12
+        ],
+        "move": "Q",
+        "type": 1,
+        "mover_wins": true
+      }
+    ]
+  },
+  {
+    "source_id": "sina-jj20121107-after-Q",
+    "path": [
+      "2",
+      "过",
+      "小王",
+      "过",
+      "过",
+      "K"
+    ],
+    "turn": 1,
+    "hands": [
+      "6 J J J 2",
+      "5 5 6 6 10 10 2",
+      "3 5 5 6 7 7 9 9 10 10 J Q Q Q"
+    ],
+    "moves": [
+      {
+        "cards": [],
+        "move": "过",
+        "type": 0,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          15
+        ],
+        "move": "2",
+        "type": 1,
+        "mover_wins": true
+      }
+    ],
+    "up_after_down_pass": [
+      {
+        "cards": [],
+        "move": "过",
+        "type": 0,
+        "mover_wins": false
+      }
+    ]
+  },
+  {
+    "source_id": "sina-jj20121107-after-Q",
+    "path": [
+      "2",
+      "过",
+      "小王",
+      "过",
+      "过",
+      "2"
+    ],
+    "turn": 1,
+    "hands": [
+      "6 J J J K",
+      "5 5 6 6 10 10 2",
+      "3 5 5 6 7 7 9 9 10 10 J Q Q Q"
+    ],
+    "moves": [
+      {
+        "cards": [],
+        "move": "过",
+        "type": 0,
+        "mover_wins": true
+      }
+    ],
+    "up_after_down_pass": [
+      {
+        "cards": [],
+        "move": "过",
+        "type": 0,
+        "mover_wins": true
+      }
+    ]
+  },
+  {
+    "source_id": "53shop-20230822-landlord",
+    "path": [
+      "9",
+      "过",
+      "过"
+    ],
+    "turn": 0,
+    "hands": [
+      "3 3 4 4 5 J Q Q K K",
+      "3 3",
+      "4 4 6 6 7 7 8 9 10 A 2"
+    ],
+    "moves": [
+      {
+        "cards": [
+          3,
+          3
+        ],
+        "move": "3 3",
+        "type": 2,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          4,
+          4
+        ],
+        "move": "4 4",
+        "type": 2,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          12,
+          12
+        ],
+        "move": "Q Q",
+        "type": 2,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          13,
+          13
+        ],
+        "move": "K K",
+        "type": 2,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          3
+        ],
+        "move": "3",
+        "type": 1,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          4
+        ],
+        "move": "4",
+        "type": 1,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          5
+        ],
+        "move": "5",
+        "type": 1,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          11
+        ],
+        "move": "J",
+        "type": 1,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          12
+        ],
+        "move": "Q",
+        "type": 1,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          13
+        ],
+        "move": "K",
+        "type": 1,
+        "mover_wins": false
+      }
+    ]
+  },
+  {
+    "source_id": "53shop-20230822-landlord",
+    "path": [
+      "9",
+      "过",
+      "10"
+    ],
+    "turn": 0,
+    "hands": [
+      "3 3 4 4 5 J Q Q K K",
+      "3 3",
+      "4 4 6 6 7 7 8 9 A 2"
+    ],
+    "moves": [
+      {
+        "cards": [],
+        "move": "过",
+        "type": 0,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          11
+        ],
+        "move": "J",
+        "type": 1,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          12
+        ],
+        "move": "Q",
+        "type": 1,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          13
+        ],
+        "move": "K",
+        "type": 1,
+        "mover_wins": false
+      }
+    ]
+  },
+  {
+    "source_id": "53shop-20230822-landlord",
+    "path": [
+      "9",
+      "过",
+      "A"
+    ],
+    "turn": 0,
+    "hands": [
+      "3 3 4 4 5 J Q Q K K",
+      "3 3",
+      "4 4 6 6 7 7 8 9 10 2"
+    ],
+    "moves": [
+      {
+        "cards": [],
+        "move": "过",
+        "type": 0,
+        "mover_wins": true
+      }
+    ]
+  },
+  {
+    "source_id": "53shop-20230822-landlord",
+    "path": [
+      "9",
+      "过",
+      "2"
+    ],
+    "turn": 0,
+    "hands": [
+      "3 3 4 4 5 J Q Q K K",
+      "3 3",
+      "4 4 6 6 7 7 8 9 10 A"
+    ],
+    "moves": [
+      {
+        "cards": [],
+        "move": "过",
+        "type": 0,
+        "mover_wins": true
+      }
+    ]
+  }
+]

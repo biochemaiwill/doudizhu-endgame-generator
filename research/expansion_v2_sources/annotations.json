@@ -1,0 +1,34 @@
+[
+  {
+    "source_id": "sina-jj20121107-after-Q",
+    "overall": 3,
+    "reasoning_depth": 3,
+    "move_concealment": 3,
+    "reason": "必须拆22用单2顶住Q，不能放行；地主小王夺权后，遇6或K要再用2，遇JJJ带低牌则让上家用QQQ带牌接管。难点是保留第二张2并分辨该顶还是让队友接，而非剩余牌数。",
+    "caveat": "公开局面按正文地主出Q条件化；并非原始地主必胜。根仅2个动作，但后续存在实质分支。",
+    "annotation_type": "single_assistant_estimate",
+    "rubric": "v0.1",
+    "human_calibrated": false,
+    "blind": false,
+    "date": "2026-11-05",
+    "origin_id": "sina-jj20121107-after-Q",
+    "family": "sina-jj-20121107",
+    "mechanism": "拆大对顶牌与三张协同接管"
+  },
+  {
+    "source_id": "53shop-20230822-landlord",
+    "overall": 4,
+    "reasoning_depth": 4,
+    "move_concealment": 4,
+    "reason": "11种首着只有单9能赢，提前出对子或小单都输；先9后若上家出10，只能过或J接，拆Q/K反而输。若上家不接，应先33或44而不能提前消耗QQ/KK。需结合上家顺子、对子与下家33的威胁安排多次控制。",
+    "caveat": "来源答案写一对9，但其题面地主只有一张9；照录牌面并用三路求解确定单9，不替来源补牌。",
+    "annotation_type": "single_assistant_estimate",
+    "rubric": "v0.1",
+    "human_calibrated": false,
+    "blind": false,
+    "date": "2026-11-05",
+    "origin_id": "53shop-20230822-landlord",
+    "family": "53shop-20230822",
+    "mechanism": "中张先出破坏对手顺子并保留对子控制"
+  }
+]

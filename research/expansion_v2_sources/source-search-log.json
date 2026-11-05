@@ -1,0 +1,52 @@
+[
+  {
+    "url": "https://game.xiaomi.com/viewpoint/1359077112_1641520397884_13",
+    "status": "complete_input_but_mover_losing",
+    "note": "顶家按完整明牌最优防守不能赢；网页依赖地主误判放过2，不纳入必胜正样本。"
+  },
+  {
+    "url": "https://games.sina.com.cn/o/n/2012-11-07/1445667174.shtml",
+    "status": "new_family_verified_conditional_state",
+    "note": "初始地主全首着均败；正文出Q后的下家只有单2能赢。"
+  },
+  {
+    "url": "https://m.53shop.com/news/168/kes168993.html",
+    "status": "new_family_verified_source_answer_wrong",
+    "note": "三家题面完整；网页一对9答案不合法，三路验证实际只有单9能赢。"
+  },
+  {
+    "url": "https://game.xiaomi.com/viewpoint/1359077112_1642730390875_13",
+    "status": "duplicate_existing_gamersky4",
+    "note": "三家手牌与已有Gamersky第四题一致，不算新题族。"
+  },
+  {
+    "url": "https://game.xiaomi.com/viewpoint/1359077112_1653536938165_13",
+    "status": "quarantine_temporal_inconsistency",
+    "note": "地主是否已经出J不清；后文出现题面中不存在的牌，不能自行补全。"
+  },
+  {
+    "url": "https://game.xiaomi.com/viewpoint/1359077112_1671585870317_13",
+    "status": "quarantine_inconsistent_cards",
+    "note": "后文地主出KK、AAAA，初始题面未有相应牌；不猜测缺失。"
+  },
+  {
+    "url": "https://jingyan.baidu.com/article/4b52d7025131f4fc5c774b2b.html",
+    "status": "full_deal_large_unverified",
+    "note": "54牌旧悬赏题，完整手牌但文献胜负互相矛盾，未给5分或必胜认证。"
+  },
+  {
+    "url": "https://hi8.com/g/doudizhucanju",
+    "status": "excluded_two_players",
+    "note": "原站明确只有两人，不符合3人范围。"
+  },
+  {
+    "url": "https://www.gameabc.com/news/201903/5079.html",
+    "status": "excluded_two_players_and_modified_rules",
+    "note": "只完整给出一个农民，且禁止三带二。"
+  },
+  {
+    "url": "https://www.33iq.com/topic/2425/",
+    "status": "quarantine_missing_third_hand",
+    "note": "579588文字只有我方与地主；第三手在图中未获取，不能猜。"
+  }
+]

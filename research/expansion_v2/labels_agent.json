@@ -1,0 +1,457 @@
+[
+  {
+    "origin_id": "S2026110507-0068",
+    "overall": 3,
+    "reasoning_depth": 3,
+    "move_concealment": 3,
+    "reason": "先4或8而非KK，先诱发单张应对再兑现对子，避免把低单留到失去控制之后。",
+    "mechanism": "延迟对子",
+    "evidence_notes": {
+      "reviewed": "complete root outcomes and stored trap examples; compact PV, not a human calibration",
+      "extra_response_queries": false,
+      "provisional": true
+    }
+  },
+  {
+    "origin_id": "S2026110507-0200",
+    "overall": 3,
+    "reasoning_depth": 3,
+    "move_concealment": 3,
+    "reason": "555只能带6或先KK；带9或带KK均输，须比较对方999带牌后的残余控制。",
+    "mechanism": "带牌选择",
+    "evidence_notes": {
+      "reviewed": "complete root outcomes and stored trap examples; compact PV, not a human calibration",
+      "extra_response_queries": false,
+      "provisional": true
+    }
+  },
+  {
+    "origin_id": "S2026110507-0220",
+    "overall": 3,
+    "reasoning_depth": 4,
+    "move_concealment": 3,
+    "reason": "先J或拆22出2；地主接A时队友只能拆22出2，不能小王或过，需要条件化配合。",
+    "mechanism": "拆对子配合",
+    "evidence_notes": {
+      "reviewed": "complete root outcomes and stored trap examples; compact PV, not a human calibration",
+      "extra_response_queries": true,
+      "provisional": true
+    }
+  },
+  {
+    "origin_id": "S2026110507-0462",
+    "overall": 3,
+    "reasoning_depth": 3,
+    "move_concealment": 3,
+    "reason": "先4或6，不能33、3或小王；保留小对子与控制，防地主66和999连续清牌。",
+    "mechanism": "中单试探",
+    "evidence_notes": {
+      "reviewed": "complete root outcomes and stored trap examples; compact PV, not a human calibration",
+      "extra_response_queries": false,
+      "provisional": true
+    }
+  },
+  {
+    "origin_id": "S2026110507-0565",
+    "overall": 3,
+    "reasoning_depth": 3,
+    "move_concealment": 3,
+    "reason": "只有先3能赢；55被88接走，K被A接走，需先建立低单接力。",
+    "mechanism": "低单接力",
+    "evidence_notes": {
+      "reviewed": "complete root outcomes and stored trap examples; compact PV, not a human calibration",
+      "extra_response_queries": false,
+      "provisional": true
+    }
+  },
+  {
+    "origin_id": "S2026110507-0766",
+    "overall": 3,
+    "reasoning_depth": 3,
+    "move_concealment": 3,
+    "reason": "唯一先9；66或3会打开农民QQ、22接力，需中单打乱对手出牌顺序。",
+    "mechanism": "中单卡位",
+    "evidence_notes": {
+      "reviewed": "complete root outcomes and stored trap examples; compact PV, not a human calibration",
+      "extra_response_queries": false,
+      "provisional": true
+    }
+  },
+  {
+    "origin_id": "S2026110507-0983",
+    "overall": 3,
+    "reasoning_depth": 3,
+    "move_concealment": 3,
+    "reason": "唯一先5，先最小3被农民5接管后清99，先大牌也输；需比较单张响应。",
+    "mechanism": "非最小单开局",
+    "evidence_notes": {
+      "reviewed": "complete root outcomes and stored trap examples; compact PV, not a human calibration",
+      "extra_response_queries": false,
+      "provisional": true
+    }
+  },
+  {
+    "origin_id": "S2026110507-0988",
+    "overall": 4,
+    "reasoning_depth": 4,
+    "move_concealment": 4,
+    "reason": "唯一先9；77被1010接走，先KK也输，后续须安排拆77与保留KK，应对农民A及大王的控制。",
+    "mechanism": "拆对子与控制顺序",
+    "evidence_notes": {
+      "reviewed": "complete root outcomes and stored trap examples; compact PV, not a human calibration",
+      "extra_response_queries": true,
+      "provisional": true
+    }
+  },
+  {
+    "origin_id": "S2026110507-1110",
+    "overall": 3,
+    "reasoning_depth": 3,
+    "move_concealment": 3,
+    "reason": "面对4只能9接；7让8接管，K引出2，直接2耗尽控制，需比较两农民后续接力。",
+    "mechanism": "精确接牌点数",
+    "evidence_notes": {
+      "reviewed": "complete root outcomes and stored trap examples; compact PV, not a human calibration",
+      "extra_response_queries": false,
+      "provisional": true
+    }
+  },
+  {
+    "origin_id": "S2026110507-1244",
+    "overall": 3,
+    "reasoning_depth": 3,
+    "move_concealment": 3,
+    "reason": "先3交接，1010被KK接走，6或10也输；须给队友创造接管窗口。",
+    "mechanism": "低单交接",
+    "evidence_notes": {
+      "reviewed": "complete root outcomes and stored trap examples; compact PV, not a human calibration",
+      "extra_response_queries": false,
+      "provisional": true
+    }
+  },
+  {
+    "origin_id": "S2026110507-1268",
+    "overall": 3,
+    "reasoning_depth": 4,
+    "move_concealment": 3,
+    "reason": "先1010后队友必须JJ接，过牌输；之后通过5、7继续交接，先JJ看似等价却输。",
+    "mechanism": "连续队友接管",
+    "evidence_notes": {
+      "reviewed": "complete root outcomes and stored trap examples; compact PV, not a human calibration",
+      "extra_response_queries": true,
+      "provisional": true
+    }
+  },
+  {
+    "origin_id": "S2026110507-1411",
+    "overall": 3,
+    "reasoning_depth": 3,
+    "move_concealment": 3,
+    "reason": "先6或8而非JJ；JJ被QQ接走，低单无法处理，需延迟对子并考虑拆J。",
+    "mechanism": "延迟对子拆牌",
+    "evidence_notes": {
+      "reviewed": "complete root outcomes and stored trap examples; compact PV, not a human calibration",
+      "extra_response_queries": false,
+      "provisional": true
+    }
+  },
+  {
+    "origin_id": "S2026110507-1621",
+    "overall": 3,
+    "reasoning_depth": 3,
+    "move_concealment": 3,
+    "reason": "先4或9，33与22都不能先兑现；利用队友大王并保留两组对子处理后续。",
+    "mechanism": "保留双对子",
+    "evidence_notes": {
+      "reviewed": "complete root outcomes and stored trap examples; compact PV, not a human calibration",
+      "extra_response_queries": false,
+      "provisional": true
+    }
+  },
+  {
+    "origin_id": "S2026110507-1652",
+    "overall": 3,
+    "reasoning_depth": 3,
+    "move_concealment": 3,
+    "reason": "先7或K而非4、2、大王；为队友666和888保留接力空间，不能先耗控制。",
+    "mechanism": "队友组合接力",
+    "evidence_notes": {
+      "reviewed": "complete root outcomes and stored trap examples; compact PV, not a human calibration",
+      "extra_response_queries": false,
+      "provisional": true
+    }
+  },
+  {
+    "origin_id": "S2026110507-1876",
+    "overall": 3,
+    "reasoning_depth": 3,
+    "move_concealment": 3,
+    "reason": "先8或9而非4；4让农民5接10后清对子，中单开局才能保留A和大王的控制用途。",
+    "mechanism": "阻断单张接力",
+    "evidence_notes": {
+      "reviewed": "complete root outcomes and stored trap examples; compact PV, not a human calibration",
+      "extra_response_queries": false,
+      "provisional": true
+    }
+  },
+  {
+    "origin_id": "S2026110507-1966",
+    "overall": 3,
+    "reasoning_depth": 3,
+    "move_concealment": 3,
+    "reason": "先3或7而非JJ；JJ先出让农民用7接管后清66与1010，须先单后对。",
+    "mechanism": "单对顺序",
+    "evidence_notes": {
+      "reviewed": "complete root outcomes and stored trap examples; compact PV, not a human calibration",
+      "extra_response_queries": false,
+      "provisional": true
+    }
+  },
+  {
+    "origin_id": "S2026110507-1974",
+    "overall": 3,
+    "reasoning_depth": 3,
+    "move_concealment": 3,
+    "reason": "面对10只能Q；拆J或2均输，必须保留JJ与22并安排3、10的出场次序。",
+    "mechanism": "接牌保型",
+    "evidence_notes": {
+      "reviewed": "complete root outcomes and stored trap examples; compact PV, not a human calibration",
+      "extra_response_queries": false,
+      "provisional": true
+    }
+  },
+  {
+    "origin_id": "S2026110507-2011",
+    "overall": 3,
+    "reasoning_depth": 3,
+    "move_concealment": 3,
+    "reason": "只能99开局，AA或单张先走均输；要兼顾8888炸弹与农民AA，不是靠大王直接控场。",
+    "mechanism": "炸弹响应",
+    "evidence_notes": {
+      "reviewed": "complete root outcomes and stored trap examples; compact PV, not a human calibration",
+      "extra_response_queries": false,
+      "provisional": true
+    }
+  },
+  {
+    "origin_id": "S2026110507-2098",
+    "overall": 3,
+    "reasoning_depth": 3,
+    "move_concealment": 3,
+    "reason": "王炸和单王先出均输，先99或2才能保留双王应对3333和两家对子接力。",
+    "mechanism": "保留王炸",
+    "evidence_notes": {
+      "reviewed": "complete root outcomes and stored trap examples; compact PV, not a human calibration",
+      "extra_response_queries": false,
+      "provisional": true
+    }
+  },
+  {
+    "origin_id": "S2026110507-2326",
+    "overall": 4,
+    "reasoning_depth": 4,
+    "move_concealment": 4,
+    "reason": "唯一先9；地主过时队友需出J或Q，直接2或过都输，随后本方还须拆JJ再靠队友2接管。",
+    "mechanism": "多次牌权交接拆对子",
+    "evidence_notes": {
+      "reviewed": "complete root outcomes and stored trap examples; compact PV, not a human calibration",
+      "extra_response_queries": true,
+      "provisional": true
+    }
+  },
+  {
+    "origin_id": "S2026110507-2396",
+    "overall": 3,
+    "reasoning_depth": 3,
+    "move_concealment": 3,
+    "reason": "555只能带7或8；带10也输，须比较尾牌与农民8、22的控制关系。",
+    "mechanism": "三带与尾牌",
+    "evidence_notes": {
+      "reviewed": "complete root outcomes and stored trap examples; compact PV, not a human calibration",
+      "extra_response_queries": false,
+      "provisional": true
+    }
+  },
+  {
+    "origin_id": "S2026110507-2441",
+    "overall": 3,
+    "reasoning_depth": 3,
+    "move_concealment": 3,
+    "reason": "先8或Q，不能33、44或最小单；随后需拆小对子走单，整对先出让77、22连续清牌。",
+    "mechanism": "双对子拆分",
+    "evidence_notes": {
+      "reviewed": "complete root outcomes and stored trap examples; compact PV, not a human calibration",
+      "extra_response_queries": true,
+      "provisional": true
+    }
+  },
+  {
+    "origin_id": "S2026110507-2641",
+    "overall": 3,
+    "reasoning_depth": 3,
+    "move_concealment": 3,
+    "reason": "先8或J，不能QQ或小王；需先让队友接单并利用999带牌清理，不能先自顾出对。",
+    "mechanism": "队友三带接管",
+    "evidence_notes": {
+      "reviewed": "complete root outcomes and stored trap examples; compact PV, not a human calibration",
+      "extra_response_queries": false,
+      "provisional": true
+    }
+  },
+  {
+    "origin_id": "S2026110507-2672",
+    "overall": 3,
+    "reasoning_depth": 3,
+    "move_concealment": 3,
+    "reason": "先10或Q而非JJ，先处理单张同时保留JJ阻止对方66持续控牌。",
+    "mechanism": "延迟对子",
+    "evidence_notes": {
+      "reviewed": "complete root outcomes and stored trap examples; compact PV, not a human calibration",
+      "extra_response_queries": false,
+      "provisional": true
+    }
+  },
+  {
+    "origin_id": "S2026110507-2699",
+    "overall": 3,
+    "reasoning_depth": 4,
+    "move_concealment": 3,
+    "reason": "唯一先7；55被88接走，22或小王也输，须保留高对子并处理后续4。",
+    "mechanism": "中单开局留控制",
+    "evidence_notes": {
+      "reviewed": "complete root outcomes and stored trap examples; compact PV, not a human calibration",
+      "extra_response_queries": true,
+      "provisional": true
+    }
+  },
+  {
+    "origin_id": "S2026110507-2917",
+    "overall": 3,
+    "reasoning_depth": 3,
+    "move_concealment": 3,
+    "reason": "先3或10而非77、99，先单张争夺再处理双对子，保留小王覆盖地主2。",
+    "mechanism": "单双转换",
+    "evidence_notes": {
+      "reviewed": "complete root outcomes and stored trap examples; compact PV, not a human calibration",
+      "extra_response_queries": false,
+      "provisional": true
+    }
+  },
+  {
+    "origin_id": "S2026110507-2929",
+    "overall": 3,
+    "reasoning_depth": 3,
+    "move_concealment": 3,
+    "reason": "先6或7，44与1010先出都被地主对子链压住；需先单张接力再兑现对子。",
+    "mechanism": "中单接力",
+    "evidence_notes": {
+      "reviewed": "complete root outcomes and stored trap examples; compact PV, not a human calibration",
+      "extra_response_queries": false,
+      "provisional": true
+    }
+  },
+  {
+    "origin_id": "S2026110507-2931",
+    "overall": 3,
+    "reasoning_depth": 3,
+    "move_concealment": 3,
+    "reason": "先55或K，低单与A都输，须兼顾队友KK接管和自己低牌的处理。",
+    "mechanism": "单双交接",
+    "evidence_notes": {
+      "reviewed": "complete root outcomes and stored trap examples; compact PV, not a human calibration",
+      "extra_response_queries": false,
+      "provisional": true
+    }
+  },
+  {
+    "origin_id": "S2026110507-0945",
+    "overall": 2,
+    "reasoning_depth": 2,
+    "move_concealment": 2,
+    "reason": "面对J用K或2，过牌会放地主出8；保留三带对子结构。",
+    "mechanism": "接牌保型",
+    "evidence_notes": {
+      "reviewed": "complete root outcomes and stored trap examples; compact PV, not a human calibration",
+      "extra_response_queries": false,
+      "provisional": true
+    }
+  },
+  {
+    "origin_id": "S2026110507-1175",
+    "overall": 2,
+    "reasoning_depth": 2,
+    "move_concealment": 2,
+    "reason": "888带5或先2，主要是处理低5，不能随便带走A或2。",
+    "mechanism": "带低牌",
+    "evidence_notes": {
+      "reviewed": "complete root outcomes and stored trap examples; compact PV, not a human calibration",
+      "extra_response_queries": false,
+      "provisional": true
+    }
+  },
+  {
+    "origin_id": "S2026110507-1361",
+    "overall": 2,
+    "reasoning_depth": 3,
+    "move_concealment": 2,
+    "reason": "先55让队友99接，再Q、2；其余单张让地主持续控制，接力路线较直观。",
+    "mechanism": "对子接管",
+    "evidence_notes": {
+      "reviewed": "complete root outcomes and stored trap examples; compact PV, not a human calibration",
+      "extra_response_queries": false,
+      "provisional": true
+    }
+  },
+  {
+    "origin_id": "S2026110507-1571",
+    "overall": 2,
+    "reasoning_depth": 2,
+    "move_concealment": 3,
+    "reason": "拆44出4或先7，整对会被66接走，不能先耗小王。",
+    "mechanism": "拆小对子",
+    "evidence_notes": {
+      "reviewed": "complete root outcomes and stored trap examples; compact PV, not a human calibration",
+      "extra_response_queries": false,
+      "provisional": true
+    }
+  },
+  {
+    "origin_id": "S2026110507-2171",
+    "overall": 2,
+    "reasoning_depth": 2,
+    "move_concealment": 2,
+    "reason": "444带8留下J和2；带J或2会遗留低8。",
+    "mechanism": "带低牌",
+    "evidence_notes": {
+      "reviewed": "complete root outcomes and stored trap examples; compact PV, not a human calibration",
+      "extra_response_queries": false,
+      "provisional": true
+    }
+  },
+  {
+    "origin_id": "S2026110507-2588",
+    "overall": 2,
+    "reasoning_depth": 3,
+    "move_concealment": 2,
+    "reason": "先99保留队友QQ接管机会，再处理单张；其他单牌让地主先得控制。",
+    "mechanism": "对子交接",
+    "evidence_notes": {
+      "reviewed": "complete root outcomes and stored trap examples; compact PV, not a human calibration",
+      "extra_response_queries": false,
+      "provisional": true
+    }
+  },
+  {
+    "origin_id": "S2026110507-2656",
+    "overall": 2,
+    "reasoning_depth": 2,
+    "move_concealment": 2,
+    "reason": "先K或A封锁中单，低单开局让地主对子连续清理。",
+    "mechanism": "高单封锁",
+    "evidence_notes": {
+      "reviewed": "complete root outcomes and stored trap examples; compact PV, not a human calibration",
+      "extra_response_queries": false,
+      "provisional": true
+    }
+  }
+]

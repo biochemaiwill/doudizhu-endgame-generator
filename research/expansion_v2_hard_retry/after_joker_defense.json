@@ -1,0 +1,134 @@
+{
+  "prefix": [
+    "landlord:2",
+    "farmer_down:big_joker",
+    "farmer_up:pass",
+    "landlord:pass"
+  ],
+  "hands": [
+    "3 4 5 6 6 7 8 9 10 J J Q",
+    "4 4 5 5 7 8 8 9 A A",
+    "3 3 4"
+  ],
+  "turn": 1,
+  "branches": [
+    {
+      "farmer_down_lead": "4 4",
+      "farmer_up_response": "过",
+      "landlord_wins": [
+        "过",
+        "J J"
+      ],
+      "landlord_loses": [
+        "6 6"
+      ]
+    },
+    {
+      "farmer_down_lead": "5 5",
+      "farmer_up_response": "过",
+      "landlord_wins": [
+        "过",
+        "J J"
+      ],
+      "landlord_loses": [
+        "6 6"
+      ]
+    },
+    {
+      "farmer_down_lead": "8 8",
+      "farmer_up_response": "过",
+      "landlord_wins": [
+        "过",
+        "J J"
+      ],
+      "landlord_loses": []
+    },
+    {
+      "farmer_down_lead": "A A",
+      "farmer_up_response": "过",
+      "landlord_wins": [
+        "过"
+      ],
+      "landlord_loses": []
+    },
+    {
+      "farmer_down_lead": "4",
+      "farmer_up_response": "过",
+      "landlord_wins": [
+        "过",
+        "6",
+        "8",
+        "9",
+        "10",
+        "J",
+        "Q"
+      ],
+      "landlord_loses": [
+        "5",
+        "7"
+      ]
+    },
+    {
+      "farmer_down_lead": "5",
+      "farmer_up_response": "过",
+      "landlord_wins": [
+        "过",
+        "6",
+        "8",
+        "9",
+        "10",
+        "J",
+        "Q"
+      ],
+      "landlord_loses": [
+        "7"
+      ]
+    },
+    {
+      "farmer_down_lead": "7",
+      "farmer_up_response": "过",
+      "landlord_wins": [
+        "Q"
+      ],
+      "landlord_loses": [
+        "过",
+        "8",
+        "9",
+        "10",
+        "J"
+      ]
+    },
+    {
+      "farmer_down_lead": "8",
+      "farmer_up_response": "过",
+      "landlord_wins": [
+        "过",
+        "9",
+        "10",
+        "J",
+        "Q"
+      ],
+      "landlord_loses": []
+    },
+    {
+      "farmer_down_lead": "9",
+      "farmer_up_response": "过",
+      "landlord_wins": [
+        "Q"
+      ],
+      "landlord_loses": [
+        "过",
+        "10",
+        "J"
+      ]
+    },
+    {
+      "farmer_down_lead": "A",
+      "farmer_up_response": "过",
+      "landlord_wins": [
+        "过"
+      ],
+      "landlord_loses": []
+    }
+  ]
+}

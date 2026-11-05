@@ -1,0 +1,58 @@
+[
+  {
+    "source_id": "xiaomi-20220107-top-farmer",
+    "source": "public_position",
+    "hands": [
+      "DXKK886",
+      "9",
+      "2AAJ77556T"
+    ],
+    "turn": 2,
+    "last_text": "3",
+    "passes": 0,
+    "source_url": "https://game.xiaomi.com/viewpoint/1359077112_1641520397884_13",
+    "source_note": "原文：下家出3,剩9，顶家2AAJ7755610，地主大王小王KK886。输入为下家刚出3后；轮到顶家。"
+  },
+  {
+    "source_id": "sina-jj20121107-second-example",
+    "source": "public_position",
+    "hands": [
+      "6JJJQK2X",
+      "5566TT22",
+      "35567799TTJQQQ"
+    ],
+    "turn": 0,
+    "last_text": null,
+    "passes": 0,
+    "source_url": "https://games.sina.com.cn/o/n/2012-11-07/1445667174.shtml",
+    "source_note": "正文明确三家手牌；随后地主出单Q，下家应拆2。定义为出Q之前的初始题面。"
+  },
+  {
+    "source_id": "sina-jj20121107-after-Q",
+    "source": "public_position",
+    "hands": [
+      "6JJJK2X",
+      "5566TT22",
+      "35567799TTJQQQ"
+    ],
+    "turn": 1,
+    "last_text": "Q",
+    "passes": 0,
+    "source_url": "https://games.sina.com.cn/o/n/2012-11-07/1445667174.shtml",
+    "source_note": "正文地主出单Q之后，轮到下家；牌面扣除地主Q。明确条件化合法后继，不声称初始地主必胜。"
+  },
+  {
+    "source_id": "53shop-20230822-landlord",
+    "source": "public_position",
+    "hands": [
+      "KKQQJ954433",
+      "33",
+      "2AT98776644"
+    ],
+    "turn": 0,
+    "last_text": null,
+    "passes": 0,
+    "source_url": "https://m.53shop.com/news/168/kes168993.html",
+    "source_note": "原文三家手牌照录；来源答案声称一对9但地主只有一张9，答案明显不合法，不采信答案，不擅自补牌。"
+  }
+]

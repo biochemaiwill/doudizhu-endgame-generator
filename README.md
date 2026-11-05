@@ -18,3 +18,5 @@
 - [新增高分候选](research/highscore_candidates_v1/README.md)（同族变体，未用于本轮训练）
 
 - [均衡few-shot实验与方法调研](research/fewshot_balanced_v1/README.md)（每级2题，5次抽样；仍无5分样本）
+
+- [第二批扩充：53道与15组等牌数对照](research/expansion_v2/README.md)（新增31道3—4分，仍无5分；未加入旧训练）
