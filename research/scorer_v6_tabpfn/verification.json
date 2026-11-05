@@ -1,0 +1,14 @@
+{
+  "folds_match_frozen_split": true,
+  "folds": 6,
+  "argmax_matches_saved_predictions": true,
+  "probabilities_normalized_finite": true,
+  "strict_holdout_read": false,
+  "full_189_context_fit": "pass",
+  "classes": [
+    1,
+    2,
+    3,
+    4
+  ]
+}
