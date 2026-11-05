@@ -13,3 +13,6 @@
 - [六道三人残局试标与验证](research/pilot-v1/README.md)（等待评分口径确认）
 
 - [100道三人残局试标：来源、评分与验证](research/pilot100/README.md)
+
+- [牌面评分器v1：分层训练与结果](research/scorer_v1/README.md)（实验版，未达奖励模型要求）
+- [新增高分候选](research/highscore_candidates_v1/README.md)（同族变体，未用于本轮训练）

@@ -1,0 +1,5 @@
+{
+  "name": "ridge_counts_1",
+  "rule": "minimum validation overall MAE; tie mean three-head MAE then name",
+  "test_not_used_for_selection": true
+}

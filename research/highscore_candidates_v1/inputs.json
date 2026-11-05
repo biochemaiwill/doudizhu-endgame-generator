@@ -1,0 +1,32 @@
+[
+  {
+    "source_id": "33iq-507273",
+    "hands": [
+      "2QJJT98766543",
+      "DAA98875544",
+      "433"
+    ],
+    "turn": 0,
+    "last_text": null,
+    "passes": 0,
+    "source_url": "https://www.33iq.com/topic/574/7/",
+    "author": "katy Clarkson",
+    "source_question": "507273",
+    "source_note": "Public topic search snapshot confirms all hands; previously attempted but not included in pilot100."
+  },
+  {
+    "source_id": "33iq-579570",
+    "hands": [
+      "2K",
+      "XAKJTT99884",
+      "22T98665443"
+    ],
+    "turn": 2,
+    "last_text": "5",
+    "passes": 0,
+    "source_url": "https://www.33iq.com/topic/2425/",
+    "author": "smok",
+    "source_question": "579570",
+    "source_note": "Public topic lists hands then lower farmer plays 5. One 5 removed from listed XAKJTT998854; interpretation requires image confirmation."
+  }
+]

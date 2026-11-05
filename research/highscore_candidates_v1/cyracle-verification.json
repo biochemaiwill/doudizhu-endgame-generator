@@ -1,0 +1,1763 @@
+[
+  {
+    "source_id": "cyracle-86",
+    "source_question": "86",
+    "source_url": "https://www.cyracle.com/games/ddz-endgame/index.html",
+    "raw_hands": [
+      [
+        15,
+        15,
+        14,
+        13,
+        12,
+        9,
+        9,
+        7
+      ],
+      [
+        6,
+        5,
+        5,
+        4,
+        4,
+        3
+      ],
+      [
+        6,
+        6,
+        6,
+        5,
+        4,
+        4,
+        3,
+        3,
+        3
+      ]
+    ],
+    "hands": [
+      "7 9 9 Q K A 2 2",
+      "3 4 4 5 5 6",
+      "3 3 3 4 4 5 6 6 6"
+    ],
+    "turn": 0,
+    "last_text": null,
+    "passes": 0,
+    "source": "public_embedded_game_level",
+    "key": "b513c7c9421ca8e7331406ef5720509470d4dfd77a3d45945109859dd53eb5b1",
+    "moves": [
+      {
+        "cards": [
+          9,
+          9
+        ],
+        "move": "9 9",
+        "type": 2,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          15,
+          15
+        ],
+        "move": "2 2",
+        "type": 2,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          7
+        ],
+        "move": "7",
+        "type": 1,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          9
+        ],
+        "move": "9",
+        "type": 1,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          12
+        ],
+        "move": "Q",
+        "type": 1,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          13
+        ],
+        "move": "K",
+        "type": 1,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          14
+        ],
+        "move": "A",
+        "type": 1,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          15
+        ],
+        "move": "2",
+        "type": 1,
+        "mover_wins": true
+      }
+    ],
+    "winning_moves": [
+      "9 9",
+      "2 2",
+      "7",
+      "9",
+      "Q",
+      "K",
+      "A",
+      "2"
+    ],
+    "reference_states": 97,
+    "pv": [
+      {
+        "player": 0,
+        "legal": 8,
+        "winning": 8,
+        "cards": [
+          9,
+          9
+        ],
+        "move": "9 9",
+        "type": 2
+      },
+      {
+        "player": 1,
+        "legal": 1,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 2,
+        "legal": 1,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 0,
+        "legal": 6,
+        "winning": 6,
+        "cards": [
+          15,
+          15
+        ],
+        "move": "2 2",
+        "type": 2
+      },
+      {
+        "player": 1,
+        "legal": 1,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 2,
+        "legal": 1,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 0,
+        "legal": 4,
+        "winning": 4,
+        "cards": [
+          7
+        ],
+        "move": "7",
+        "type": 1
+      },
+      {
+        "player": 1,
+        "legal": 1,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 2,
+        "legal": 1,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 0,
+        "legal": 3,
+        "winning": 3,
+        "cards": [
+          12
+        ],
+        "move": "Q",
+        "type": 1
+      },
+      {
+        "player": 1,
+        "legal": 1,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 2,
+        "legal": 1,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 0,
+        "legal": 2,
+        "winning": 2,
+        "cards": [
+          13
+        ],
+        "move": "K",
+        "type": 1
+      },
+      {
+        "player": 1,
+        "legal": 1,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 2,
+        "legal": 1,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 0,
+        "legal": 1,
+        "winning": 1,
+        "cards": [
+          14
+        ],
+        "move": "A",
+        "type": 1
+      }
+    ],
+    "trap_examples": [],
+    "status": "verified",
+    "cpu_seconds": 0.007998112000000002
+  },
+  {
+    "source_id": "cyracle-87",
+    "source_question": "87",
+    "source_url": "https://www.cyracle.com/games/ddz-endgame/index.html",
+    "raw_hands": [
+      [
+        15,
+        14,
+        14,
+        12,
+        12,
+        11,
+        10,
+        9,
+        9
+      ],
+      [
+        8,
+        7,
+        6,
+        5,
+        3
+      ],
+      [
+        8,
+        8,
+        7,
+        6,
+        6,
+        5,
+        3,
+        3,
+        3
+      ]
+    ],
+    "hands": [
+      "9 9 10 J Q Q A A 2",
+      "3 5 6 7 8",
+      "3 3 3 5 6 6 7 8 8"
+    ],
+    "turn": 0,
+    "last_text": null,
+    "passes": 0,
+    "source": "public_embedded_game_level",
+    "key": "80bb69cf9715b68b7353955f057af3c208853777c0265b7cf72d9cb672c671d1",
+    "moves": [
+      {
+        "cards": [
+          9,
+          9
+        ],
+        "move": "9 9",
+        "type": 2,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          12,
+          12
+        ],
+        "move": "Q Q",
+        "type": 2,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          14,
+          14
+        ],
+        "move": "A A",
+        "type": 2,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          9
+        ],
+        "move": "9",
+        "type": 1,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          10
+        ],
+        "move": "10",
+        "type": 1,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          11
+        ],
+        "move": "J",
+        "type": 1,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          12
+        ],
+        "move": "Q",
+        "type": 1,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          14
+        ],
+        "move": "A",
+        "type": 1,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          15
+        ],
+        "move": "2",
+        "type": 1,
+        "mover_wins": true
+      }
+    ],
+    "winning_moves": [
+      "9 9",
+      "Q Q",
+      "A A",
+      "9",
+      "10",
+      "J",
+      "Q",
+      "A",
+      "2"
+    ],
+    "reference_states": 113,
+    "pv": [
+      {
+        "player": 0,
+        "legal": 9,
+        "winning": 9,
+        "cards": [
+          9,
+          9
+        ],
+        "move": "9 9",
+        "type": 2
+      },
+      {
+        "player": 1,
+        "legal": 1,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 2,
+        "legal": 1,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 0,
+        "legal": 7,
+        "winning": 7,
+        "cards": [
+          12,
+          12
+        ],
+        "move": "Q Q",
+        "type": 2
+      },
+      {
+        "player": 1,
+        "legal": 1,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 2,
+        "legal": 1,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 0,
+        "legal": 5,
+        "winning": 5,
+        "cards": [
+          14,
+          14
+        ],
+        "move": "A A",
+        "type": 2
+      },
+      {
+        "player": 1,
+        "legal": 1,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 2,
+        "legal": 1,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 0,
+        "legal": 3,
+        "winning": 3,
+        "cards": [
+          10
+        ],
+        "move": "10",
+        "type": 1
+      },
+      {
+        "player": 1,
+        "legal": 1,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 2,
+        "legal": 1,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 0,
+        "legal": 2,
+        "winning": 2,
+        "cards": [
+          11
+        ],
+        "move": "J",
+        "type": 1
+      },
+      {
+        "player": 1,
+        "legal": 1,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 2,
+        "legal": 1,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 0,
+        "legal": 1,
+        "winning": 1,
+        "cards": [
+          15
+        ],
+        "move": "2",
+        "type": 1
+      }
+    ],
+    "trap_examples": [],
+    "status": "verified",
+    "cpu_seconds": 0.004000591999999997
+  },
+  {
+    "source_id": "cyracle-89",
+    "source_question": "89",
+    "source_url": "https://www.cyracle.com/games/ddz-endgame/index.html",
+    "raw_hands": [
+      [
+        15,
+        15,
+        13,
+        13,
+        11,
+        10,
+        10,
+        9,
+        8,
+        8
+      ],
+      [
+        6,
+        6,
+        3,
+        3,
+        3
+      ],
+      [
+        6,
+        6,
+        5,
+        5,
+        4,
+        3
+      ]
+    ],
+    "hands": [
+      "8 8 9 10 10 J K K 2 2",
+      "3 3 3 6 6",
+      "3 4 5 5 6 6"
+    ],
+    "turn": 0,
+    "last_text": null,
+    "passes": 0,
+    "source": "public_embedded_game_level",
+    "key": "857a5bd3cf01840d4d7d8d3f4929442425e679aff843cb66da01e6de3c73b6a8",
+    "moves": [
+      {
+        "cards": [
+          8,
+          8
+        ],
+        "move": "8 8",
+        "type": 2,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          10,
+          10
+        ],
+        "move": "10 10",
+        "type": 2,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          13,
+          13
+        ],
+        "move": "K K",
+        "type": 2,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          15,
+          15
+        ],
+        "move": "2 2",
+        "type": 2,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          8
+        ],
+        "move": "8",
+        "type": 1,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          9
+        ],
+        "move": "9",
+        "type": 1,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          10
+        ],
+        "move": "10",
+        "type": 1,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          11
+        ],
+        "move": "J",
+        "type": 1,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          13
+        ],
+        "move": "K",
+        "type": 1,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          15
+        ],
+        "move": "2",
+        "type": 1,
+        "mover_wins": true
+      }
+    ],
+    "winning_moves": [
+      "8 8",
+      "10 10",
+      "K K",
+      "2 2",
+      "8",
+      "9",
+      "10",
+      "J",
+      "K",
+      "2"
+    ],
+    "reference_states": 135,
+    "pv": [
+      {
+        "player": 0,
+        "legal": 10,
+        "winning": 10,
+        "cards": [
+          8,
+          8
+        ],
+        "move": "8 8",
+        "type": 2
+      },
+      {
+        "player": 1,
+        "legal": 1,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 2,
+        "legal": 1,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 0,
+        "legal": 8,
+        "winning": 8,
+        "cards": [
+          10,
+          10
+        ],
+        "move": "10 10",
+        "type": 2
+      },
+      {
+        "player": 1,
+        "legal": 1,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 2,
+        "legal": 1,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 0,
+        "legal": 6,
+        "winning": 6,
+        "cards": [
+          13,
+          13
+        ],
+        "move": "K K",
+        "type": 2
+      },
+      {
+        "player": 1,
+        "legal": 1,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 2,
+        "legal": 1,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 0,
+        "legal": 4,
+        "winning": 4,
+        "cards": [
+          15,
+          15
+        ],
+        "move": "2 2",
+        "type": 2
+      },
+      {
+        "player": 1,
+        "legal": 1,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 2,
+        "legal": 1,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 0,
+        "legal": 2,
+        "winning": 2,
+        "cards": [
+          9
+        ],
+        "move": "9",
+        "type": 1
+      },
+      {
+        "player": 1,
+        "legal": 1,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 2,
+        "legal": 1,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 0,
+        "legal": 1,
+        "winning": 1,
+        "cards": [
+          11
+        ],
+        "move": "J",
+        "type": 1
+      }
+    ],
+    "trap_examples": [],
+    "status": "verified",
+    "cpu_seconds": 0.004002117000000006
+  },
+  {
+    "source_id": "cyracle-93",
+    "source_question": "93",
+    "source_url": "https://www.cyracle.com/games/ddz-endgame/index.html",
+    "raw_hands": [
+      [
+        15,
+        14,
+        13,
+        11,
+        10,
+        9,
+        8
+      ],
+      [
+        6,
+        6,
+        5,
+        4,
+        4,
+        3
+      ],
+      [
+        6,
+        6,
+        5,
+        4,
+        4,
+        3
+      ]
+    ],
+    "hands": [
+      "8 9 10 J K A 2",
+      "3 4 4 5 6 6",
+      "3 4 4 5 6 6"
+    ],
+    "turn": 0,
+    "last_text": null,
+    "passes": 0,
+    "source": "public_embedded_game_level",
+    "key": "7974051e9695890520790c2dabfef0b3a73fc6c8a81b540bfe52ffa59547fc63",
+    "moves": [
+      {
+        "cards": [
+          8
+        ],
+        "move": "8",
+        "type": 1,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          9
+        ],
+        "move": "9",
+        "type": 1,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          10
+        ],
+        "move": "10",
+        "type": 1,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          11
+        ],
+        "move": "J",
+        "type": 1,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          13
+        ],
+        "move": "K",
+        "type": 1,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          14
+        ],
+        "move": "A",
+        "type": 1,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          15
+        ],
+        "move": "2",
+        "type": 1,
+        "mover_wins": true
+      }
+    ],
+    "winning_moves": [
+      "8",
+      "9",
+      "10",
+      "J",
+      "K",
+      "A",
+      "2"
+    ],
+    "reference_states": 91,
+    "pv": [
+      {
+        "player": 0,
+        "legal": 7,
+        "winning": 7,
+        "cards": [
+          8
+        ],
+        "move": "8",
+        "type": 1
+      },
+      {
+        "player": 1,
+        "legal": 1,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 2,
+        "legal": 1,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 0,
+        "legal": 6,
+        "winning": 6,
+        "cards": [
+          9
+        ],
+        "move": "9",
+        "type": 1
+      },
+      {
+        "player": 1,
+        "legal": 1,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 2,
+        "legal": 1,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 0,
+        "legal": 5,
+        "winning": 5,
+        "cards": [
+          10
+        ],
+        "move": "10",
+        "type": 1
+      },
+      {
+        "player": 1,
+        "legal": 1,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 2,
+        "legal": 1,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 0,
+        "legal": 4,
+        "winning": 4,
+        "cards": [
+          11
+        ],
+        "move": "J",
+        "type": 1
+      },
+      {
+        "player": 1,
+        "legal": 1,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 2,
+        "legal": 1,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 0,
+        "legal": 3,
+        "winning": 3,
+        "cards": [
+          13
+        ],
+        "move": "K",
+        "type": 1
+      },
+      {
+        "player": 1,
+        "legal": 1,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 2,
+        "legal": 1,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 0,
+        "legal": 2,
+        "winning": 2,
+        "cards": [
+          14
+        ],
+        "move": "A",
+        "type": 1
+      },
+      {
+        "player": 1,
+        "legal": 1,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 2,
+        "legal": 1,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 0,
+        "legal": 1,
+        "winning": 1,
+        "cards": [
+          15
+        ],
+        "move": "2",
+        "type": 1
+      }
+    ],
+    "trap_examples": [],
+    "status": "verified",
+    "cpu_seconds": 0.004110200999999994
+  },
+  {
+    "source_id": "cyracle-95",
+    "source_question": "95",
+    "source_url": "https://www.cyracle.com/games/ddz-endgame/index.html",
+    "raw_hands": [
+      [
+        15,
+        14,
+        13,
+        12,
+        12,
+        10,
+        9,
+        9,
+        7
+      ],
+      [
+        6,
+        6,
+        4,
+        4,
+        3,
+        3
+      ],
+      [
+        6,
+        6,
+        5,
+        5,
+        3
+      ]
+    ],
+    "hands": [
+      "7 9 9 10 Q Q K A 2",
+      "3 3 4 4 6 6",
+      "3 5 5 6 6"
+    ],
+    "turn": 0,
+    "last_text": null,
+    "passes": 0,
+    "source": "public_embedded_game_level",
+    "key": "9a556d916692dc62e49de2a76a7908f2971db0c443984660150e6ec3a849b5a6",
+    "moves": [
+      {
+        "cards": [
+          9,
+          9
+        ],
+        "move": "9 9",
+        "type": 2,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          12,
+          12
+        ],
+        "move": "Q Q",
+        "type": 2,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          7
+        ],
+        "move": "7",
+        "type": 1,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          9
+        ],
+        "move": "9",
+        "type": 1,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          10
+        ],
+        "move": "10",
+        "type": 1,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          12
+        ],
+        "move": "Q",
+        "type": 1,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          13
+        ],
+        "move": "K",
+        "type": 1,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          14
+        ],
+        "move": "A",
+        "type": 1,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          15
+        ],
+        "move": "2",
+        "type": 1,
+        "mover_wins": true
+      }
+    ],
+    "winning_moves": [
+      "9 9",
+      "Q Q",
+      "7",
+      "9",
+      "10",
+      "Q",
+      "K",
+      "A",
+      "2"
+    ],
+    "reference_states": 116,
+    "pv": [
+      {
+        "player": 0,
+        "legal": 9,
+        "winning": 9,
+        "cards": [
+          9,
+          9
+        ],
+        "move": "9 9",
+        "type": 2
+      },
+      {
+        "player": 1,
+        "legal": 1,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 2,
+        "legal": 1,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 0,
+        "legal": 7,
+        "winning": 7,
+        "cards": [
+          12,
+          12
+        ],
+        "move": "Q Q",
+        "type": 2
+      },
+      {
+        "player": 1,
+        "legal": 1,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 2,
+        "legal": 1,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 0,
+        "legal": 5,
+        "winning": 5,
+        "cards": [
+          7
+        ],
+        "move": "7",
+        "type": 1
+      },
+      {
+        "player": 1,
+        "legal": 1,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 2,
+        "legal": 1,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 0,
+        "legal": 4,
+        "winning": 4,
+        "cards": [
+          10
+        ],
+        "move": "10",
+        "type": 1
+      },
+      {
+        "player": 1,
+        "legal": 1,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 2,
+        "legal": 1,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 0,
+        "legal": 3,
+        "winning": 3,
+        "cards": [
+          13
+        ],
+        "move": "K",
+        "type": 1
+      },
+      {
+        "player": 1,
+        "legal": 1,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 2,
+        "legal": 1,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 0,
+        "legal": 2,
+        "winning": 2,
+        "cards": [
+          14
+        ],
+        "move": "A",
+        "type": 1
+      },
+      {
+        "player": 1,
+        "legal": 1,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 2,
+        "legal": 1,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 0,
+        "legal": 1,
+        "winning": 1,
+        "cards": [
+          15
+        ],
+        "move": "2",
+        "type": 1
+      }
+    ],
+    "trap_examples": [],
+    "status": "verified",
+    "cpu_seconds": 0.004001137000000002
+  },
+  {
+    "source_id": "cyracle-98",
+    "source_question": "98",
+    "source_url": "https://www.cyracle.com/games/ddz-endgame/index.html",
+    "raw_hands": [
+      [
+        15,
+        14,
+        14,
+        13,
+        12,
+        12,
+        10,
+        10,
+        9,
+        7,
+        7
+      ],
+      [
+        6,
+        6,
+        4,
+        4,
+        4,
+        3,
+        3
+      ],
+      [
+        6,
+        5,
+        5,
+        4,
+        3
+      ]
+    ],
+    "hands": [
+      "7 7 9 10 10 Q Q K A A 2",
+      "3 3 4 4 4 6 6",
+      "3 4 5 5 6"
+    ],
+    "turn": 0,
+    "last_text": null,
+    "passes": 0,
+    "source": "public_embedded_game_level",
+    "key": "c32e774388ab2edafb11c04df96eca961ec1d56155b259a3774c8c658ab96ed9",
+    "moves": [
+      {
+        "cards": [
+          7,
+          7
+        ],
+        "move": "7 7",
+        "type": 2,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          10,
+          10
+        ],
+        "move": "10 10",
+        "type": 2,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          12,
+          12
+        ],
+        "move": "Q Q",
+        "type": 2,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          14,
+          14
+        ],
+        "move": "A A",
+        "type": 2,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          7
+        ],
+        "move": "7",
+        "type": 1,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          9
+        ],
+        "move": "9",
+        "type": 1,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          10
+        ],
+        "move": "10",
+        "type": 1,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          12
+        ],
+        "move": "Q",
+        "type": 1,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          13
+        ],
+        "move": "K",
+        "type": 1,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          14
+        ],
+        "move": "A",
+        "type": 1,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          15
+        ],
+        "move": "2",
+        "type": 1,
+        "mover_wins": true
+      }
+    ],
+    "winning_moves": [
+      "7 7",
+      "10 10",
+      "Q Q",
+      "A A",
+      "7",
+      "9",
+      "10",
+      "Q",
+      "K",
+      "A",
+      "2"
+    ],
+    "reference_states": 159,
+    "pv": [
+      {
+        "player": 0,
+        "legal": 11,
+        "winning": 11,
+        "cards": [
+          7,
+          7
+        ],
+        "move": "7 7",
+        "type": 2
+      },
+      {
+        "player": 1,
+        "legal": 1,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 2,
+        "legal": 1,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 0,
+        "legal": 9,
+        "winning": 9,
+        "cards": [
+          10,
+          10
+        ],
+        "move": "10 10",
+        "type": 2
+      },
+      {
+        "player": 1,
+        "legal": 1,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 2,
+        "legal": 1,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 0,
+        "legal": 7,
+        "winning": 7,
+        "cards": [
+          12,
+          12
+        ],
+        "move": "Q Q",
+        "type": 2
+      },
+      {
+        "player": 1,
+        "legal": 1,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 2,
+        "legal": 1,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 0,
+        "legal": 5,
+        "winning": 5,
+        "cards": [
+          14,
+          14
+        ],
+        "move": "A A",
+        "type": 2
+      },
+      {
+        "player": 1,
+        "legal": 1,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 2,
+        "legal": 1,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 0,
+        "legal": 3,
+        "winning": 3,
+        "cards": [
+          9
+        ],
+        "move": "9",
+        "type": 1
+      },
+      {
+        "player": 1,
+        "legal": 1,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 2,
+        "legal": 1,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 0,
+        "legal": 2,
+        "winning": 2,
+        "cards": [
+          13
+        ],
+        "move": "K",
+        "type": 1
+      },
+      {
+        "player": 1,
+        "legal": 1,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 2,
+        "legal": 1,
+        "winning": 0,
+        "cards": [],
+        "move": "过",
+        "type": 0
+      },
+      {
+        "player": 0,
+        "legal": 1,
+        "winning": 1,
+        "cards": [
+          15
+        ],
+        "move": "2",
+        "type": 1
+      }
+    ],
+    "trap_examples": [],
+    "status": "verified",
+    "cpu_seconds": 0.006070396000000006
+  }
+]

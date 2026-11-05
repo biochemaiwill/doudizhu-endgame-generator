@@ -1,0 +1,127 @@
+[
+  {
+    "file": "09ce546k0g40h.js",
+    "sha256": "d1babe377f0da0de173ad69f712c2fa077cf3fd4c8f938639b92c04dbcdd51f4",
+    "bytes": 1011
+  },
+  {
+    "file": "0cz1d0mv5g_q7.js",
+    "sha256": "0973c1d64c88adc8e3c950410cb58b288f72118d5965b78049438deb8f2f9683",
+    "bytes": 112594
+  },
+  {
+    "file": "1qe7pl4g7cnzz.js",
+    "sha256": "1f7cc9960c989a1283628a8d0a2013941b53b858f6f7bc2439466a12a3d21ca5",
+    "bytes": 4181
+  },
+  {
+    "file": "2yrixu9oz65sq.js",
+    "sha256": "7a7e38f5cff0f42f0f728963d4133de99febb3daa92dbeac43b029721ec30ec7",
+    "bytes": 31044
+  },
+  {
+    "file": "35vvax07t9kw_.js",
+    "sha256": "0dc26745bba03a0f46061c08cae0131ac835b8adce94369c5496c01e11498351",
+    "bytes": 5364
+  },
+  {
+    "file": "3hql6adjjs3wp.js",
+    "sha256": "74cf412972715897e64e0a8febb31667b11bc5130544f3323bf65b513506165b",
+    "bytes": 36597
+  },
+  {
+    "file": "README.md",
+    "sha256": "9a0f27e876fae540f9c98aa92a2611a7e0c1652335329d5b47303b8aaa720567",
+    "bytes": 3297
+  },
+  {
+    "file": "candidates.jsonl",
+    "sha256": "2b5708882c85a45e44afb00cb39456725d376c9e79b6237e98f91fa56ff7bbd3",
+    "bytes": 49714
+  },
+  {
+    "file": "cyracle-game.html",
+    "sha256": "7fa46c85e266e23854f0c2d5325d886f7f8f20935c224cc5b4ad05b57f8bd5b6",
+    "bytes": 89967
+  },
+  {
+    "file": "cyracle-inputs.json",
+    "sha256": "2ea08ed9e2ffb6290f286c8c74bbbdbed0c3b6f26098653c330190ff5d61e6ed",
+    "bytes": 3896
+  },
+  {
+    "file": "cyracle-levels.json",
+    "sha256": "75581cd02ba2ce5694f140f9aeda28c761834fc642d568b8ee9f6a5d735665b8",
+    "bytes": 46598
+  },
+  {
+    "file": "cyracle-run.json",
+    "sha256": "b267f5ebde2b7d515fdcf1495585960522baaa611119947cc2f7d8249c3f6416",
+    "bytes": 231
+  },
+  {
+    "file": "cyracle-verification.json",
+    "sha256": "41c3c4ad68ff6082b550bbd689119463b01064bce26a6ecc08dafebed69970bd",
+    "bytes": 29146
+  },
+  {
+    "file": "cyracle.html",
+    "sha256": "3865fca2ce183cb6c04a3e50a754f5a2280f89a5a883281fc85cc3c654bc8a7d",
+    "bytes": 542214
+  },
+  {
+    "file": "highscore.jsonl",
+    "sha256": "411d11a1a6528f178e8564d2f4425a8e222445175b5045c6419da5afcf783bb6",
+    "bytes": 13903
+  },
+  {
+    "file": "inputs.json",
+    "sha256": "1ddf34f8d4b622cd9636063bc7e403d491a549aca3833b3fc9ab86ebe3b3bb36",
+    "bytes": 852
+  },
+  {
+    "file": "run.json",
+    "sha256": "7d40382f67898ccfc039853059f6d49554fd1c1a36d9576ac4dc58bed7f0ba2c",
+    "bytes": 408
+  },
+  {
+    "file": "source-notes.json",
+    "sha256": "fa4dae39dbd1f7af3a732f39d56a1cb90204e1f0cff0490eb67e709d0a3da8fd",
+    "bytes": 1200
+  },
+  {
+    "file": "variant-inputs.json",
+    "sha256": "f1365e483768ae388d0cfebb1364103968ccf1fe0067fdb17502a87070f725fd",
+    "bytes": 4135
+  },
+  {
+    "file": "variant-run.json",
+    "sha256": "e6df7eb290dddbff04cc24dc66e6a8489d0c6fceefbc4e627cfde74ee2060a3c",
+    "bytes": 266
+  },
+  {
+    "file": "variant-verification.json",
+    "sha256": "d02183102b080da174f94b6cadf9474fc4bca557090038130db3292ce475d846",
+    "bytes": 122395
+  },
+  {
+    "file": "verification.json",
+    "sha256": "2d4738f46a0b6a4b958b97aa9aa8373d7baae61357d946250f5beae12a4f5b23",
+    "bytes": 9035
+  },
+  {
+    "file": "verify.py",
+    "sha256": "221299c80931214913ed6968d4da16834c6dff6c4d6644d03424e3af220b38b4",
+    "bytes": 2898
+  },
+  {
+    "file": "verify_cyracle.py",
+    "sha256": "17eb4ee2f2d203094e4d5dfe7870d9aa990aa3e48f331a44fbc2f81979e52afe",
+    "bytes": 2172
+  },
+  {
+    "file": "verify_variants.py",
+    "sha256": "50e6518d2ef93dfb18573efda70085804aacf8a5b08f9743dd3d30c06e27921e",
+    "bytes": 2977
+  }
+]

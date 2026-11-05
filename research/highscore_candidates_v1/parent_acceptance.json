@@ -1,0 +1,16 @@
+[
+  {
+    "source_id": "DZ094-variant-3",
+    "verified": true,
+    "key": "be56f728be27c29d9570f0388c0ab6572eb63223954cec791797a2863952f1cc",
+    "same_family_as_parent": true,
+    "not_used_in_scorer_v1": true
+  },
+  {
+    "source_id": "DZ098-variant-7",
+    "verified": true,
+    "key": "cf459b5794aeced9a6886da114782a2948fd4a9ea75f9b80e3b9830f44b7bf4d",
+    "same_family_as_parent": true,
+    "not_used_in_scorer_v1": true
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "cpu_seconds": 9.034680436,
+  "python": "3.10.12 (main, Mar  3 2026, 11:56:32) [GCC 11.4.0]",
+  "platform": "Linux-5.15.0-91-generic-x86_64-with-glibc2.35",
+  "random_seed": null,
+  "mode": "deterministic public positions",
+  "blocked_keys": 100,
+  "command": "PYTHONDONTWRITEBYTECODE=1 python3 research/highscore_candidates_v1/verify.py",
+  "statuses": {
+    "unknown_budget": 1,
+    "verified": 1
+  }
+}

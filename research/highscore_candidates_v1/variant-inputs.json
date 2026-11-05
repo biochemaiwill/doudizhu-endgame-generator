@@ -1,0 +1,178 @@
+[
+  {
+    "source_id": "33iq-507273",
+    "hands": [
+      "2QJJT98766543",
+      "DAA98875544",
+      "433"
+    ],
+    "turn": 0,
+    "last_text": null,
+    "passes": 0,
+    "source_url": "https://www.33iq.com/topic/574/7/",
+    "author": "katy Clarkson",
+    "source_question": "507273",
+    "source_note": "Public topic search snapshot confirms all hands; previously attempted but not included in pilot100.",
+    "retry": true
+  },
+  {
+    "source_id": "DZ094-variant-1",
+    "hands": [
+      "8 9 J J Q Q K K K 2 小王 大王",
+      "5 6 6 7 7 7",
+      "6 6 8 8 8 A A A"
+    ],
+    "turn": 2,
+    "last_text": null,
+    "passes": 0,
+    "source": "synthetic_variant_inspired_by_public_puzzle",
+    "family": "33iq-579557",
+    "parent_id": "DZ094",
+    "source_url": "https://www.33iq.com/topic/4961/",
+    "mutation": {
+      "player": 0,
+      "remove": 7,
+      "add": null
+    }
+  },
+  {
+    "source_id": "DZ094-variant-2",
+    "hands": [
+      "7 8 J J Q Q K K K 2 小王 大王",
+      "5 6 6 7 7 7",
+      "6 6 8 8 8 A A A"
+    ],
+    "turn": 2,
+    "last_text": null,
+    "passes": 0,
+    "source": "synthetic_variant_inspired_by_public_puzzle",
+    "family": "33iq-579557",
+    "parent_id": "DZ094",
+    "source_url": "https://www.33iq.com/topic/4961/",
+    "mutation": {
+      "player": 0,
+      "remove": 9,
+      "add": null
+    }
+  },
+  {
+    "source_id": "DZ094-variant-3",
+    "hands": [
+      "7 8 9 J J Q Q K K K 2 小王 大王",
+      "4 6 6 7 7 7",
+      "6 6 8 8 8 A A A"
+    ],
+    "turn": 2,
+    "last_text": null,
+    "passes": 0,
+    "source": "synthetic_variant_inspired_by_public_puzzle",
+    "family": "33iq-579557",
+    "parent_id": "DZ094",
+    "source_url": "https://www.33iq.com/topic/4961/",
+    "mutation": {
+      "player": 1,
+      "remove": 5,
+      "add": 4
+    }
+  },
+  {
+    "source_id": "DZ095-variant-4",
+    "hands": [
+      "3 6 6 8 J K K 2",
+      "4 4 6 8 8 9 Q A 2 大王",
+      "3 3 3 4"
+    ],
+    "turn": 0,
+    "last_text": null,
+    "passes": 0,
+    "source": "synthetic_variant_inspired_by_public_puzzle",
+    "family": "33iq-507272",
+    "parent_id": "DZ095",
+    "source_url": "https://www.33iq.com/topic/574/7/",
+    "mutation": {
+      "player": 0,
+      "remove": 14,
+      "add": null
+    }
+  },
+  {
+    "source_id": "DZ095-variant-5",
+    "hands": [
+      "3 6 6 8 J K K A 2",
+      "4 4 6 8 8 9 J A 2 大王",
+      "3 3 3 4"
+    ],
+    "turn": 0,
+    "last_text": null,
+    "passes": 0,
+    "source": "synthetic_variant_inspired_by_public_puzzle",
+    "family": "33iq-507272",
+    "parent_id": "DZ095",
+    "source_url": "https://www.33iq.com/topic/574/7/",
+    "mutation": {
+      "player": 1,
+      "remove": 12,
+      "add": 11
+    }
+  },
+  {
+    "source_id": "DZ098-variant-6",
+    "hands": [
+      "6 8 K 2 2 2",
+      "J J J Q A",
+      "3 4 5 5 9 9 10 10 10"
+    ],
+    "turn": 2,
+    "last_text": null,
+    "passes": 0,
+    "source": "synthetic_variant_inspired_by_public_puzzle",
+    "family": "gamersky-201411-487845",
+    "parent_id": "DZ098",
+    "source_url": "https://www.gamersky.com/handbook/201411/487845.shtml",
+    "mutation": {
+      "player": 0,
+      "remove": null,
+      "add": 6
+    }
+  },
+  {
+    "source_id": "DZ098-variant-7",
+    "hands": [
+      "8 K 2 2 2",
+      "J J J Q A",
+      "3 5 5 6 9 9 10 10 10"
+    ],
+    "turn": 2,
+    "last_text": null,
+    "passes": 0,
+    "source": "synthetic_variant_inspired_by_public_puzzle",
+    "family": "gamersky-201411-487845",
+    "parent_id": "DZ098",
+    "source_url": "https://www.gamersky.com/handbook/201411/487845.shtml",
+    "mutation": {
+      "player": 2,
+      "remove": 4,
+      "add": 6
+    }
+  },
+  {
+    "source_id": "DZ099-variant-8",
+    "hands": [
+      "3 4 5 6 6 8 9 2 小王 大王",
+      "Q K A A",
+      "3 9 10 J Q K A 2"
+    ],
+    "turn": 1,
+    "last_text": null,
+    "passes": 0,
+    "source": "synthetic_variant_inspired_by_public_puzzle",
+    "family": "gamersky-201411-487845",
+    "parent_id": "DZ099",
+    "source_url": "https://www.gamersky.com/handbook/201411/487845.shtml",
+    "mutation": {
+      "player": 0,
+      "remove": 7,
+      "add": 9
+    }
+  }
+]

@@ -1,0 +1,38 @@
+{
+  "access": "33IQ direct server fetches returned 503; browser web search public topic snapshots provided text. No login bypass.",
+  "ambiguous": [
+    {
+      "id": "579570",
+      "url": "https://www.33iq.com/topic/2425/",
+      "listed": [
+        "2K",
+        "XAKJTT998854",
+        "22T98665443"
+      ],
+      "problem": "Unclear whether lower-farmer hand includes already played 5. Solver tested removing it, but excluded from annotations pending image confirmation."
+    },
+    {
+      "id": "579588",
+      "problem": "Only two of three hands given in public text; excluded."
+    },
+    {
+      "id": "579914",
+      "problem": "Ellipses in public text; incomplete hands; excluded."
+    }
+  ],
+  "cyracle": {
+    "url": "https://www.cyracle.com/games/ddz-endgame/index.html",
+    "extraction": "Static regex extraction of literal L/A/B rank arrays; no JS execution.",
+    "actual_level_count": 100,
+    "marketing_level_count": 30,
+    "verified_level_ids": [
+      86,
+      87,
+      89,
+      93,
+      95,
+      98
+    ],
+    "warning": "Actual aiChoose uses a heuristic, not minimax. Website claims are not correctness evidence; six independently re-solved positions are easy."
+  }
+}

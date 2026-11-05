@@ -1,0 +1,42 @@
+{
+  "hands": [
+    [
+      3,
+      6,
+      6,
+      8,
+      11,
+      13,
+      13,
+      14,
+      15
+    ],
+    [
+      4,
+      4,
+      6,
+      8,
+      8,
+      9,
+      12,
+      14,
+      15,
+      17
+    ],
+    [
+      3,
+      3,
+      3,
+      4
+    ]
+  ],
+  "turn": 0,
+  "last": null,
+  "passes": 0,
+  "rank_encoding": "3..14=3..A;15=2;16=small_joker;17=big_joker",
+  "roles": [
+    "landlord",
+    "farmer_down",
+    "farmer_up"
+  ]
+}
