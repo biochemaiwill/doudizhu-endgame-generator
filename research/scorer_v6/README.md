@@ -47,3 +47,12 @@ cross/MLP汇总特征标准化仅拟合对应fold train；cross模型前45维保
 | kind-forest_mode-relational_balanced-True_depth-None_leaf-3_max_features-sqrt | 54.6870% | 44.7955% |
 
 内部选择：kind-forest_mode-base_balanced-True_depth-None_leaf-1_max_features-sqrt。未达到90%目标；其六折4分召回均为0。CLI原示例仅为序列化/推理烟雾检查，不是测试集结果。外部TabPFN分类器与新封存测试由主线程统一比较，不在本目录宣称严格验收通过。
+
+## 强传统基线补充
+相同6fold追加8个HistGradientBoosting log_loss与4个标准化RBF SVC，均只预测总分。
+HGB最佳mean accuracy=51.8039%，配置lr0.05、15叶、minleaf5；符合分类log_loss。
+SVC最佳mean accuracy=57.2155%，配置C10/balanced；SVC为hinge损失诊断对照，不属于用户要求的CE最终候选。
+均未达到90%，也未超过原RF57.5316%。
+additional_selection.json只封存合规HGB；additional_diagnostic_selection.json单列SVC。
+additional_model.joblib.gz为HGB全189拟合，不提供未训练的子项头。
+运行additional_baselines.py，诊断输入用predict_additional.py。SVC在sklearn1.9运行时有probability参数弃用警告，未请求概率校准，不影响predict分类结果。

@@ -1,0 +1,14 @@
+{
+  "selected": "{\"kind\": \"hgb\", \"leaves\": 15, \"lr\": 0.05, \"min_leaf\": 5}",
+  "config": {
+    "kind": "hgb",
+    "lr": 0.05,
+    "leaves": 15,
+    "min_leaf": 5
+  },
+  "cv_accuracy": 0.5180388529139686,
+  "cv_macro_recall": 0.4301853726195832,
+  "strict_holdout_read": false,
+  "model_outputs": "overall only",
+  "eligibility": "HGB log_loss only; SVC diagnostic excluded"
+}

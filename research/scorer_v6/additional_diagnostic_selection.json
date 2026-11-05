@@ -1,0 +1,5 @@
+{
+  "selected": "{\"C\": 10.0, \"class_weight\": \"balanced\", \"kind\": \"svc\"}",
+  "accuracy": 0.5721554116558741,
+  "eligible_for_CE_delivery": false
+}

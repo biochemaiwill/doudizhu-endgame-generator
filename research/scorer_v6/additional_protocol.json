@@ -1,0 +1,77 @@
+{
+  "configurations": [
+    {
+      "kind": "hgb",
+      "lr": 0.05,
+      "leaves": 7,
+      "min_leaf": 5
+    },
+    {
+      "kind": "hgb",
+      "lr": 0.05,
+      "leaves": 7,
+      "min_leaf": 10
+    },
+    {
+      "kind": "hgb",
+      "lr": 0.05,
+      "leaves": 15,
+      "min_leaf": 5
+    },
+    {
+      "kind": "hgb",
+      "lr": 0.05,
+      "leaves": 15,
+      "min_leaf": 10
+    },
+    {
+      "kind": "hgb",
+      "lr": 0.1,
+      "leaves": 7,
+      "min_leaf": 5
+    },
+    {
+      "kind": "hgb",
+      "lr": 0.1,
+      "leaves": 7,
+      "min_leaf": 10
+    },
+    {
+      "kind": "hgb",
+      "lr": 0.1,
+      "leaves": 15,
+      "min_leaf": 5
+    },
+    {
+      "kind": "hgb",
+      "lr": 0.1,
+      "leaves": 15,
+      "min_leaf": 10
+    },
+    {
+      "kind": "svc",
+      "C": 1.0,
+      "class_weight": null
+    },
+    {
+      "kind": "svc",
+      "C": 1.0,
+      "class_weight": "balanced"
+    },
+    {
+      "kind": "svc",
+      "C": 10.0,
+      "class_weight": null
+    },
+    {
+      "kind": "svc",
+      "C": 10.0,
+      "class_weight": "balanced"
+    }
+  ],
+  "features": "base143",
+  "fold_file_sha256": "414208e2b667cc43312ca6768e426f097a9262ee46a5dc8a6b03a48d0c9a283d",
+  "selection": "mean accuracy, then macro recall",
+  "target": "overall only; no depth/concealment claims",
+  "strict_holdout_read": false
+}
