@@ -26,3 +26,5 @@
 - [第三批29题、严格反事实配对与注意力架构调研](research/expansion_v3/README.md)（总计182题，旧模型冻结）
 
 - [CE四分类与90%目标验收状态](research/scorer_v6/FINAL_REPORT.md)（当前未达标，不以开发CV冒充新测试）
+
+- [机制型配对样板：四机制、完整正反例](research/mechanism_pairs_v1/README.md)（8题中仅1题新增，未加入训练）

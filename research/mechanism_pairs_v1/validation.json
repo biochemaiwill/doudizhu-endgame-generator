@@ -1,0 +1,17 @@
+{
+  "rows": 8,
+  "pairs": 4,
+  "new_states": 1,
+  "reused_states": 7,
+  "mechanisms": [
+    "拆对子",
+    "让牌／队友接管",
+    "带牌选择",
+    "保留控制权／次序"
+  ],
+  "all_roots_three_way": true,
+  "all_mechanism_claims_exactly_checked": true,
+  "all_continuations_legally_replayed": true,
+  "no_training_change": true,
+  "dataset_sha256": "79f0b6e6d1fe8485cfce8537d242dd81f7dcfa4277c40632083c6e34d48544e0"
+}

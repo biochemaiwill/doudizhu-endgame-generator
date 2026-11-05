@@ -1,0 +1,54 @@
+[
+  {
+    "id": "SPLIT",
+    "mechanism": "拆对子",
+    "hard_id": "EX222",
+    "easy_id": "NX325",
+    "hard_grade": 3,
+    "easy_grade": 2,
+    "same_counts": true,
+    "same_global_rank_multiset": true,
+    "both_require_multiple_moves": true,
+    "family": "synthetic-deal-2026110507-2441",
+    "difficulty_status": "assistant_estimate_not_human_validated"
+  },
+  {
+    "id": "TEAM",
+    "mechanism": "让牌／队友接管",
+    "hard_id": "EX211",
+    "easy_id": "NX323",
+    "hard_grade": 3,
+    "easy_grade": 2,
+    "same_counts": true,
+    "same_global_rank_multiset": true,
+    "both_require_multiple_moves": true,
+    "family": "synthetic-deal-2026110507-1268",
+    "difficulty_status": "assistant_estimate_not_human_validated"
+  },
+  {
+    "id": "CARRY",
+    "mechanism": "带牌选择",
+    "hard_id": "NX313",
+    "easy_id": "MPNEW001",
+    "hard_grade": 3,
+    "easy_grade": 2,
+    "same_counts": true,
+    "same_global_rank_multiset": true,
+    "both_require_multiple_moves": true,
+    "family": "synthetic-deal-2026110513-0946",
+    "difficulty_status": "assistant_estimate_not_human_validated"
+  },
+  {
+    "id": "CONTROL",
+    "mechanism": "保留控制权／次序",
+    "hard_id": "EX208",
+    "easy_id": "NX322",
+    "hard_grade": 4,
+    "easy_grade": 2,
+    "same_counts": true,
+    "same_global_rank_multiset": true,
+    "both_require_multiple_moves": true,
+    "family": "synthetic-deal-2026110507-0988",
+    "difficulty_status": "assistant_estimate_not_human_validated"
+  }
+]

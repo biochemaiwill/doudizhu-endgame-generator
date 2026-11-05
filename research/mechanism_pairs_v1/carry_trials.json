@@ -1,0 +1,1352 @@
+[
+  {
+    "origin": "NX313-swap-0-2-14-17",
+    "hands": [
+      [
+        8,
+        8,
+        8,
+        8,
+        9,
+        10,
+        10,
+        11,
+        17
+      ],
+      [
+        6,
+        9,
+        11,
+        11,
+        14
+      ],
+      [
+        9,
+        10,
+        14,
+        14
+      ]
+    ],
+    "wins": [
+      "8 8 8 8 9 10",
+      "8 8 8 8 9 J",
+      "8 8 8 8 9 大王",
+      "8 8 8 8 10 10",
+      "8 8 8 8 10 J",
+      "8 8 8 10 10",
+      "8 8 8 9",
+      "10 10",
+      "8",
+      "9",
+      "10",
+      "J",
+      "大王",
+      "8 8 8 8"
+    ],
+    "moves": [
+      {
+        "cards": [
+          8,
+          8,
+          8,
+          8,
+          9,
+          10
+        ],
+        "move": "8 8 8 8 9 10",
+        "type": 11,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          8,
+          8,
+          8,
+          8,
+          9,
+          11
+        ],
+        "move": "8 8 8 8 9 J",
+        "type": 11,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          8,
+          8,
+          8,
+          8,
+          9,
+          17
+        ],
+        "move": "8 8 8 8 9 大王",
+        "type": 11,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          8,
+          8,
+          8,
+          8,
+          10,
+          10
+        ],
+        "move": "8 8 8 8 10 10",
+        "type": 11,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          8,
+          8,
+          8,
+          8,
+          10,
+          11
+        ],
+        "move": "8 8 8 8 10 J",
+        "type": 11,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          8,
+          8,
+          8,
+          8,
+          10,
+          17
+        ],
+        "move": "8 8 8 8 10 大王",
+        "type": 11,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          8,
+          8,
+          8,
+          8,
+          11,
+          17
+        ],
+        "move": "8 8 8 8 J 大王",
+        "type": 11,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          8,
+          8,
+          8,
+          10,
+          10
+        ],
+        "move": "8 8 8 10 10",
+        "type": 5,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          8,
+          8,
+          8,
+          9
+        ],
+        "move": "8 8 8 9",
+        "type": 4,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          8,
+          8,
+          8,
+          10
+        ],
+        "move": "8 8 8 10",
+        "type": 4,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          8,
+          8,
+          8,
+          11
+        ],
+        "move": "8 8 8 J",
+        "type": 4,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          8,
+          8,
+          8,
+          17
+        ],
+        "move": "8 8 8 大王",
+        "type": 4,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          8,
+          8,
+          8
+        ],
+        "move": "8 8 8",
+        "type": 3,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          8,
+          8
+        ],
+        "move": "8 8",
+        "type": 2,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          10,
+          10
+        ],
+        "move": "10 10",
+        "type": 2,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          8
+        ],
+        "move": "8",
+        "type": 1,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          9
+        ],
+        "move": "9",
+        "type": 1,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          10
+        ],
+        "move": "10",
+        "type": 1,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          11
+        ],
+        "move": "J",
+        "type": 1,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          17
+        ],
+        "move": "大王",
+        "type": 1,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          8,
+          8,
+          8,
+          8
+        ],
+        "move": "8 8 8 8",
+        "type": 13,
+        "mover_wins": true
+      }
+    ]
+  },
+  {
+    "origin": "NX313-swap-0-2-9-17",
+    "hands": [
+      [
+        8,
+        8,
+        8,
+        8,
+        10,
+        10,
+        11,
+        14,
+        17
+      ],
+      [
+        6,
+        9,
+        11,
+        11,
+        14
+      ],
+      [
+        9,
+        10,
+        14,
+        9
+      ]
+    ],
+    "wins": [
+      "8 8 8 8 10 10",
+      "8 8 8 8 10 J",
+      "8 8 8 8 10 A",
+      "8 8 8 8 J A",
+      "8 8 8 8 J 大王",
+      "8 8 8 10 10",
+      "8 8 8 10",
+      "8 8 8 J",
+      "8 8 8",
+      "8 8",
+      "10 10",
+      "8",
+      "10",
+      "J",
+      "A",
+      "大王",
+      "8 8 8 8"
+    ],
+    "moves": [
+      {
+        "cards": [
+          8,
+          8,
+          8,
+          8,
+          10,
+          10
+        ],
+        "move": "8 8 8 8 10 10",
+        "type": 11,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          8,
+          8,
+          8,
+          8,
+          10,
+          11
+        ],
+        "move": "8 8 8 8 10 J",
+        "type": 11,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          8,
+          8,
+          8,
+          8,
+          10,
+          14
+        ],
+        "move": "8 8 8 8 10 A",
+        "type": 11,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          8,
+          8,
+          8,
+          8,
+          10,
+          17
+        ],
+        "move": "8 8 8 8 10 大王",
+        "type": 11,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          8,
+          8,
+          8,
+          8,
+          11,
+          14
+        ],
+        "move": "8 8 8 8 J A",
+        "type": 11,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          8,
+          8,
+          8,
+          8,
+          11,
+          17
+        ],
+        "move": "8 8 8 8 J 大王",
+        "type": 11,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          8,
+          8,
+          8,
+          8,
+          14,
+          17
+        ],
+        "move": "8 8 8 8 A 大王",
+        "type": 11,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          8,
+          8,
+          8,
+          10,
+          10
+        ],
+        "move": "8 8 8 10 10",
+        "type": 5,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          8,
+          8,
+          8,
+          10
+        ],
+        "move": "8 8 8 10",
+        "type": 4,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          8,
+          8,
+          8,
+          11
+        ],
+        "move": "8 8 8 J",
+        "type": 4,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          8,
+          8,
+          8,
+          14
+        ],
+        "move": "8 8 8 A",
+        "type": 4,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          8,
+          8,
+          8,
+          17
+        ],
+        "move": "8 8 8 大王",
+        "type": 4,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          8,
+          8,
+          8
+        ],
+        "move": "8 8 8",
+        "type": 3,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          8,
+          8
+        ],
+        "move": "8 8",
+        "type": 2,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          10,
+          10
+        ],
+        "move": "10 10",
+        "type": 2,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          8
+        ],
+        "move": "8",
+        "type": 1,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          10
+        ],
+        "move": "10",
+        "type": 1,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          11
+        ],
+        "move": "J",
+        "type": 1,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          14
+        ],
+        "move": "A",
+        "type": 1,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          17
+        ],
+        "move": "大王",
+        "type": 1,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          8,
+          8,
+          8,
+          8
+        ],
+        "move": "8 8 8 8",
+        "type": 13,
+        "mover_wins": true
+      }
+    ]
+  },
+  {
+    "origin": "NX313-swap-0-2-11-17",
+    "hands": [
+      [
+        8,
+        8,
+        8,
+        8,
+        9,
+        10,
+        10,
+        14,
+        17
+      ],
+      [
+        6,
+        9,
+        11,
+        11,
+        14
+      ],
+      [
+        9,
+        10,
+        14,
+        11
+      ]
+    ],
+    "wins": [
+      "8 8 8 8 9 10",
+      "8 8 8 8 9 A",
+      "8 8 8 8 9 大王",
+      "8 8 8 8 10 10",
+      "8 8 8 8 10 A",
+      "8 8 8 8 10 大王",
+      "8 8 8 10 10",
+      "8 8 8 9",
+      "8 8 8 10",
+      "8 8 8",
+      "8 8",
+      "10 10",
+      "8",
+      "9",
+      "10",
+      "A",
+      "大王",
+      "8 8 8 8"
+    ],
+    "moves": [
+      {
+        "cards": [
+          8,
+          8,
+          8,
+          8,
+          9,
+          10
+        ],
+        "move": "8 8 8 8 9 10",
+        "type": 11,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          8,
+          8,
+          8,
+          8,
+          9,
+          14
+        ],
+        "move": "8 8 8 8 9 A",
+        "type": 11,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          8,
+          8,
+          8,
+          8,
+          9,
+          17
+        ],
+        "move": "8 8 8 8 9 大王",
+        "type": 11,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          8,
+          8,
+          8,
+          8,
+          10,
+          10
+        ],
+        "move": "8 8 8 8 10 10",
+        "type": 11,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          8,
+          8,
+          8,
+          8,
+          10,
+          14
+        ],
+        "move": "8 8 8 8 10 A",
+        "type": 11,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          8,
+          8,
+          8,
+          8,
+          10,
+          17
+        ],
+        "move": "8 8 8 8 10 大王",
+        "type": 11,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          8,
+          8,
+          8,
+          8,
+          14,
+          17
+        ],
+        "move": "8 8 8 8 A 大王",
+        "type": 11,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          8,
+          8,
+          8,
+          10,
+          10
+        ],
+        "move": "8 8 8 10 10",
+        "type": 5,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          8,
+          8,
+          8,
+          9
+        ],
+        "move": "8 8 8 9",
+        "type": 4,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          8,
+          8,
+          8,
+          10
+        ],
+        "move": "8 8 8 10",
+        "type": 4,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          8,
+          8,
+          8,
+          14
+        ],
+        "move": "8 8 8 A",
+        "type": 4,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          8,
+          8,
+          8,
+          17
+        ],
+        "move": "8 8 8 大王",
+        "type": 4,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          8,
+          8,
+          8
+        ],
+        "move": "8 8 8",
+        "type": 3,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          8,
+          8
+        ],
+        "move": "8 8",
+        "type": 2,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          10,
+          10
+        ],
+        "move": "10 10",
+        "type": 2,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          8
+        ],
+        "move": "8",
+        "type": 1,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          9
+        ],
+        "move": "9",
+        "type": 1,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          10
+        ],
+        "move": "10",
+        "type": 1,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          14
+        ],
+        "move": "A",
+        "type": 1,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          17
+        ],
+        "move": "大王",
+        "type": 1,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          8,
+          8,
+          8,
+          8
+        ],
+        "move": "8 8 8 8",
+        "type": 13,
+        "mover_wins": true
+      }
+    ]
+  },
+  {
+    "origin": "NX313-swap-0-2-11-14",
+    "hands": [
+      [
+        8,
+        8,
+        8,
+        8,
+        9,
+        10,
+        10,
+        14,
+        14
+      ],
+      [
+        6,
+        9,
+        11,
+        11,
+        14
+      ],
+      [
+        9,
+        10,
+        17,
+        11
+      ]
+    ],
+    "wins": [
+      "8 8 8 8 10 10 A A",
+      "8 8 8 8 9 10",
+      "8 8 8 8 9 A",
+      "8 8 8 8 10 10",
+      "8 8 8 10 10",
+      "8 8 8 9",
+      "8 8",
+      "10 10",
+      "A A",
+      "9",
+      "10",
+      "A",
+      "8 8 8 8"
+    ],
+    "moves": [
+      {
+        "cards": [
+          8,
+          8,
+          8,
+          8,
+          10,
+          10,
+          14,
+          14
+        ],
+        "move": "8 8 8 8 10 10 A A",
+        "type": 12,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          8,
+          8,
+          8,
+          8,
+          9,
+          10
+        ],
+        "move": "8 8 8 8 9 10",
+        "type": 11,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          8,
+          8,
+          8,
+          8,
+          9,
+          14
+        ],
+        "move": "8 8 8 8 9 A",
+        "type": 11,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          8,
+          8,
+          8,
+          8,
+          10,
+          10
+        ],
+        "move": "8 8 8 8 10 10",
+        "type": 11,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          8,
+          8,
+          8,
+          8,
+          10,
+          14
+        ],
+        "move": "8 8 8 8 10 A",
+        "type": 11,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          8,
+          8,
+          8,
+          8,
+          14,
+          14
+        ],
+        "move": "8 8 8 8 A A",
+        "type": 11,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          8,
+          8,
+          8,
+          10,
+          10
+        ],
+        "move": "8 8 8 10 10",
+        "type": 5,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          8,
+          8,
+          8,
+          14,
+          14
+        ],
+        "move": "8 8 8 A A",
+        "type": 5,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          8,
+          8,
+          8,
+          9
+        ],
+        "move": "8 8 8 9",
+        "type": 4,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          8,
+          8,
+          8,
+          10
+        ],
+        "move": "8 8 8 10",
+        "type": 4,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          8,
+          8,
+          8,
+          14
+        ],
+        "move": "8 8 8 A",
+        "type": 4,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          8,
+          8,
+          8
+        ],
+        "move": "8 8 8",
+        "type": 3,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          8,
+          8
+        ],
+        "move": "8 8",
+        "type": 2,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          10,
+          10
+        ],
+        "move": "10 10",
+        "type": 2,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          14,
+          14
+        ],
+        "move": "A A",
+        "type": 2,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          8
+        ],
+        "move": "8",
+        "type": 1,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          9
+        ],
+        "move": "9",
+        "type": 1,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          10
+        ],
+        "move": "10",
+        "type": 1,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          14
+        ],
+        "move": "A",
+        "type": 1,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          8,
+          8,
+          8,
+          8
+        ],
+        "move": "8 8 8 8",
+        "type": 13,
+        "mover_wins": true
+      }
+    ]
+  },
+  {
+    "origin": "NX313-swap-0-2-9-14",
+    "hands": [
+      [
+        8,
+        8,
+        8,
+        8,
+        10,
+        10,
+        11,
+        14,
+        14
+      ],
+      [
+        6,
+        9,
+        11,
+        11,
+        14
+      ],
+      [
+        9,
+        10,
+        17,
+        9
+      ]
+    ],
+    "wins": [
+      "8 8 8 8 10 10 A A",
+      "8 8 8 8 10 10",
+      "8 8 8 8 10 J",
+      "8 8 8 J",
+      "8 8",
+      "10 10",
+      "A A",
+      "10",
+      "J",
+      "A",
+      "8 8 8 8"
+    ],
+    "moves": [
+      {
+        "cards": [
+          8,
+          8,
+          8,
+          8,
+          10,
+          10,
+          14,
+          14
+        ],
+        "move": "8 8 8 8 10 10 A A",
+        "type": 12,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          8,
+          8,
+          8,
+          8,
+          10,
+          10
+        ],
+        "move": "8 8 8 8 10 10",
+        "type": 11,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          8,
+          8,
+          8,
+          8,
+          10,
+          11
+        ],
+        "move": "8 8 8 8 10 J",
+        "type": 11,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          8,
+          8,
+          8,
+          8,
+          10,
+          14
+        ],
+        "move": "8 8 8 8 10 A",
+        "type": 11,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          8,
+          8,
+          8,
+          8,
+          11,
+          14
+        ],
+        "move": "8 8 8 8 J A",
+        "type": 11,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          8,
+          8,
+          8,
+          8,
+          14,
+          14
+        ],
+        "move": "8 8 8 8 A A",
+        "type": 11,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          8,
+          8,
+          8,
+          10,
+          10
+        ],
+        "move": "8 8 8 10 10",
+        "type": 5,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          8,
+          8,
+          8,
+          14,
+          14
+        ],
+        "move": "8 8 8 A A",
+        "type": 5,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          8,
+          8,
+          8,
+          10
+        ],
+        "move": "8 8 8 10",
+        "type": 4,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          8,
+          8,
+          8,
+          11
+        ],
+        "move": "8 8 8 J",
+        "type": 4,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          8,
+          8,
+          8,
+          14
+        ],
+        "move": "8 8 8 A",
+        "type": 4,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          8,
+          8,
+          8
+        ],
+        "move": "8 8 8",
+        "type": 3,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          8,
+          8
+        ],
+        "move": "8 8",
+        "type": 2,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          10,
+          10
+        ],
+        "move": "10 10",
+        "type": 2,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          14,
+          14
+        ],
+        "move": "A A",
+        "type": 2,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          8
+        ],
+        "move": "8",
+        "type": 1,
+        "mover_wins": false
+      },
+      {
+        "cards": [
+          10
+        ],
+        "move": "10",
+        "type": 1,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          11
+        ],
+        "move": "J",
+        "type": 1,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          14
+        ],
+        "move": "A",
+        "type": 1,
+        "mover_wins": true
+      },
+      {
+        "cards": [
+          8,
+          8,
+          8,
+          8
+        ],
+        "move": "8 8 8 8",
+        "type": 13,
+        "mover_wins": true
+      }
+    ]
+  }
+]

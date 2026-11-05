@@ -1,0 +1,90 @@
+{
+  "NX325": {
+    "visited": 40,
+    "found": {
+      "prefix": [
+        "3",
+        "过",
+        "7"
+      ],
+      "wrong": "过",
+      "all_moves": [
+        {
+          "cards": [],
+          "move": "过",
+          "type": 0,
+          "mover_wins": false
+        },
+        {
+          "cards": [
+            8
+          ],
+          "move": "8",
+          "type": 1,
+          "mover_wins": true
+        },
+        {
+          "cards": [
+            12
+          ],
+          "move": "Q",
+          "type": 1,
+          "mover_wins": true
+        },
+        {
+          "cards": [
+            15
+          ],
+          "move": "2",
+          "type": 1,
+          "mover_wins": false
+        },
+        {
+          "cards": [
+            16
+          ],
+          "move": "小王",
+          "type": 1,
+          "mover_wins": false
+        }
+      ]
+    }
+  },
+  "NX323": {
+    "visited": 170,
+    "found": {
+      "prefix": [
+        "J J",
+        "过",
+        "过",
+        "10",
+        "J"
+      ],
+      "wrong": "过",
+      "all_moves": [
+        {
+          "cards": [],
+          "move": "过",
+          "type": 0,
+          "mover_wins": false
+        },
+        {
+          "cards": [
+            12
+          ],
+          "move": "Q",
+          "type": 1,
+          "mover_wins": true
+        },
+        {
+          "cards": [
+            17
+          ],
+          "move": "大王",
+          "type": 1,
+          "mover_wins": false
+        }
+      ]
+    }
+  }
+}
